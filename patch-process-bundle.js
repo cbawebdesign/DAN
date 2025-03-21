@@ -17,13 +17,13 @@ let content = fs.readFileSync(file, 'utf8');
 if (content.includes('SourceMapConsumer.with')) {
   console.log('🔧 Patching process-bundle.js to remove SourceMapConsumer.with...');
 
-  // Replace the full `.with(...)` block with a clean `new SourceMapConsumer(...)` implementation
-  content = content.replace(
-    /await source_map_1\.SourceMapConsumer\.with\(first, null,.*?await source_map_1\.SourceMapConsumer\.with\(second, null,.*?newConsumer => \{/s,
-    `const originalConsumer = await new source_map_1.SourceMapConsumer(first);
+  const matchRegex = /await source_map_1\.SourceMapConsumer\.with\(first, null,.*?await source_map_1\.SourceMapConsumer\.with\(second, null,.*?newConsumer => \{/s;
+
+  const replacement = `const originalConsumer = await new source_map_1.SourceMapConsumer(first);
 const newConsumer = await new source_map_1.SourceMapConsumer(second);
-newConsumer.eachMapping(mapping => {`
-  );
+newConsumer.eachMapping(mapping => {`;
+
+  content = content.replace(matchRegex, replacement);
 
   // Remove extra closing }); });
   content = content.replace(/\n\s*\}\);\s*\}\);/, '\n});');
