@@ -1,101 +1,119 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["our-cases-our-cases-module"],{
 
-/***/ "./node_modules/raw-loader/index.js!./src/app/our-cases/masonry-three/masonry-three.component.html":
-/*!************************************************************************************************!*\
-  !*** ./node_modules/raw-loader!./src/app/our-cases/masonry-three/masonry-three.component.html ***!
-  \************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/our-cases/masonry-three/masonry-three.component.html":
+/*!************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/our-cases/masonry-three/masonry-three.component.html ***!
+  \************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-module.exports = "<!-- Header component start-->\n<app-header [logoImg]=\"logoImage\" [navItemList]=\"navItems\" [contactInfo]=\"contactInfo\"></app-header>\n<!-- Header component end-->\n<app-top-banner [data]=\"data\"></app-top-banner>\n<div class=\"main-content\">\n  <section>\n    <div class=\"container\">\n      <div class=\"row wow fadeInUp\">\n        <div class=\"col-sm-12\">\n          <div class=\"iq-masonry-block \">\n            <div class=\"isotope-filters isotope-tooltip\"><button data-filter=\"\" class=\"active\">All<span class=\"post_no\">8</span></button><button data-filter=\".design\">Design<span class=\"post_no\">3</span></button><button data-filter=\".html\">HTML<span class=\"post_no\">2</span></button><button data-filter=\".photography\">Photography<span class=\"post_no\">3</span></button><button data-filter=\".video\">Video<span class=\"post_no\">1</span></button></div>\n            <div class=\"iq-masonry iq-columns-3\">\n              <app-masonry-porfolio-box [portfolioList]=\"List\"></app-masonry-porfolio-box>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </section>\n</div>\n<!-- Footer start -->\n<app-footer [logoImg]=\"logoImage\" [contactInfo]=\"contactInfo\"></app-footer>\n<!-- Footer end -->\n\n"
-
-/***/ }),
-
-/***/ "./node_modules/raw-loader/index.js!./src/app/our-cases/masonry-two/masonry-two.component.html":
-/*!********************************************************************************************!*\
-  !*** ./node_modules/raw-loader!./src/app/our-cases/masonry-two/masonry-two.component.html ***!
-  \********************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<!-- Header component start-->\n<app-header [logoImg]=\"logoImage\" [navItemList]=\"navItems\" [contactInfo]=\"contactInfo\"></app-header>\n<!-- Header component end-->\n<app-top-banner [data]=\"data\"></app-top-banner>\n<div class=\"main-content\">\n  <section>\n    <div class=\"container\">\n      <div class=\"row wow fadeInUp\">\n        <div class=\"col-sm-12\">\n          <div class=\"iq-masonry-block \">\n            <div class=\"isotope-filters isotope-tooltip\"><button data-filter=\"\" class=\"active\">All<span class=\"post_no\">8</span></button><button data-filter=\".design\">Design<span class=\"post_no\">3</span></button><button data-filter=\".html\">HTML<span class=\"post_no\">2</span></button><button data-filter=\".photography\">Photography<span class=\"post_no\">3</span></button><button data-filter=\".video\">Video<span class=\"post_no\">1</span></button></div>\n            <div class=\"iq-masonry iq-columns-2\">\n              <app-masonry-porfolio-box [portfolioList]=\"List\"></app-masonry-porfolio-box>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </section>\n</div>\n<!-- Footer start -->\n<app-footer [logoImg]=\"logoImage\" [contactInfo]=\"contactInfo\"></app-footer>\n<!-- Footer end -->\n\n"
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<!-- Header component start-->\n<app-header [logoImg]=\"logoImage\" [navItemList]=\"navItems\" [contactInfo]=\"contactInfo\"></app-header>\n<!-- Header component end-->\n<app-top-banner [data]=\"data\"></app-top-banner>\n<div class=\"main-content\">\n  <section>\n    <div class=\"container\">\n      <div class=\"row wow fadeInUp\">\n        <div class=\"col-sm-12\">\n          <div class=\"iq-masonry-block \">\n            <div class=\"isotope-filters isotope-tooltip\"><button data-filter=\"\" class=\"active\">All<span class=\"post_no\">8</span></button><button data-filter=\".design\">Design<span class=\"post_no\">3</span></button><button data-filter=\".html\">HTML<span class=\"post_no\">2</span></button><button data-filter=\".photography\">Photography<span class=\"post_no\">3</span></button><button data-filter=\".video\">Video<span class=\"post_no\">1</span></button></div>\n            <div class=\"iq-masonry iq-columns-3\">\n              <app-masonry-porfolio-box [portfolioList]=\"List\"></app-masonry-porfolio-box>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </section>\n</div>\n<!-- Footer start -->\n<app-footer [logoImg]=\"logoImage\" [contactInfo]=\"contactInfo\"></app-footer>\n<!-- Footer end -->\n\n");
 
 /***/ }),
 
-/***/ "./node_modules/raw-loader/index.js!./src/app/our-cases/no-space-masonry/no-space-masonry.component.html":
-/*!******************************************************************************************************!*\
-  !*** ./node_modules/raw-loader!./src/app/our-cases/no-space-masonry/no-space-masonry.component.html ***!
-  \******************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<!-- Header component start-->\n<app-header [logoImg]=\"logoImage\" [navItemList]=\"navItems\" [contactInfo]=\"contactInfo\"></app-header>\n<!-- Header component end-->\n<app-top-banner [data]=\"data\"></app-top-banner>\n<div class=\"main-content\">\n  <section>\n    <div class=\"container\">\n      <div class=\"row wow fadeInUp\">\n        <div class=\"col-sm-12\">\n          <div class=\"iq-masonry-block \">\n            <div class=\"isotope-filters isotope-tooltip\"><button data-filter=\"\" class=\"active\">All<span class=\"post_no\">8</span></button><button data-filter=\".design\">Design<span class=\"post_no\">3</span></button><button data-filter=\".html\">HTML<span class=\"post_no\">2</span></button><button data-filter=\".photography\">Photography<span class=\"post_no\">3</span></button><button data-filter=\".video\">Video<span class=\"post_no\">1</span></button></div>\n            <div class=\" iq-masonry iq-columns-3 no-padding\">\n              <app-masonry-porfolio-box [portfolioList]=\"List\"></app-masonry-porfolio-box>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </section>\n</div>\n<!-- Footer start -->\n<app-footer [logoImg]=\"logoImage\" [contactInfo]=\"contactInfo\"></app-footer>\n<!-- Footer end -->\n\n"
-
-/***/ }),
-
-/***/ "./node_modules/raw-loader/index.js!./src/app/our-cases/no-space/no-space.component.html":
-/*!**************************************************************************************!*\
-  !*** ./node_modules/raw-loader!./src/app/our-cases/no-space/no-space.component.html ***!
-  \**************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<!-- Header component start-->\n<app-header [logoImg]=\"logoImage\" [navItemList]=\"navItems\" [contactInfo]=\"contactInfo\"></app-header>\n<!-- Header component end-->\n<app-top-banner [data]=\"data\"></app-top-banner>\n<div class=\"main-content\">\n  <section>\n    <div class=\"container\">\n      <div class=\"row wow fadeInUp\">\n        <div class=\"col-sm-12\">\n          <div class=\"iq-masonry-block \">\n            <div class=\"isotope-filters isotope-tooltip\"><button data-filter=\"\" class=\"active\">All<span class=\"post_no\">8</span></button><button data-filter=\".design\">Design<span class=\"post_no\">3</span></button><button data-filter=\".html\">HTML<span class=\"post_no\">2</span></button><button data-filter=\".photography\">Photography<span class=\"post_no\">3</span></button><button data-filter=\".video\">Video<span class=\"post_no\">1</span></button></div>\n            <div class=\" iq-masonry iq-columns-3 no-padding\">\n              <app-portfolio-box [portfolioList]=\"List\"></app-portfolio-box>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </section>\n</div>\n<!-- Footer start -->\n<app-footer [logoImg]=\"logoImage\" [contactInfo]=\"contactInfo\"></app-footer>\n<!-- Footer end -->\n\n"
-
-/***/ }),
-
-/***/ "./node_modules/raw-loader/index.js!./src/app/our-cases/portfolio-details/portfolio-details.component.html":
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/our-cases/masonry-two/masonry-two.component.html":
 /*!********************************************************************************************************!*\
-  !*** ./node_modules/raw-loader!./src/app/our-cases/portfolio-details/portfolio-details.component.html ***!
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/our-cases/masonry-two/masonry-two.component.html ***!
   \********************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-module.exports = "<!-- Header component start-->\n<app-header [logoImg]=\"logoImage\" [navItemList]=\"navItems\" [contactInfo]=\"contactInfo\"></app-header>\n<!-- Header component end-->\n<app-top-banner [data]=\"data\"></app-top-banner>\n<div class=\"main-content\">\n  <section class=\"pb-0\">\n    <div class=\"container\">\n       <div class=\"row\">\n          <div class=\"col-lg-6 col-sm-12\">\n             <div class=\"iq-portfolio-image\"> <img width=\"1260\" height=\"954\" src=\"./assets/images/about-us/01.png\" class=\"attachment-post-thumbnail size-post-thumbnail wp-post-image\" alt=\"\" > </div>\n          </div>\n          <div class=\"col-lg-6 col-sm-12 mt-4 mt-lg-0\">\n             <h3 class=\"mb-4\">We work with you to address your most critical business priorities.</h3>\n             <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don’t look even slightly believable.</p>\n             <div class=\"portfolio-detail-box iq-rmb-45\">\n                <ul class=\"list-inline portfolio-detail mb-1\">\n                   <li class=\"list-inline-item\"> <span class=\"lead\">Client :</span> <span>xamin</span> </li>\n                   <li class=\"list-inline-item\"> <span class=\"lead\">Category :</span> <span>Video</span> </li>\n                   <li class=\"list-inline-item\"> <span class=\"lead\">Website :</span> <span><a href=\"xamin@gmail.com\" target=\"_blank\">xamin@gmail.com</a> </span> </li>\n                   <li class=\"list-inline-item\"> <span class=\"lead\">Date :</span> <span>29/08/2019</span> </li>\n                </ul>\n             </div>\n          </div>\n       </div>\n       <div class=\"row \">\n          <div class=\"col-sm-12\">\n             <div class=\"owl-carousel owl-loaded owl-drag\" data-dots=\"false\" data-nav=\"true\" data-items=\"1\" data-items-laptop=\"1\" data-items-tab=\"1\" data-items-mobile=\"1\" data-items-mobile-sm=\"1\" data-autoplay=\"true\" data-loop=\"true\" data-margin=\"30\">\n                <div class=\"Consulting-img  text-left\"><img src=\"./assets/images/about-us/01.png\" alt=\"slider\"></div>\n                <div class=\"Consulting-img  text-left\"><img src=\"./assets/images/about-us/02.png\" alt=\"slider\"></div>\n                <div class=\"Consulting-img  text-left\"><img src=\"./assets/images/about-us/03.png\" alt=\"slider\"></div>\n                <div class=\"Consulting-img  text-left\"><img src=\"./assets/images/about-us/05.png\" alt=\"slider\"></div>\n                <div class=\"Consulting-img  text-left\"><img src=\"./assets/images/about-us/01.png\" alt=\"slider\"></div>\n                <div class=\"Consulting-img  text-left\"><img src=\"./assets/images/about-us/02.png\" alt=\"slider\"></div>\n                <div class=\"Consulting-img  text-left\"><img src=\"./assets/images/about-us/03.png\" alt=\"slider\"></div>\n             </div>\n          </div>\n          <div class=\"col-sm-12 mt-5\">\n             <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using ‘Content here, content here’, making it look like readable English. Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.</p>\n          </div>\n          <div class=\"col-sm-12 no-margin\">\n             <p class=\"mb-0\">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don’t look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn’t anything embarrassing hidden in the middle of text.</p>\n          </div>\n       </div>\n    </div>\n </section>\n <section>\n    <div class=\"container\">\n       <div class=\"row row-fluid\">\n          <div class=\"fadeInUp col-sm-12 animated\">\n             <div class=\"title-box wow fadeInUp text-center\">\n                <span class=\"title-design\">OUR PROJECTS</span>\n                <h2>Recent Portfolio</h2>\n             </div>\n          </div>\n          <div class=\"col-md-12\">\n            <div class=\"owl-carousel owl-loaded owl-drag\" data-dots=\"false\" data-nav=\"false\" data-items=\"3\" data-items-laptop=\"3\" data-items-tab=\"2\" data-items-mobile=\"1\" data-items-mobile-sm=\"1\" data-autoplay=\"false\" data-loop=\"true\" data-margin=\"30\">\n               <app-portfolio-owl [List]=\"List\"></app-portfolio-owl>\n            </div>\n          </div>\n       </div>\n    </div>\n </section>\n</div>\n<!-- Footer start -->\n<app-footer [logoImg]=\"logoImage\" [contactInfo]=\"contactInfo\"></app-footer>\n<!-- Footer end -->\n\n"
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<!-- Header component start-->\n<app-header [logoImg]=\"logoImage\" [navItemList]=\"navItems\" [contactInfo]=\"contactInfo\"></app-header>\n<!-- Header component end-->\n<app-top-banner [data]=\"data\"></app-top-banner>\n<div class=\"main-content\">\n  <section>\n    <div class=\"container\">\n      <div class=\"row wow fadeInUp\">\n        <div class=\"col-sm-12\">\n          <div class=\"iq-masonry-block \">\n            <div class=\"isotope-filters isotope-tooltip\"><button data-filter=\"\" class=\"active\">All<span class=\"post_no\">8</span></button><button data-filter=\".design\">Design<span class=\"post_no\">3</span></button><button data-filter=\".html\">HTML<span class=\"post_no\">2</span></button><button data-filter=\".photography\">Photography<span class=\"post_no\">3</span></button><button data-filter=\".video\">Video<span class=\"post_no\">1</span></button></div>\n            <div class=\"iq-masonry iq-columns-2\">\n              <app-masonry-porfolio-box [portfolioList]=\"List\"></app-masonry-porfolio-box>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </section>\n</div>\n<!-- Footer start -->\n<app-footer [logoImg]=\"logoImage\" [contactInfo]=\"contactInfo\"></app-footer>\n<!-- Footer end -->\n\n");
 
 /***/ }),
 
-/***/ "./node_modules/raw-loader/index.js!./src/app/our-cases/portfolio-five/portfolio-five.component.html":
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/our-cases/no-space-masonry/no-space-masonry.component.html":
+/*!******************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/our-cases/no-space-masonry/no-space-masonry.component.html ***!
+  \******************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<!-- Header component start-->\n<app-header [logoImg]=\"logoImage\" [navItemList]=\"navItems\" [contactInfo]=\"contactInfo\"></app-header>\n<!-- Header component end-->\n<app-top-banner [data]=\"data\"></app-top-banner>\n<div class=\"main-content\">\n  <section>\n    <div class=\"container\">\n      <div class=\"row wow fadeInUp\">\n        <div class=\"col-sm-12\">\n          <div class=\"iq-masonry-block \">\n            <div class=\"isotope-filters isotope-tooltip\"><button data-filter=\"\" class=\"active\">All<span class=\"post_no\">8</span></button><button data-filter=\".design\">Design<span class=\"post_no\">3</span></button><button data-filter=\".html\">HTML<span class=\"post_no\">2</span></button><button data-filter=\".photography\">Photography<span class=\"post_no\">3</span></button><button data-filter=\".video\">Video<span class=\"post_no\">1</span></button></div>\n            <div class=\" iq-masonry iq-columns-3 no-padding\">\n              <app-masonry-porfolio-box [portfolioList]=\"List\"></app-masonry-porfolio-box>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </section>\n</div>\n<!-- Footer start -->\n<app-footer [logoImg]=\"logoImage\" [contactInfo]=\"contactInfo\"></app-footer>\n<!-- Footer end -->\n\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/our-cases/no-space/no-space.component.html":
 /*!**************************************************************************************************!*\
-  !*** ./node_modules/raw-loader!./src/app/our-cases/portfolio-five/portfolio-five.component.html ***!
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/our-cases/no-space/no-space.component.html ***!
   \**************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-module.exports = "<!-- Header component start-->\n<app-header [logoImg]=\"logoImage\" [navItemList]=\"navItems\" [contactInfo]=\"contactInfo\"></app-header>\n<!-- Header component end-->\n<app-top-banner [data]=\"data\"></app-top-banner>\n<div class=\"main-content\">\n  <section>\n    <div class=\"container\">\n      <div class=\"row wow fadeInUp\">\n        <div class=\"col-sm-12\">\n          <div class=\"iq-masonry-block \">\n            <div class=\"isotope-filters isotope-tooltip\"><button data-filter=\"\" class=\"active\">All<span class=\"post_no\">8</span></button><button data-filter=\".design\">Design<span class=\"post_no\">3</span></button><button data-filter=\".html\">HTML<span class=\"post_no\">2</span></button><button data-filter=\".photography\">Photography<span class=\"post_no\">3</span></button><button data-filter=\".video\">Video<span class=\"post_no\">1</span></button></div>\n            <div class=\"iq-masonry iq-columns-5\">\n              <app-portfolio-box [portfolioList]=\"List\"></app-portfolio-box>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </section>\n</div>\n<!-- Footer start -->\n<app-footer [logoImg]=\"logoImage\" [contactInfo]=\"contactInfo\"></app-footer>\n<!-- Footer end -->\n\n"
-
-/***/ }),
-
-/***/ "./node_modules/raw-loader/index.js!./src/app/our-cases/portfolio-four/portfolio-four.component.html":
-/*!**************************************************************************************************!*\
-  !*** ./node_modules/raw-loader!./src/app/our-cases/portfolio-four/portfolio-four.component.html ***!
-  \**************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<!-- Header component start-->\n<app-header [logoImg]=\"logoImage\" [navItemList]=\"navItems\" [contactInfo]=\"contactInfo\"></app-header>\n<!-- Header component end-->\n<app-top-banner [data]=\"data\"></app-top-banner>\n<div class=\"main-content\">\n  <section>\n    <div class=\"container\">\n      <div class=\"row wow fadeInUp\">\n        <div class=\"col-sm-12\">\n          <div class=\"iq-masonry-block \">\n            <div class=\"isotope-filters isotope-tooltip\"><button data-filter=\"\" class=\"active\">All<span class=\"post_no\">8</span></button><button data-filter=\".design\">Design<span class=\"post_no\">3</span></button><button data-filter=\".html\">HTML<span class=\"post_no\">2</span></button><button data-filter=\".photography\">Photography<span class=\"post_no\">3</span></button><button data-filter=\".video\">Video<span class=\"post_no\">1</span></button></div>\n            <div class=\"iq-masonry iq-columns-4\">\n              <app-portfolio-box [portfolioList]=\"List\"></app-portfolio-box>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </section>\n</div>\n<!-- Footer start -->\n<app-footer [logoImg]=\"logoImage\" [contactInfo]=\"contactInfo\"></app-footer>\n<!-- Footer end -->\n\n"
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<!-- Header component start-->\n<app-header [logoImg]=\"logoImage\" [navItemList]=\"navItems\" [contactInfo]=\"contactInfo\"></app-header>\n<!-- Header component end-->\n<app-top-banner [data]=\"data\"></app-top-banner>\n<div class=\"main-content\">\n  <section>\n    <div class=\"container\">\n      <div class=\"row wow fadeInUp\">\n        <div class=\"col-sm-12\">\n          <div class=\"iq-masonry-block \">\n            <div class=\"isotope-filters isotope-tooltip\"><button data-filter=\"\" class=\"active\">All<span class=\"post_no\">8</span></button><button data-filter=\".design\">Design<span class=\"post_no\">3</span></button><button data-filter=\".html\">HTML<span class=\"post_no\">2</span></button><button data-filter=\".photography\">Photography<span class=\"post_no\">3</span></button><button data-filter=\".video\">Video<span class=\"post_no\">1</span></button></div>\n            <div class=\" iq-masonry iq-columns-3 no-padding\">\n              <app-portfolio-box [portfolioList]=\"List\"></app-portfolio-box>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </section>\n</div>\n<!-- Footer start -->\n<app-footer [logoImg]=\"logoImage\" [contactInfo]=\"contactInfo\"></app-footer>\n<!-- Footer end -->\n\n");
 
 /***/ }),
 
-/***/ "./node_modules/raw-loader/index.js!./src/app/our-cases/portfolio-three/portfolio-three.component.html":
-/*!****************************************************************************************************!*\
-  !*** ./node_modules/raw-loader!./src/app/our-cases/portfolio-three/portfolio-three.component.html ***!
-  \****************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/our-cases/portfolio-details/portfolio-details.component.html":
+/*!********************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/our-cases/portfolio-details/portfolio-details.component.html ***!
+  \********************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-module.exports = "<!-- Header component start-->\n<app-header [logoImg]=\"logoImage\" [navItemList]=\"navItems\" [contactInfo]=\"contactInfo\"></app-header>\n<!-- Header component end-->\n<app-top-banner [data]=\"data\"></app-top-banner>\n<div class=\"main-content\">\n  <section>\n    <div class=\"container\">\n      <div class=\"row wow fadeInUp\">\n        <div class=\"col-sm-12\">\n          <div class=\"iq-masonry-block \">\n            <div class=\"isotope-filters isotope-tooltip\"><button data-filter=\"\" class=\"active\">All<span class=\"post_no\">8</span></button><button data-filter=\".design\">Design<span class=\"post_no\">3</span></button><button data-filter=\".html\">HTML<span class=\"post_no\">2</span></button><button data-filter=\".photography\">Photography<span class=\"post_no\">3</span></button><button data-filter=\".video\">Video<span class=\"post_no\">1</span></button></div>\n            <div class=\"iq-masonry iq-columns-3\">\n              <app-portfolio-box [portfolioList]=\"List\"></app-portfolio-box>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </section>\n</div>\n<!-- Footer start -->\n<app-footer [logoImg]=\"logoImage\" [contactInfo]=\"contactInfo\"></app-footer>\n<!-- Footer end -->\n\n"
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<!-- Header component start-->\n<app-header [logoImg]=\"logoImage\" [navItemList]=\"navItems\" [contactInfo]=\"contactInfo\"></app-header>\n<!-- Header component end-->\n<app-top-banner [data]=\"data\"></app-top-banner>\n<div class=\"main-content\">\n  <section class=\"pb-0\">\n    <div class=\"container\">\n       <div class=\"row\">\n          <div class=\"col-lg-6 col-sm-12\">\n             <div class=\"iq-portfolio-image\"> <img width=\"1260\" height=\"954\" src=\"./assets/images/about-us/01.png\" class=\"attachment-post-thumbnail size-post-thumbnail wp-post-image\" alt=\"\" > </div>\n          </div>\n          <div class=\"col-lg-6 col-sm-12 mt-4 mt-lg-0\">\n             <h3 class=\"mb-4\">We work with you to address your most critical business priorities.</h3>\n             <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don’t look even slightly believable.</p>\n             <div class=\"portfolio-detail-box iq-rmb-45\">\n                <ul class=\"list-inline portfolio-detail mb-1\">\n                   <li class=\"list-inline-item\"> <span class=\"lead\">Client :</span> <span>xamin</span> </li>\n                   <li class=\"list-inline-item\"> <span class=\"lead\">Category :</span> <span>Video</span> </li>\n                   <li class=\"list-inline-item\"> <span class=\"lead\">Website :</span> <span><a href=\"xamin@gmail.com\" target=\"_blank\">xamin@gmail.com</a> </span> </li>\n                   <li class=\"list-inline-item\"> <span class=\"lead\">Date :</span> <span>29/08/2019</span> </li>\n                </ul>\n             </div>\n          </div>\n       </div>\n       <div class=\"row \">\n          <div class=\"col-sm-12\">\n             <div class=\"owl-carousel owl-loaded owl-drag\" data-dots=\"false\" data-nav=\"true\" data-items=\"1\" data-items-laptop=\"1\" data-items-tab=\"1\" data-items-mobile=\"1\" data-items-mobile-sm=\"1\" data-autoplay=\"true\" data-loop=\"true\" data-margin=\"30\">\n                <div class=\"Consulting-img  text-left\"><img src=\"./assets/images/about-us/01.png\" alt=\"slider\"></div>\n                <div class=\"Consulting-img  text-left\"><img src=\"./assets/images/about-us/02.png\" alt=\"slider\"></div>\n                <div class=\"Consulting-img  text-left\"><img src=\"./assets/images/about-us/03.png\" alt=\"slider\"></div>\n                <div class=\"Consulting-img  text-left\"><img src=\"./assets/images/about-us/05.png\" alt=\"slider\"></div>\n                <div class=\"Consulting-img  text-left\"><img src=\"./assets/images/about-us/01.png\" alt=\"slider\"></div>\n                <div class=\"Consulting-img  text-left\"><img src=\"./assets/images/about-us/02.png\" alt=\"slider\"></div>\n                <div class=\"Consulting-img  text-left\"><img src=\"./assets/images/about-us/03.png\" alt=\"slider\"></div>\n             </div>\n          </div>\n          <div class=\"col-sm-12 mt-5\">\n             <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using ‘Content here, content here’, making it look like readable English. Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.</p>\n          </div>\n          <div class=\"col-sm-12 no-margin\">\n             <p class=\"mb-0\">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don’t look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn’t anything embarrassing hidden in the middle of text.</p>\n          </div>\n       </div>\n    </div>\n </section>\n <section>\n    <div class=\"container\">\n       <div class=\"row row-fluid\">\n          <div class=\"fadeInUp col-sm-12 animated\">\n             <div class=\"title-box wow fadeInUp text-center\">\n                <span class=\"title-design\">OUR PROJECTS</span>\n                <h2>Recent Portfolio</h2>\n             </div>\n          </div>\n          <div class=\"col-md-12\">\n            <div class=\"owl-carousel owl-loaded owl-drag\" data-dots=\"false\" data-nav=\"false\" data-items=\"3\" data-items-laptop=\"3\" data-items-tab=\"2\" data-items-mobile=\"1\" data-items-mobile-sm=\"1\" data-autoplay=\"false\" data-loop=\"true\" data-margin=\"30\">\n               <app-portfolio-owl [List]=\"List\"></app-portfolio-owl>\n            </div>\n          </div>\n       </div>\n    </div>\n </section>\n</div>\n<!-- Footer start -->\n<app-footer [logoImg]=\"logoImage\" [contactInfo]=\"contactInfo\"></app-footer>\n<!-- Footer end -->\n\n");
 
 /***/ }),
 
-/***/ "./node_modules/raw-loader/index.js!./src/app/our-cases/portfolio-two/portfolio-two.component.html":
-/*!************************************************************************************************!*\
-  !*** ./node_modules/raw-loader!./src/app/our-cases/portfolio-two/portfolio-two.component.html ***!
-  \************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/our-cases/portfolio-five/portfolio-five.component.html":
+/*!**************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/our-cases/portfolio-five/portfolio-five.component.html ***!
+  \**************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-module.exports = "<!-- Header component start-->\n<app-header [logoImg]=\"logoImage\" [navItemList]=\"navItems\" [contactInfo]=\"contactInfo\"></app-header>\n<!-- Header component end-->\n  <app-top-banner [data]=\"data\"></app-top-banner>\n<div class=\"main-content\">\n  <section>\n    <div class=\"container\">\n      <div class=\"row wow fadeInUp\">\n        <div class=\"col-sm-12\">\n          <div class=\"iq-masonry-block \">\n            <div class=\"isotope-filters isotope-tooltip\"><button data-filter=\"\" class=\"active\">All<span class=\"post_no\">8</span></button><button data-filter=\".design\">Design<span class=\"post_no\">3</span></button><button data-filter=\".html\">HTML<span class=\"post_no\">2</span></button><button data-filter=\".photography\">Photography<span class=\"post_no\">3</span></button><button data-filter=\".video\">Video<span class=\"post_no\">1</span></button></div>\n            <div class=\"iq-masonry iq-columns-2\">\n              <app-portfolio-box [portfolioList]=\"List\"></app-portfolio-box>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </section>\n</div>\n<!-- Footer start -->\n<app-footer [logoImg]=\"logoImage\" [contactInfo]=\"contactInfo\"></app-footer>\n<!-- Footer end -->\n\n"
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<!-- Header component start-->\n<app-header [logoImg]=\"logoImage\" [navItemList]=\"navItems\" [contactInfo]=\"contactInfo\"></app-header>\n<!-- Header component end-->\n<app-top-banner [data]=\"data\"></app-top-banner>\n<div class=\"main-content\">\n  <section>\n    <div class=\"container\">\n      <div class=\"row wow fadeInUp\">\n        <div class=\"col-sm-12\">\n          <div class=\"iq-masonry-block \">\n            <div class=\"isotope-filters isotope-tooltip\"><button data-filter=\"\" class=\"active\">All<span class=\"post_no\">8</span></button><button data-filter=\".design\">Design<span class=\"post_no\">3</span></button><button data-filter=\".html\">HTML<span class=\"post_no\">2</span></button><button data-filter=\".photography\">Photography<span class=\"post_no\">3</span></button><button data-filter=\".video\">Video<span class=\"post_no\">1</span></button></div>\n            <div class=\"iq-masonry iq-columns-5\">\n              <app-portfolio-box [portfolioList]=\"List\"></app-portfolio-box>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </section>\n</div>\n<!-- Footer start -->\n<app-footer [logoImg]=\"logoImage\" [contactInfo]=\"contactInfo\"></app-footer>\n<!-- Footer end -->\n\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/our-cases/portfolio-four/portfolio-four.component.html":
+/*!**************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/our-cases/portfolio-four/portfolio-four.component.html ***!
+  \**************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<!-- Header component start-->\n<app-header [logoImg]=\"logoImage\" [navItemList]=\"navItems\" [contactInfo]=\"contactInfo\"></app-header>\n<!-- Header component end-->\n<app-top-banner [data]=\"data\"></app-top-banner>\n<div class=\"main-content\">\n  <section>\n    <div class=\"container\">\n      <div class=\"row wow fadeInUp\">\n        <div class=\"col-sm-12\">\n          <div class=\"iq-masonry-block \">\n            <div class=\"isotope-filters isotope-tooltip\"><button data-filter=\"\" class=\"active\">All<span class=\"post_no\">8</span></button><button data-filter=\".design\">Design<span class=\"post_no\">3</span></button><button data-filter=\".html\">HTML<span class=\"post_no\">2</span></button><button data-filter=\".photography\">Photography<span class=\"post_no\">3</span></button><button data-filter=\".video\">Video<span class=\"post_no\">1</span></button></div>\n            <div class=\"iq-masonry iq-columns-4\">\n              <app-portfolio-box [portfolioList]=\"List\"></app-portfolio-box>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </section>\n</div>\n<!-- Footer start -->\n<app-footer [logoImg]=\"logoImage\" [contactInfo]=\"contactInfo\"></app-footer>\n<!-- Footer end -->\n\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/our-cases/portfolio-three/portfolio-three.component.html":
+/*!****************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/our-cases/portfolio-three/portfolio-three.component.html ***!
+  \****************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<!-- Header component start-->\n<app-header [logoImg]=\"logoImage\" [navItemList]=\"navItems\" [contactInfo]=\"contactInfo\"></app-header>\n<!-- Header component end-->\n<app-top-banner [data]=\"data\"></app-top-banner>\n<div class=\"main-content\">\n  <section>\n    <div class=\"container\">\n      <div class=\"row wow fadeInUp\">\n        <div class=\"col-sm-12\">\n          <div class=\"iq-masonry-block \">\n            <div class=\"isotope-filters isotope-tooltip\"><button data-filter=\"\" class=\"active\">All<span class=\"post_no\">8</span></button><button data-filter=\".design\">Design<span class=\"post_no\">3</span></button><button data-filter=\".html\">HTML<span class=\"post_no\">2</span></button><button data-filter=\".photography\">Photography<span class=\"post_no\">3</span></button><button data-filter=\".video\">Video<span class=\"post_no\">1</span></button></div>\n            <div class=\"iq-masonry iq-columns-3\">\n              <app-portfolio-box [portfolioList]=\"List\"></app-portfolio-box>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </section>\n</div>\n<!-- Footer start -->\n<app-footer [logoImg]=\"logoImage\" [contactInfo]=\"contactInfo\"></app-footer>\n<!-- Footer end -->\n\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/our-cases/portfolio-two/portfolio-two.component.html":
+/*!************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/our-cases/portfolio-two/portfolio-two.component.html ***!
+  \************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<!-- Header component start-->\n<app-header [logoImg]=\"logoImage\" [navItemList]=\"navItems\" [contactInfo]=\"contactInfo\"></app-header>\n<!-- Header component end-->\n  <app-top-banner [data]=\"data\"></app-top-banner>\n<div class=\"main-content\">\n  <section>\n    <div class=\"container\">\n      <div class=\"row wow fadeInUp\">\n        <div class=\"col-sm-12\">\n          <div class=\"iq-masonry-block \">\n            <div class=\"isotope-filters isotope-tooltip\"><button data-filter=\"\" class=\"active\">All<span class=\"post_no\">8</span></button><button data-filter=\".design\">Design<span class=\"post_no\">3</span></button><button data-filter=\".html\">HTML<span class=\"post_no\">2</span></button><button data-filter=\".photography\">Photography<span class=\"post_no\">3</span></button><button data-filter=\".video\">Video<span class=\"post_no\">1</span></button></div>\n            <div class=\"iq-masonry iq-columns-2\">\n              <app-portfolio-box [portfolioList]=\"List\"></app-portfolio-box>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </section>\n</div>\n<!-- Footer start -->\n<app-footer [logoImg]=\"logoImage\" [contactInfo]=\"contactInfo\"></app-footer>\n<!-- Footer end -->\n\n");
 
 /***/ }),
 
@@ -202,7 +220,7 @@ MasonryThreeComponent.ctorParameters = () => [
 MasonryThreeComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-masonry-three',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./masonry-three.component.html */ "./node_modules/raw-loader/index.js!./src/app/our-cases/masonry-three/masonry-three.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./masonry-three.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/our-cases/masonry-three/masonry-three.component.html")).default,
     })
 ], MasonryThreeComponent);
 
@@ -313,7 +331,7 @@ MasonryTwoComponent.ctorParameters = () => [
 MasonryTwoComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-masonry-two',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./masonry-two.component.html */ "./node_modules/raw-loader/index.js!./src/app/our-cases/masonry-two/masonry-two.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./masonry-two.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/our-cases/masonry-two/masonry-two.component.html")).default,
     })
 ], MasonryTwoComponent);
 
@@ -424,7 +442,7 @@ NoSpaceMasonryComponent.ctorParameters = () => [
 NoSpaceMasonryComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-no-space-masonry',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./no-space-masonry.component.html */ "./node_modules/raw-loader/index.js!./src/app/our-cases/no-space-masonry/no-space-masonry.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./no-space-masonry.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/our-cases/no-space-masonry/no-space-masonry.component.html")).default,
     })
 ], NoSpaceMasonryComponent);
 
@@ -535,7 +553,7 @@ NoSpaceComponent.ctorParameters = () => [
 NoSpaceComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-no-space',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./no-space.component.html */ "./node_modules/raw-loader/index.js!./src/app/our-cases/no-space/no-space.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./no-space.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/our-cases/no-space/no-space.component.html")).default,
     })
 ], NoSpaceComponent);
 
@@ -688,7 +706,7 @@ PortfolioDetails.ctorParameters = () => [
 PortfolioDetails = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-portfolio-details',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./portfolio-details.component.html */ "./node_modules/raw-loader/index.js!./src/app/our-cases/portfolio-details/portfolio-details.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./portfolio-details.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/our-cases/portfolio-details/portfolio-details.component.html")).default,
     })
 ], PortfolioDetails);
 
@@ -799,7 +817,7 @@ PortfolioFiveComponent.ctorParameters = () => [
 PortfolioFiveComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-portfolio-five',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./portfolio-five.component.html */ "./node_modules/raw-loader/index.js!./src/app/our-cases/portfolio-five/portfolio-five.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./portfolio-five.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/our-cases/portfolio-five/portfolio-five.component.html")).default,
     })
 ], PortfolioFiveComponent);
 
@@ -910,7 +928,7 @@ PortfolioFourComponent.ctorParameters = () => [
 PortfolioFourComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-portfolio-four',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./portfolio-four.component.html */ "./node_modules/raw-loader/index.js!./src/app/our-cases/portfolio-four/portfolio-four.component.html")).default
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./portfolio-four.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/our-cases/portfolio-four/portfolio-four.component.html")).default
     })
 ], PortfolioFourComponent);
 
@@ -1021,7 +1039,7 @@ PortfolioThreeComponent.ctorParameters = () => [
 PortfolioThreeComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-portfolio-three',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./portfolio-three.component.html */ "./node_modules/raw-loader/index.js!./src/app/our-cases/portfolio-three/portfolio-three.component.html")).default
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./portfolio-three.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/our-cases/portfolio-three/portfolio-three.component.html")).default
     })
 ], PortfolioThreeComponent);
 
@@ -1132,7 +1150,7 @@ PortfolioTwoComponent.ctorParameters = () => [
 PortfolioTwoComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-portfolio-two',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./portfolio-two.component.html */ "./node_modules/raw-loader/index.js!./src/app/our-cases/portfolio-two/portfolio-two.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./portfolio-two.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/our-cases/portfolio-two/portfolio-two.component.html")).default,
     })
 ], PortfolioTwoComponent);
 

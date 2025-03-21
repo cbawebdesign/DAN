@@ -1,101 +1,119 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["about-about-module"],{
 
-/***/ "./node_modules/raw-loader/index.js!./src/app/about/about-us-one/about-us-one.component.html":
-/*!******************************************************************************************!*\
-  !*** ./node_modules/raw-loader!./src/app/about/about-us-one/about-us-one.component.html ***!
-  \******************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/about/about-us-one/about-us-one.component.html":
+/*!******************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/about/about-us-one/about-us-one.component.html ***!
+  \******************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-module.exports = "<!-- Header component start-->\n<app-header [logoImg]=\"logoImage\" [navItemList]=\"navItems\" [contactInfo]=\"contactInfo\"></app-header>\n<!-- Header component end-->\n<app-top-banner [data]=\"data\"></app-top-banner>\n<div class=\"main-content\">\n  <app-about-two [titleSectionProp]=\"titleSectionProp\" [List]=\"Lists\"></app-about-two>\n  <app-about-card [cardData]=\"cardData\"></app-about-card>\n  <app-history></app-history>\n  <app-our-team></app-our-team>\n</div>\n<!-- Footer start -->\n<app-footer [logoImg]=\"logoImage\" [contactInfo]=\"contactInfo\"></app-footer>\n<!-- Footer end -->\n"
-
-/***/ }),
-
-/***/ "./node_modules/raw-loader/index.js!./src/app/about/about-us-two/about-us-two.component.html":
-/*!******************************************************************************************!*\
-  !*** ./node_modules/raw-loader!./src/app/about/about-us-two/about-us-two.component.html ***!
-  \******************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<!-- Header component start-->\n<app-header [logoImg]=\"logoImage\" [navItemList]=\"navItems\" [contactInfo]=\"contactInfo\"></app-header>\n<!-- Header component end-->\n<app-top-banner [data]=\"data\"></app-top-banner>\n<div class=\"main-content\">\n    <app-our-services></app-our-services>\n    <app-section-two></app-section-two>\n    <app-section-three></app-section-three>\n    <app-our-testimonial></app-our-testimonial>\n    <app-our-partner></app-our-partner>\n</div>\n<!-- Footer start -->\n<app-footer [logoImg]=\"logoImage\" [contactInfo]=\"contactInfo\"></app-footer>\n<!-- Footer end -->\n"
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<!-- Header component start-->\n<app-header [logoImg]=\"logoImage\" [navItemList]=\"navItems\" [contactInfo]=\"contactInfo\"></app-header>\n<!-- Header component end-->\n<app-top-banner [data]=\"data\"></app-top-banner>\n<div class=\"main-content\">\n  <app-about-two [titleSectionProp]=\"titleSectionProp\" [List]=\"Lists\"></app-about-two>\n  <app-about-card [cardData]=\"cardData\"></app-about-card>\n  <app-history></app-history>\n  <app-our-team></app-our-team>\n</div>\n<!-- Footer start -->\n<app-footer [logoImg]=\"logoImage\" [contactInfo]=\"contactInfo\"></app-footer>\n<!-- Footer end -->\n");
 
 /***/ }),
 
-/***/ "./node_modules/raw-loader/index.js!./src/app/about/about-us-two/components/our-partner/our-partner.component.html":
-/*!****************************************************************************************************************!*\
-  !*** ./node_modules/raw-loader!./src/app/about/about-us-two/components/our-partner/our-partner.component.html ***!
-  \****************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/about/about-us-two/about-us-two.component.html":
+/*!******************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/about/about-us-two/about-us-two.component.html ***!
+  \******************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-module.exports = "<div class=\"iq-ptb-100\">\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-md-12 wow fadeInUp\">\n                <div class=\"owl-carousel client-logo owl-loaded owl-drag\" data-dots=\"false\" data-nav=\"false\" data-items=\"6\" data-items-laptop=\"4\" data-items-tab=\"3\" data-items-mobile=\"2\" data-items-mobile-sm=\"1\" data-autoplay=\"true\" data-loop=\"true\" data-margin=\"30\">\n                    <div *ngFor=\"let lists of List\" class=\"item\">\n                        <div class=\"clients-box hover-effct\">\n                            <img class=\"img-fluid client-img\" src=\"./assets/images/partners/{{ lists.img }}\" alt=\"client-image\" />\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</div>"
-
-/***/ }),
-
-/***/ "./node_modules/raw-loader/index.js!./src/app/about/about-us-two/components/our-services/our-services.component.html":
-/*!******************************************************************************************************************!*\
-  !*** ./node_modules/raw-loader!./src/app/about/about-us-two/components/our-services/our-services.component.html ***!
-  \******************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<section>\n    <div class=\"container\">\n        <div class=\"row xamin-bg\">\n            <div class=\"col-sm-12 offset-md-1 offset-lg-1 col-md-10 col-lg-10 wow fadeInUp text-center\">\n                <div>\n                    <div class=\"title-box text-center\">\n                        <span class=\"title-design\">our Services</span>\n                        <h2 class=\"mb-0\">We Provide Useful Services</h2>\n                    </div>\n                    <div class=\"scroll-effect\">\n                        <img src=\"./assets/images/about-us/09.jpg\" class=\"img-fluid img-one\" alt=\"#\" />\n                        <div class=\"main-video\">\n                            <div class=\"video-img\">\n                                <div class=\"consult-video video-btn\">\n                                    <div class=\"btn-waves\">\n                                        <div class=\"waves wave-1\"></div>\n                                        <div class=\"waves wave-2\"></div>\n                                        <div class=\"waves wave-3\"></div>\n                                    </div>\n                                    <a href=\"http://www.youtube.com/watch?v=0O2aH4XLbto\" class=\"iq-video popup-youtube\"><i class=\"fa fa-play\"></i></a>\n                                </div>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n        <div class=\"row mt-5\">\n            <div *ngFor=\"let list of List\" class=\"col-lg-4 col-sm-12\">\n                <div class=\"service-box mt-5 mb-0 wow fadeInUp text-left\" data-wow-delay=\"0.6s\">\n                    <img src=\"{{ list.image }}\" alt=\"fancybox\">\n                    <div class=\"service-detail align-self-center\">\n                        <h4 class=\"mb-2\">{{ list.title }}</h4>\n                        <p>{{ list.desc }}</p>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>"
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<!-- Header component start-->\n<app-header [logoImg]=\"logoImage\" [navItemList]=\"navItems\" [contactInfo]=\"contactInfo\"></app-header>\n<!-- Header component end-->\n<app-top-banner [data]=\"data\"></app-top-banner>\n<div class=\"main-content\">\n    <app-our-services></app-our-services>\n    <app-section-two></app-section-two>\n    <app-section-three></app-section-three>\n    <app-our-testimonial></app-our-testimonial>\n    <app-our-partner></app-our-partner>\n</div>\n<!-- Footer start -->\n<app-footer [logoImg]=\"logoImage\" [contactInfo]=\"contactInfo\"></app-footer>\n<!-- Footer end -->\n");
 
 /***/ }),
 
-/***/ "./node_modules/raw-loader/index.js!./src/app/about/about-us-two/components/our-testimonial/our-testimonial.component.html":
-/*!************************************************************************************************************************!*\
-  !*** ./node_modules/raw-loader!./src/app/about/about-us-two/components/our-testimonial/our-testimonial.component.html ***!
-  \************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/about/about-us-two/components/our-partner/our-partner.component.html":
+/*!****************************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/about/about-us-two/components/our-partner/our-partner.component.html ***!
+  \****************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-module.exports = "<section class=\"pt-0 bg-with-image\">\n    <div class=\"container\">\n        <div class=\"row\">\n            <app-title-section [titleSectionProp]=\"titleSectionProp\"></app-title-section>\n        </div>\n        <app-testimonials [List]=\"List\"></app-testimonials>\n    </div>\n</section>"
-
-/***/ }),
-
-/***/ "./node_modules/raw-loader/index.js!./src/app/about/about-us-two/components/section-three/section-three.component.html":
-/*!********************************************************************************************************************!*\
-  !*** ./node_modules/raw-loader!./src/app/about/about-us-two/components/section-three/section-three.component.html ***!
-  \********************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<section class=\"aboutus-two-service\">\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-lg-12\">\n                <div class=\"title-box wow fadeInUp text-center mb-0\">\n                    <span class=\"title-design\">our Services</span>\n                    <h2 class=\"mb-0\">We Provide Useful Services</h2>\n                </div>\n            </div>\n        </div>\n        <div class=\"row\">\n            <div *ngFor=\"let list of List\" class=\"col-lg-4 col-md-6\">\n                <div class=\"service-box wow fadeInUp text-left\">\n                    <img class=\"fancy-list-img\" src=\"{{ list.image }}\" alt=\"fancy-list\" />\n                    <div class=\"service-detail align-self-center\">\n                        <h4 class=\"mb-2\">{{ list.title }}</h4>\n                        <p>{{ list.desc }}</p>\n                        <div class=\"text-left\">\n                            <app-check-list [lists]=\"list.checkList\"></app-check-list>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>"
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"iq-ptb-100\">\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-md-12 wow fadeInUp\">\n                <div class=\"owl-carousel client-logo owl-loaded owl-drag\" data-dots=\"false\" data-nav=\"false\" data-items=\"6\" data-items-laptop=\"4\" data-items-tab=\"3\" data-items-mobile=\"2\" data-items-mobile-sm=\"1\" data-autoplay=\"true\" data-loop=\"true\" data-margin=\"30\">\n                    <div *ngFor=\"let lists of List\" class=\"item\">\n                        <div class=\"clients-box hover-effct\">\n                            <img class=\"img-fluid client-img\" src=\"./assets/images/partners/{{ lists.img }}\" alt=\"client-image\" />\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</div>");
 
 /***/ }),
 
-/***/ "./node_modules/raw-loader/index.js!./src/app/about/about-us-two/components/section-two/section-two.component.html":
-/*!****************************************************************************************************************!*\
-  !*** ./node_modules/raw-loader!./src/app/about/about-us-two/components/section-two/section-two.component.html ***!
-  \****************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/about/about-us-two/components/our-services/our-services.component.html":
+/*!******************************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/about/about-us-two/components/our-services/our-services.component.html ***!
+  \******************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-module.exports = "<section class=\"bg-gray\">\n    <div class=\"container\">\n        <div class=\"row iq-how-it-works\">\n            <div class=\"fadeInUp   col-sm-12 col-lg-6 col-md-6 wow align-items-center\">\n                <div class=\"title-box wow fadeInUp text-left\">\n                    <span class=\"title-design\">About us</span>\n                    <h2>Human Behaviour, Data Science</h2>\n                    <p> It is a long established fact that a reader will be distracted by the of readable content of a page when looking at its layout. </p>\n                </div>\n                <div class=\"text-left\">\n                    <app-check-list [lists]=\"checkList1\"></app-check-list>\n                </div>\n            </div>\n            <div class=\"fadeInUp col-sm-12 col-lg-6 col-md-6 wow\">\n                <img alt=\"\" class=\"single_image-img attachment-full\" height=\"954\" src=\"./assets/images/about-us/03.png\" width=\"1260\" />\n            </div>\n        </div>\n        <div class=\"row iq-how-it-works pt-5\">\n            <div class=\"fadeInUp col-sm-12 col-lg-6 col-md-6 wow\">\n                <img alt=\"\" class=\"single_image-img attachment-full\" height=\"954\" src=\"./assets/images/about-us/05.png\" width=\"1260\" />\n                </div>\n            <div class=\" fadeInUp  col-sm-12 col-lg-6 col-md-6 wow align-items-center\">\n                <div class=\"title-box wow fadeInUp text-left\">\n                    <span class=\"title-design\">About us</span>\n                    <h2>Human Behaviour, Data Science</h2>\n                    <p> It is a long established fact that a reader will be distracted by the of readable content of a page when looking at its layout. </p>\n                </div>\n                <div class=\"text-left\">\n                    <app-check-list [lists]=\"checkList2\"></app-check-list>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>"
-
-/***/ }),
-
-/***/ "./node_modules/raw-loader/index.js!./src/app/about/history/history.component.html":
-/*!********************************************************************************!*\
-  !*** ./node_modules/raw-loader!./src/app/about/history/history.component.html ***!
-  \********************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<section class=\"pt-0\">\n  <div class=\"container\">\n    <div class=\"row xamin-bg\">\n      <div class=\"col-sm-12\">\n        <app-title-section [titleSectionProp]=\"titleSectionProp\"></app-title-section>\n      </div>\n      <div *ngFor=\"let list of List\" class=\"col-sm-12 mb-5\">\n        <div class=\"{{ list.class }}\">\n          <div class=\"xamin-history row row-eq-height align-items-center wow fadeInUp \">\n            <div class=\"col-sm-4 col-lg-2 col-md-2\">\n                <img alt=\"\" class=\"single_image-img attachment-full\" height=\"360\" width=\"550\" src=\"{{ list.img }}\" >\n            </div>\n            <div class=\"text-lg-center text-left col-sm-12 col-lg-2 col-md-3\">\n              <h4 class=\"pt-3 pb-1 pt-lg-0 pb-lg-0\">{{ list.year }}</h4>\n            </div>\n            <div class=\"col-sm-12 col-lg-8 col-md-7\">\n              <p class=\"mb-0\">{{ list.desc }}</p>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</section>\n"
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<section>\n    <div class=\"container\">\n        <div class=\"row xamin-bg\">\n            <div class=\"col-sm-12 offset-md-1 offset-lg-1 col-md-10 col-lg-10 wow fadeInUp text-center\">\n                <div>\n                    <div class=\"title-box text-center\">\n                        <span class=\"title-design\">our Services</span>\n                        <h2 class=\"mb-0\">We Provide Useful Services</h2>\n                    </div>\n                    <div class=\"scroll-effect\">\n                        <img src=\"./assets/images/about-us/09.jpg\" class=\"img-fluid img-one\" alt=\"#\" />\n                        <div class=\"main-video\">\n                            <div class=\"video-img\">\n                                <div class=\"consult-video video-btn\">\n                                    <div class=\"btn-waves\">\n                                        <div class=\"waves wave-1\"></div>\n                                        <div class=\"waves wave-2\"></div>\n                                        <div class=\"waves wave-3\"></div>\n                                    </div>\n                                    <a href=\"http://www.youtube.com/watch?v=0O2aH4XLbto\" class=\"iq-video popup-youtube\"><i class=\"fa fa-play\"></i></a>\n                                </div>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n        <div class=\"row mt-5\">\n            <div *ngFor=\"let list of List\" class=\"col-lg-4 col-sm-12\">\n                <div class=\"service-box mt-5 mb-0 wow fadeInUp text-left\" data-wow-delay=\"0.6s\">\n                    <img src=\"{{ list.image }}\" alt=\"fancybox\">\n                    <div class=\"service-detail align-self-center\">\n                        <h4 class=\"mb-2\">{{ list.title }}</h4>\n                        <p>{{ list.desc }}</p>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>");
 
 /***/ }),
 
-/***/ "./node_modules/raw-loader/index.js!./src/app/about/our-team/our-team.component.html":
-/*!**********************************************************************************!*\
-  !*** ./node_modules/raw-loader!./src/app/about/our-team/our-team.component.html ***!
-  \**********************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/about/about-us-two/components/our-testimonial/our-testimonial.component.html":
+/*!************************************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/about/about-us-two/components/our-testimonial/our-testimonial.component.html ***!
+  \************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-module.exports = "<section class=\"pt-0\">\n  <div class=\"container\">\n    <div class=\"row xamin-bg\">\n      <div class=\"col-sm-12\">\n        <app-title-section [titleSectionProp]=\"titleSectionProp\"></app-title-section>\n      </div>\n    </div>\n    <div class=\"col-md-12 wow fadeInUp \">\n      <app-team></app-team>\n    </div>\n  </div>\n</section>\n"
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<section class=\"pt-0 bg-with-image\">\n    <div class=\"container\">\n        <div class=\"row\">\n            <app-title-section [titleSectionProp]=\"titleSectionProp\"></app-title-section>\n        </div>\n        <app-testimonials [List]=\"List\"></app-testimonials>\n    </div>\n</section>");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/about/about-us-two/components/section-three/section-three.component.html":
+/*!********************************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/about/about-us-two/components/section-three/section-three.component.html ***!
+  \********************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<section class=\"aboutus-two-service\">\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-lg-12\">\n                <div class=\"title-box wow fadeInUp text-center mb-0\">\n                    <span class=\"title-design\">our Services</span>\n                    <h2 class=\"mb-0\">We Provide Useful Services</h2>\n                </div>\n            </div>\n        </div>\n        <div class=\"row\">\n            <div *ngFor=\"let list of List\" class=\"col-lg-4 col-md-6\">\n                <div class=\"service-box wow fadeInUp text-left\">\n                    <img class=\"fancy-list-img\" src=\"{{ list.image }}\" alt=\"fancy-list\" />\n                    <div class=\"service-detail align-self-center\">\n                        <h4 class=\"mb-2\">{{ list.title }}</h4>\n                        <p>{{ list.desc }}</p>\n                        <div class=\"text-left\">\n                            <app-check-list [lists]=\"list.checkList\"></app-check-list>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/about/about-us-two/components/section-two/section-two.component.html":
+/*!****************************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/about/about-us-two/components/section-two/section-two.component.html ***!
+  \****************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<section class=\"bg-gray\">\n    <div class=\"container\">\n        <div class=\"row iq-how-it-works\">\n            <div class=\"fadeInUp   col-sm-12 col-lg-6 col-md-6 wow align-items-center\">\n                <div class=\"title-box wow fadeInUp text-left\">\n                    <span class=\"title-design\">About us</span>\n                    <h2>Human Behaviour, Data Science</h2>\n                    <p> It is a long established fact that a reader will be distracted by the of readable content of a page when looking at its layout. </p>\n                </div>\n                <div class=\"text-left\">\n                    <app-check-list [lists]=\"checkList1\"></app-check-list>\n                </div>\n            </div>\n            <div class=\"fadeInUp col-sm-12 col-lg-6 col-md-6 wow\">\n                <img alt=\"\" class=\"single_image-img attachment-full\" height=\"954\" src=\"./assets/images/about-us/03.png\" width=\"1260\" />\n            </div>\n        </div>\n        <div class=\"row iq-how-it-works pt-5\">\n            <div class=\"fadeInUp col-sm-12 col-lg-6 col-md-6 wow\">\n                <img alt=\"\" class=\"single_image-img attachment-full\" height=\"954\" src=\"./assets/images/about-us/05.png\" width=\"1260\" />\n                </div>\n            <div class=\" fadeInUp  col-sm-12 col-lg-6 col-md-6 wow align-items-center\">\n                <div class=\"title-box wow fadeInUp text-left\">\n                    <span class=\"title-design\">About us</span>\n                    <h2>Human Behaviour, Data Science</h2>\n                    <p> It is a long established fact that a reader will be distracted by the of readable content of a page when looking at its layout. </p>\n                </div>\n                <div class=\"text-left\">\n                    <app-check-list [lists]=\"checkList2\"></app-check-list>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/about/history/history.component.html":
+/*!********************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/about/history/history.component.html ***!
+  \********************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<section class=\"pt-0\">\n  <div class=\"container\">\n    <div class=\"row xamin-bg\">\n      <div class=\"col-sm-12\">\n        <app-title-section [titleSectionProp]=\"titleSectionProp\"></app-title-section>\n      </div>\n      <div *ngFor=\"let list of List\" class=\"col-sm-12 mb-5\">\n        <div class=\"{{ list.class }}\">\n          <div class=\"xamin-history row row-eq-height align-items-center wow fadeInUp \">\n            <div class=\"col-sm-4 col-lg-2 col-md-2\">\n                <img alt=\"\" class=\"single_image-img attachment-full\" height=\"360\" width=\"550\" src=\"{{ list.img }}\" >\n            </div>\n            <div class=\"text-lg-center text-left col-sm-12 col-lg-2 col-md-3\">\n              <h4 class=\"pt-3 pb-1 pt-lg-0 pb-lg-0\">{{ list.year }}</h4>\n            </div>\n            <div class=\"col-sm-12 col-lg-8 col-md-7\">\n              <p class=\"mb-0\">{{ list.desc }}</p>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</section>\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/about/our-team/our-team.component.html":
+/*!**********************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/about/our-team/our-team.component.html ***!
+  \**********************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<section class=\"pt-0\">\n  <div class=\"container\">\n    <div class=\"row xamin-bg\">\n      <div class=\"col-sm-12\">\n        <app-title-section [titleSectionProp]=\"titleSectionProp\"></app-title-section>\n      </div>\n    </div>\n    <div class=\"col-md-12 wow fadeInUp \">\n      <app-team></app-team>\n    </div>\n  </div>\n</section>\n");
 
 /***/ }),
 
@@ -168,7 +186,7 @@ AboutUsOneComponent.ctorParameters = () => [
 AboutUsOneComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-about-us-one',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./about-us-one.component.html */ "./node_modules/raw-loader/index.js!./src/app/about/about-us-one/about-us-one.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./about-us-one.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/about/about-us-one/about-us-one.component.html")).default,
     })
 ], AboutUsOneComponent);
 
@@ -226,7 +244,7 @@ AboutUsTwoComponent.ctorParameters = () => [
 AboutUsTwoComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-about-us-two',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./about-us-two.component.html */ "./node_modules/raw-loader/index.js!./src/app/about/about-us-two/about-us-two.component.html")).default
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./about-us-two.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/about/about-us-two/about-us-two.component.html")).default
     })
 ], AboutUsTwoComponent);
 
@@ -265,7 +283,7 @@ let OurPartnerComponent = class OurPartnerComponent {
 OurPartnerComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-our-partner',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./our-partner.component.html */ "./node_modules/raw-loader/index.js!./src/app/about/about-us-two/components/our-partner/our-partner.component.html")).default
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./our-partner.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/about/about-us-two/components/our-partner/our-partner.component.html")).default
     })
 ], OurPartnerComponent);
 
@@ -301,7 +319,7 @@ let OurServicesComponent = class OurServicesComponent {
 OurServicesComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-our-services',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./our-services.component.html */ "./node_modules/raw-loader/index.js!./src/app/about/about-us-two/components/our-services/our-services.component.html")).default
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./our-services.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/about/about-us-two/components/our-services/our-services.component.html")).default
     })
 ], OurServicesComponent);
 
@@ -357,7 +375,7 @@ let OurTestimonialComponent = class OurTestimonialComponent {
 OurTestimonialComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-our-testimonial',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./our-testimonial.component.html */ "./node_modules/raw-loader/index.js!./src/app/about/about-us-two/components/our-testimonial/our-testimonial.component.html")).default
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./our-testimonial.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/about/about-us-two/components/our-testimonial/our-testimonial.component.html")).default
     })
 ], OurTestimonialComponent);
 
@@ -426,7 +444,7 @@ let SectionThreeComponent = class SectionThreeComponent {
 SectionThreeComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-section-three',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./section-three.component.html */ "./node_modules/raw-loader/index.js!./src/app/about/about-us-two/components/section-three/section-three.component.html")).default
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./section-three.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/about/about-us-two/components/section-three/section-three.component.html")).default
     })
 ], SectionThreeComponent);
 
@@ -459,7 +477,7 @@ let SectionTwoComponent = class SectionTwoComponent {
 SectionTwoComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-section-two',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./section-two.component.html */ "./node_modules/raw-loader/index.js!./src/app/about/about-us-two/components/section-two/section-two.component.html")).default
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./section-two.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/about/about-us-two/components/section-two/section-two.component.html")).default
     })
 ], SectionTwoComponent);
 
@@ -587,7 +605,7 @@ let HistoryComponent = class HistoryComponent {
 HistoryComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-history',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./history.component.html */ "./node_modules/raw-loader/index.js!./src/app/about/history/history.component.html")).default
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./history.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/about/history/history.component.html")).default
     })
 ], HistoryComponent);
 
@@ -624,7 +642,7 @@ let OurTeamComponent = class OurTeamComponent {
 OurTeamComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-our-team',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./our-team.component.html */ "./node_modules/raw-loader/index.js!./src/app/about/our-team/our-team.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./our-team.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/about/our-team/our-team.component.html")).default,
     })
 ], OurTeamComponent);
 

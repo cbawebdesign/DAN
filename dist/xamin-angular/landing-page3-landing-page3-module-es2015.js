@@ -1,145 +1,171 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["landing-page3-landing-page3-module"],{
 
-/***/ "./node_modules/raw-loader/index.js!./src/app/landing-page3/components/about-us/about-us.component.html":
-/*!*****************************************************************************************************!*\
-  !*** ./node_modules/raw-loader!./src/app/landing-page3/components/about-us/about-us.component.html ***!
-  \*****************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<app-about [titleSectionProp]=\"titleSectionProp\" [List]=\"Lists\"></app-about>\n"
-
-/***/ }),
-
-/***/ "./node_modules/raw-loader/index.js!./src/app/landing-page3/components/card-section/card-section.component.html":
-/*!*************************************************************************************************************!*\
-  !*** ./node_modules/raw-loader!./src/app/landing-page3/components/card-section/card-section.component.html ***!
-  \*************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<section class=\"pt-0\">\n  <div class=\"container\">\n    <div class=\"row\">\n      <div  *ngFor=\"let lists of List\" class=\"col-lg-3 col-sm-12\">\n        <div class=\"xamin-services  mb-0 wow fadeInUp text-center\">\n          <div class=\"services-detail\">\n            <img src=\"./assets/images/services/{{ lists.img }}\" alt=\"img\" />\n            <h5 class=\"mb-1\">{{ lists.title }}</h5>\n            <p class=\"mb-0\">{{ lists.sub_title }}</p>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</section>\n"
-
-/***/ }),
-
-/***/ "./node_modules/raw-loader/index.js!./src/app/landing-page3/components/client-counter/client-counter.component.html":
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/landing-page3/components/about-us/about-us.component.html":
 /*!*****************************************************************************************************************!*\
-  !*** ./node_modules/raw-loader!./src/app/landing-page3/components/client-counter/client-counter.component.html ***!
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/landing-page3/components/about-us/about-us.component.html ***!
   \*****************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-module.exports = "<!-- Why Choose Us End -->\n<section class=\"pb-0\">\n  <div class=\"container\">\n    <app-counter [List]=\"list\" [style]=\"style\"></app-counter>\n  </div>\n</section>\n"
-
-/***/ }),
-
-/***/ "./node_modules/raw-loader/index.js!./src/app/landing-page3/components/nav-tabs/nav-tabs.component.html":
-/*!*****************************************************************************************************!*\
-  !*** ./node_modules/raw-loader!./src/app/landing-page3/components/nav-tabs/nav-tabs.component.html ***!
-  \*****************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<section class=\"iq-bg-over\">\n  <div class=\"container\">\n    <div class=\"row\">\n      <div class=\"col-md-4\">\n        <div class=\"custom-tab\">\n          <ul class=\"nav nav-pills text-center flex-column mb-5 mb-md-0\" id=\"pills-tab\" role=\"tablist\" aria-orientation=\"vertical\">\n            <li *ngFor=\"let nav of navList\" class=\"nav-item w-inherit \">\n              <a class=\"nav-link w-100\" data-toggle=\"pill\" href=\"{{ '#' + nav.id }}\" role=\"tab\" [attr.aria-selected]=\" nav.active !== undefined ? true : false \">\n                <h5 class=\"tab-title\">{{ nav.title }}</h5>\n              </a>\n            </li>\n          </ul>\n        </div>\n      </div>\n      <div class=\"col-md-8\">\n        <div class=\"tab-content\">\n          <div *ngFor=\"let nav of navList\" id=\"{{ nav.id }}\" class=\"tab-pane fade  {{ nav.active !== undefined && nav.active ? 'show active' : '' }}\">\n            <h3 class=\"pb-3\">{{ nav.sub_title }}</h3>\n            <p>{{ nav.desc }}</p>\n            <app-check-list [lists]=\"nav.chkList\"></app-check-list>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</section>\n"
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<app-about [titleSectionProp]=\"titleSectionProp\" [List]=\"Lists\"></app-about>\n");
 
 /***/ }),
 
-/***/ "./node_modules/raw-loader/index.js!./src/app/landing-page3/components/our-blog/our-blog.component.html":
-/*!*****************************************************************************************************!*\
-  !*** ./node_modules/raw-loader!./src/app/landing-page3/components/our-blog/our-blog.component.html ***!
-  \*****************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<section >\n  <div class=\"container\">\n    <div class=\"row layer-fly-one\">\n      <div class=\"col-md-12\">\n        <app-title-section [titleSectionProp]=\"titleSectionProp\"></app-title-section>\n      </div>\n    </div>\n    <div class=\"xamin-recentblog v1\">\n      <app-blog-owl [List]=\"List\"></app-blog-owl>\n    </div>\n  </div>\n</section>\n"
-
-/***/ }),
-
-/***/ "./node_modules/raw-loader/index.js!./src/app/landing-page3/components/our-client/our-client.component.html":
-/*!*********************************************************************************************************!*\
-  !*** ./node_modules/raw-loader!./src/app/landing-page3/components/our-client/our-client.component.html ***!
-  \*********************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<p>our-client works!</p>\n"
-
-/***/ }),
-
-/***/ "./node_modules/raw-loader/index.js!./src/app/landing-page3/components/our-partner/our-partner.component.html":
-/*!***********************************************************************************************************!*\
-  !*** ./node_modules/raw-loader!./src/app/landing-page3/components/our-partner/our-partner.component.html ***!
-  \***********************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<section class=\"pt-0\">\n  <div class=\"container\">\n    <div class=\"row\">\n      <div class=\"col-md-12\">\n        <app-customers [List]=\"List\" [hover]=\"hover\"></app-customers>\n      </div>\n    </div>\n  </div>\n</section>\n"
-
-/***/ }),
-
-/***/ "./node_modules/raw-loader/index.js!./src/app/landing-page3/components/our-testimonials/our-testimonials.component.html":
-/*!*********************************************************************************************************************!*\
-  !*** ./node_modules/raw-loader!./src/app/landing-page3/components/our-testimonials/our-testimonials.component.html ***!
-  \*********************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<section class=\"iq-bg-over\">\n  <div class=\"container\">\n    <div class=\"row\">\n      <div class=\"col-sm-12 wow fadeInUp\">\n        <app-title-section [titleSectionProp]=\"titleSectionProp\"></app-title-section>\n      </div>\n    </div>\n    <app-testimonials [List]=\"List\"></app-testimonials>\n\n  </div>\n</section>\n"
-
-/***/ }),
-
-/***/ "./node_modules/raw-loader/index.js!./src/app/landing-page3/components/process/process.component.html":
-/*!***************************************************************************************************!*\
-  !*** ./node_modules/raw-loader!./src/app/landing-page3/components/process/process.component.html ***!
-  \***************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<!-- How it Works -->\n<section class=\"xamin-custom-bg\">\n  <div class=\"container\">\n    <div class=\"row \">\n      <div class=\"col-md-12\">\n        <app-title-section [titleSectionProp]=\"titleSectionProp\"></app-title-section>\n      </div>\n    </div>\n    <div class=\"row \">\n      <div class=\"col-lg-4 col-md-4 col-sm-12\">\n        <app-xamin-circle [circleData]=\"circle1Data\"></app-xamin-circle>\n      </div>\n      <div class=\" col-lg-4 col-md-4 col-sm-12 mt-4 mt-md-0\">\n        <app-xamin-circle [circleData]=\"circle2Data\"></app-xamin-circle>\n      </div>\n      <div class=\"col-lg-4 col-md-4 col-sm-12 mt-4 mt-md-0\">\n        <app-xamin-circle [circleData]=\"circle3Data\"></app-xamin-circle>\n      </div>\n    </div>\n  </div>\n</section>\n<!-- How it Works End -->\n"
-
-/***/ }),
-
-/***/ "./node_modules/raw-loader/index.js!./src/app/landing-page3/components/revolution-slider3/revolution-slider3.component.html":
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/landing-page3/components/card-section/card-section.component.html":
 /*!*************************************************************************************************************************!*\
-  !*** ./node_modules/raw-loader!./src/app/landing-page3/components/revolution-slider3/revolution-slider3.component.html ***!
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/landing-page3/components/card-section/card-section.component.html ***!
   \*************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-module.exports = "<div class=\"iq-banner\">\n  <!-- START xamin REVOLUTION SLIDER 6.1.0 -->\n  <p class=\"rs-p-wp-fix\"></p>\n  <rs-module-wrap id=\"rev_slider_3_1_wrapper\" data-alias=\"xamin-3\" data-source=\"gallery\" style=\"background:transparent;padding:0;margin:0px auto;margin-top:0;margin-bottom:0;\">\n    <rs-module id=\"rev_slider_3_1\" class=\" rs-ov-hidden\" style=\"display:none;\" data-version=\"6.1.0\">\n      <rs-slides>\n        <rs-slide data-key=\"rs-3\" data-title=\"Slide\" data-anim=\"ei:d,d,d,d,d,d,d,d,d;eo:d,d,d,d,d,d,d,d,d;s:1000ms,d,d,d,d,d,d,d,d;r:0,0,0,0,0,0,0,0,0;t:fade,grayscale,blurlight,blurstrong,fade,crossfade,fadethroughlight,fadethroughdark,fadethroughtransparent;sl:d,d,d,d,d,d,d,d,d;\" data-firstanim=\"t:fade;sl:12;\">\n          <img src=\"/assets/revslider/assets_slider3/dummy.png\" title=\"bg\" width=\"856\" height=\"500\" data-lazyload=\"./assets/revslider/assets_slider3/bg.png\" data-bg=\"f:100% 100%;\" data-parallax=\"2\" class=\"rev-slidebg\" data-no-retina>\n          <!--\n                                      --><h2\n          id=\"slider-3-slide-3-layer-1\"\n          class=\"rs-layer\"\n          data-type=\"text\"\n          data-color=\"#313e5b\"\n          data-rsp_ch=\"on\"\n          data-xy=\"x:l,l,l,c;xo:69px,15px,37px,-1px;yo:221px,141px,40px,30px;\"\n          data-text=\"s:48,36,42,28;l:65,65,70,55;a:inherit,inherit,inherit,center;\"\n          data-dim=\"w:auto,681px,681px,681px;\"\n          data-layeronlimit=\"on\"\n          data-frame_0=\"y:-50;\"\n          data-frame_1=\"st:600;sp:1000;sR:600;\"\n          data-frame_999=\"o:0;tp:600;st:w;sR:7400;\"\n          style=\"z-index:8;font-family:Lato;text-transform:capitalize;\"\n        >The Analytics Operating System for <br>Data-Driven Companies\n        </h2><!--\n\n\t\t\t\t\t\t\t--><p\n          id=\"slider-3-slide-3-layer-3\"\n          class=\"rs-layer\"\n          data-type=\"text\"\n          data-color=\"#525f81\"\n          data-rsp_ch=\"on\"\n          data-xy=\"x:l,l,l,c;xo:67px,15px,40px,5px;y:m;yo:56px,15px,-180px,-126px;\"\n          data-text=\"s:16,16,18,13;l:30;a:inherit,inherit,inherit,center;\"\n          data-frame_0=\"y:-50;\"\n          data-frame_1=\"st:900;sp:1000;sR:900;\"\n          data-frame_999=\"o:0;tp:600;st:w;sR:7100;\"\n          style=\"z-index:9;font-family:Karla;\"\n        >It is a long established fact that a reader will be distracted by the readable<br>content of a page when looking at its layout.\n        </p><!--\n\n\t\t\t\t\t\t\t--><rs-layer\n          id=\"slider-3-slide-3-layer-11\"\n          data-type=\"image\"\n          data-rsp_ch=\"on\"\n          data-xy=\"xo:867px,721px,226px,78px;yo:68px,82px,332px,258px;\"\n          data-text=\"w:normal;s:20,14,10,6;l:0,18,13,8;\"\n          data-dim=\"w:616px,298px,338px,350px;h:507px,245px,338px,288px;\"\n          data-frame_0=\"sX:0.9;sY:0.9;\"\n          data-frame_1=\"st:2400;sp:1000;sR:2400;\"\n          data-frame_999=\"o:0;st:w;sR:5600;\"\n          style=\"z-index:13;font-family:Roboto;\"\n        ><img src=\"./assets/revslider/assets_slider3/dummy.png\" width=\"890\" height=\"732\" data-lazyload=\"./assets/revslider/assets_slider3/1.png\" data-no-retina>\n        </rs-layer><!--\n\n\t\t\t\t\t\t\t--><rs-layer\n          id=\"slider-3-slide-3-layer-25\"\n          class=\"rs-pxl-1\"\n          data-type=\"image\"\n          data-rsp_ch=\"on\"\n          data-xy=\"xo:1309px,923px,549px,353px;yo:60px,85px,331px,280px;\"\n          data-text=\"w:normal;s:20,14,10,6;l:0,18,13,8;\"\n          data-dim=\"w:151px,110px,112px,77px;h:102px,74px,112px,77px;\"\n          data-frame_0=\"sX:0.9;sY:0.9;\"\n          data-frame_1=\"st:2100;sp:1000;sR:2100;\"\n          data-frame_999=\"o:0;st:w;sR:5900;\"\n          data-tloop=\"u:true;\"\n          data-loop_999=\"sX:0.8;sY:0.8;o:0.6;sp:2000;e:Power2.easeInOut;yys:t;yyf:t;\"\n          style=\"z-index:12;font-family:Roboto;\"\n        ><img src=\"./assets/revslider/assets_slider3/dummy.png\" width=\"364\" height=\"246\" data-lazyload=\"./assets/revslider/assets_slider3/2.png\" data-no-retina>\n        </rs-layer><!--\n\n\t\t\t\t\t\t\t--><rs-layer\n          id=\"slider-3-slide-3-layer-28\"\n          data-type=\"text\"\n          data-rsp_ch=\"on\"\n          data-xy=\"xo:72px,15px,40px,174px;yo:475px,367px,274px,231px;\"\n          data-text=\"w:normal;s:16,11,18,17;l:25,18,13,12;\"\n          data-dim=\"h:auto,auto,auto,17px;\"\n          data-frame_0=\"x:0,0,0,0px;y:-50,-36,-26,-24px;\"\n          data-frame_1=\"x:0,0,0,0px;y:0,0,0,0px;st:1200;sp:1000;sR:1200;\"\n          data-frame_999=\"o:0;st:w;sR:6800;\"\n          style=\"z-index:10;font-family:Roboto;\"\n        ><a class=\"button_link\" href=\"#\"><i class=\"fas fa fa-play\"></i>Watch Video</a>\n        </rs-layer><!--\n\n\t\t\t\t\t\t\t--><rs-layer\n          id=\"slider-3-slide-3-layer-29\"\n          data-type=\"image\"\n          data-rsp_ch=\"on\"\n          data-xy=\"xo:856px,674px,184px,36px;yo:70px,60px,362px,271px;\"\n          data-text=\"w:normal;s:20,14,10,6;l:0,18,13,8;\"\n          data-dim=\"w:738px,539px,470px,429px;h:607px,443px,387px,353px;\"\n          data-frame_0=\"sX:0.9;sY:0.9;\"\n          data-frame_1=\"st:1800;sp:930;sR:1800;\"\n          data-frame_999=\"o:0;st:w;sR:6270;\"\n          style=\"z-index:11;font-family:Roboto;\"\n        ><img src=\"./assets/revslider/assets_slider3/dummy.png\" width=\"890\" height=\"732\" data-lazyload=\"./assets/revslider/assets_slider3/7.png\" data-no-retina>\n        </rs-layer><!--\n\n\t\t\t\t\t\t\t--><rs-layer\n          id=\"slider-3-slide-3-layer-30\"\n          class=\"rs-pxl-1\"\n          data-type=\"image\"\n          data-rsp_ch=\"on\"\n          data-xy=\"xo:751px,631px,118px,0;yo:330px,217px,539px,461px;\"\n          data-text=\"w:normal;s:20,14,10,6;l:0,18,13,8;\"\n          data-dim=\"w:101px,73px,54px,69px;h:58px,42px,31px,40px;\"\n          data-frame_0=\"sX:0.9;sY:0.9;\"\n          data-frame_1=\"st:2700;sp:1000;sR:2700;\"\n          data-frame_999=\"o:0;st:w;sR:5300;\"\n          data-tloop=\"u:true;\"\n          data-loop_999=\"sX:0.8;sY:0.8;o:0.6;sp:2000;e:Power2.easeInOut;yys:t;yyf:t;\"\n          style=\"z-index:14;font-family:Roboto;\"\n        ><img src=\"./assets/revslider/assets_slider3/dummy.png\" width=\"261\" height=\"151\" data-lazyload=\"./assets/revslider/assets_slider3/6.png\" data-no-retina>\n        </rs-layer><!--\n\n\t\t\t\t\t\t\t--><rs-layer\n          id=\"slider-3-slide-3-layer-31\"\n          class=\"rs-pxl-2\"\n          data-type=\"image\"\n          data-rsp_ch=\"on\"\n          data-xy=\"xo:790px,678px,169px,81px;yo:497px,291px,649px,531px;\"\n          data-text=\"w:normal;s:20,14,10,6;l:0,18,13,8;\"\n          data-dim=\"w:131px,95px,71px,64px;h:99px,72px,53px,48px;\"\n          data-frame_0=\"sX:0.9;sY:0.9;\"\n          data-frame_1=\"st:3000;sp:1000;\"\n          data-frame_999=\"o:0;st:w;sR:5000;\"\n          data-loop_999=\"sX:1.2;sY:1.2;o:0.6;sp:2000;st:1000;e:Power0.easeInOut;yys:t;yyf:t;\"\n          style=\"z-index:15;font-family:Roboto;\"\n        ><img src=\"./assets/revslider/assets_slider3/dummy.png\" width=\"387\" height=\"292\" data-lazyload=\"./assets/revslider/assets_slider3/3.png\" data-no-retina>\n        </rs-layer><!--\n\n\t\t\t\t\t\t\t--><rs-layer\n          id=\"slider-3-slide-3-layer-32\"\n          class=\"rs-pxl-1\"\n          data-type=\"image\"\n          data-rsp_ch=\"on\"\n          data-xy=\"xo:1061px,776px,380px,245px;yo:614px,449px,703px,555px;\"\n          data-text=\"w:normal;s:20,14,10,6;l:0,18,13,8;\"\n          data-dim=\"w:87px,63px,47px,70px;h:52px,38px,28px,41px;\"\n          data-frame_0=\"y:-50,-36,-26,-16;\"\n          data-frame_1=\"st:3300;sp:1000;\"\n          data-frame_999=\"o:0;st:w;sR:4700;\"\n          data-tloop=\"u:true;\"\n          data-loop_999=\"sX:0.8;sY:0.8;o:0.6;sp:2000;e:Power2.easeInOut;yys:t;yyf:t;\"\n          style=\"z-index:16;font-family:Roboto;\"\n        ><img src=\"./assets/revslider/assets_slider3/dummy.png\" width=\"206\" height=\"122\" data-lazyload=\"./assets/revslider/assets_slider3/5.png\" data-no-retina>\n        </rs-layer><!--\n-->\t\t\t\t\t\t</rs-slide>\n      </rs-slides>\n      <rs-static-layers><!--\n\t\t\t\t\t--></rs-static-layers>\n      <rs-progress class=\"rs-bottom\" style=\"visibility: hidden !important;\"></rs-progress>\n    </rs-module>\n  </rs-module-wrap>\n  <!-- END REVOLUTION SLIDER -->\n</div>\n"
-
-/***/ }),
-
-/***/ "./node_modules/raw-loader/index.js!./src/app/landing-page3/components/service/service.component.html":
-/*!***************************************************************************************************!*\
-  !*** ./node_modules/raw-loader!./src/app/landing-page3/components/service/service.component.html ***!
-  \***************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<app-about-two [List]=\"Lists\" [titleSectionProp]=\"titleSectionProp\"></app-about-two>\n"
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<section class=\"pt-0\">\n  <div class=\"container\">\n    <div class=\"row\">\n      <div  *ngFor=\"let lists of List\" class=\"col-lg-3 col-sm-12\">\n        <div class=\"xamin-services  mb-0 wow fadeInUp text-center\">\n          <div class=\"services-detail\">\n            <img src=\"./assets/images/services/{{ lists.img }}\" alt=\"img\" />\n            <h5 class=\"mb-1\">{{ lists.title }}</h5>\n            <p class=\"mb-0\">{{ lists.sub_title }}</p>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</section>\n");
 
 /***/ }),
 
-/***/ "./node_modules/raw-loader/index.js!./src/app/landing-page3/components/why-choose-us/why-choose-us.component.html":
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/landing-page3/components/client-counter/client-counter.component.html":
+/*!*****************************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/landing-page3/components/client-counter/client-counter.component.html ***!
+  \*****************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<!-- Why Choose Us End -->\n<section class=\"pb-0\">\n  <div class=\"container\">\n    <app-counter [List]=\"list\" [style]=\"style\"></app-counter>\n  </div>\n</section>\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/landing-page3/components/nav-tabs/nav-tabs.component.html":
+/*!*****************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/landing-page3/components/nav-tabs/nav-tabs.component.html ***!
+  \*****************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<section class=\"iq-bg-over\">\n  <div class=\"container\">\n    <div class=\"row\">\n      <div class=\"col-md-4\">\n        <div class=\"custom-tab\">\n          <ul class=\"nav nav-pills text-center flex-column mb-5 mb-md-0\" id=\"pills-tab\" role=\"tablist\" aria-orientation=\"vertical\">\n            <li *ngFor=\"let nav of navList\" class=\"nav-item w-inherit \">\n              <a class=\"nav-link w-100\" data-toggle=\"pill\" href=\"{{ '#' + nav.id }}\" role=\"tab\" [attr.aria-selected]=\" nav.active !== undefined ? true : false \">\n                <h5 class=\"tab-title\">{{ nav.title }}</h5>\n              </a>\n            </li>\n          </ul>\n        </div>\n      </div>\n      <div class=\"col-md-8\">\n        <div class=\"tab-content\">\n          <div *ngFor=\"let nav of navList\" id=\"{{ nav.id }}\" class=\"tab-pane fade  {{ nav.active !== undefined && nav.active ? 'show active' : '' }}\">\n            <h3 class=\"pb-3\">{{ nav.sub_title }}</h3>\n            <p>{{ nav.desc }}</p>\n            <app-check-list [lists]=\"nav.chkList\"></app-check-list>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</section>\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/landing-page3/components/our-blog/our-blog.component.html":
+/*!*****************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/landing-page3/components/our-blog/our-blog.component.html ***!
+  \*****************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<section >\n  <div class=\"container\">\n    <div class=\"row layer-fly-one\">\n      <div class=\"col-md-12\">\n        <app-title-section [titleSectionProp]=\"titleSectionProp\"></app-title-section>\n      </div>\n    </div>\n    <div class=\"xamin-recentblog v1\">\n      <app-blog-owl [List]=\"List\"></app-blog-owl>\n    </div>\n  </div>\n</section>\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/landing-page3/components/our-client/our-client.component.html":
+/*!*********************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/landing-page3/components/our-client/our-client.component.html ***!
+  \*********************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<p>our-client works!</p>\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/landing-page3/components/our-partner/our-partner.component.html":
+/*!***********************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/landing-page3/components/our-partner/our-partner.component.html ***!
+  \***********************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<section class=\"pt-0\">\n  <div class=\"container\">\n    <div class=\"row\">\n      <div class=\"col-md-12\">\n        <app-customers [List]=\"List\" [hover]=\"hover\"></app-customers>\n      </div>\n    </div>\n  </div>\n</section>\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/landing-page3/components/our-testimonials/our-testimonials.component.html":
+/*!*********************************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/landing-page3/components/our-testimonials/our-testimonials.component.html ***!
+  \*********************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<section class=\"iq-bg-over\">\n  <div class=\"container\">\n    <div class=\"row\">\n      <div class=\"col-sm-12 wow fadeInUp\">\n        <app-title-section [titleSectionProp]=\"titleSectionProp\"></app-title-section>\n      </div>\n    </div>\n    <app-testimonials [List]=\"List\"></app-testimonials>\n\n  </div>\n</section>\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/landing-page3/components/process/process.component.html":
 /*!***************************************************************************************************************!*\
-  !*** ./node_modules/raw-loader!./src/app/landing-page3/components/why-choose-us/why-choose-us.component.html ***!
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/landing-page3/components/process/process.component.html ***!
   \***************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-module.exports = "<app-choose-us [lists]=\"List\"></app-choose-us>\n"
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<!-- How it Works -->\n<section class=\"xamin-custom-bg\">\n  <div class=\"container\">\n    <div class=\"row \">\n      <div class=\"col-md-12\">\n        <app-title-section [titleSectionProp]=\"titleSectionProp\"></app-title-section>\n      </div>\n    </div>\n    <div class=\"row \">\n      <div class=\"col-lg-4 col-md-4 col-sm-12\">\n        <app-xamin-circle [circleData]=\"circle1Data\"></app-xamin-circle>\n      </div>\n      <div class=\" col-lg-4 col-md-4 col-sm-12 mt-4 mt-md-0\">\n        <app-xamin-circle [circleData]=\"circle2Data\"></app-xamin-circle>\n      </div>\n      <div class=\"col-lg-4 col-md-4 col-sm-12 mt-4 mt-md-0\">\n        <app-xamin-circle [circleData]=\"circle3Data\"></app-xamin-circle>\n      </div>\n    </div>\n  </div>\n</section>\n<!-- How it Works End -->\n");
 
 /***/ }),
 
-/***/ "./node_modules/raw-loader/index.js!./src/app/landing-page3/index/index.component.html":
-/*!************************************************************************************!*\
-  !*** ./node_modules/raw-loader!./src/app/landing-page3/index/index.component.html ***!
-  \************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/landing-page3/components/revolution-slider3/revolution-slider3.component.html":
+/*!*************************************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/landing-page3/components/revolution-slider3/revolution-slider3.component.html ***!
+  \*************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-module.exports = "<!-- Header component start-->\n<app-header [logoImg]=\"logoImage\" [navItemList]=\"navItems\" [contactInfo]=\"contactInfo\"></app-header>\n<!-- Header component end-->\n<!-- START REVOLUTION SLIDER -->\n<app-revolution-slider3></app-revolution-slider3>\n<!-- END REVOLUTION SLIDER -->\n<!-- MainContent -->\n<div class=\"main-content\">\n  <!-- Choose-us -->\n      <app-why-choose-us></app-why-choose-us>\n  <!-- Choose-us -->\n  <!--  card-section-->\n      <app-card-section></app-card-section>\n  <!--  card-section End-->\n  <!-- About Us -->\n      <app-about-us></app-about-us>\n  <!-- About Us End-->\n    <!--Nav tab -->\n      <app-nav-tabs></app-nav-tabs>\n  <!-- Nav tab -->\n  <!-- client counter  -->\n      <app-client-counter></app-client-counter>\n  <!-- client counter End -->\n      <app-service></app-service>\n  <!-- PROCESS -->\n       <app-process></app-process>\n  <!-- PROCESS  End-->\n  <!-- Our Testimonials -->\n       <app-our-testimonials></app-our-testimonials>\n  <!-- Our Testimonials End -->\n  <!-- Blog -->\n      <app-our-blog></app-our-blog>\n  <!-- Blog End-->\n  <!--  Partner-->\n      <app-our-partner></app-our-partner>\n  <!--  Partner End-->\n</div>\n<!-- Footer start -->\n<app-footer [logoImg]=\"logoImage\" [contactInfo]=\"contactInfo\"></app-footer>\n<!-- Footer end -->\n"
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"iq-banner\">\n  <!-- START xamin REVOLUTION SLIDER 6.1.0 -->\n  <p class=\"rs-p-wp-fix\"></p>\n  <rs-module-wrap id=\"rev_slider_3_1_wrapper\" data-alias=\"xamin-3\" data-source=\"gallery\" style=\"background:transparent;padding:0;margin:0px auto;margin-top:0;margin-bottom:0;\">\n    <rs-module id=\"rev_slider_3_1\" class=\" rs-ov-hidden\" style=\"display:none;\" data-version=\"6.1.0\">\n      <rs-slides>\n        <rs-slide data-key=\"rs-3\" data-title=\"Slide\" data-anim=\"ei:d,d,d,d,d,d,d,d,d;eo:d,d,d,d,d,d,d,d,d;s:1000ms,d,d,d,d,d,d,d,d;r:0,0,0,0,0,0,0,0,0;t:fade,grayscale,blurlight,blurstrong,fade,crossfade,fadethroughlight,fadethroughdark,fadethroughtransparent;sl:d,d,d,d,d,d,d,d,d;\" data-firstanim=\"t:fade;sl:12;\">\n          <img src=\"/assets/revslider/assets_slider3/dummy.png\" title=\"bg\" width=\"856\" height=\"500\" data-lazyload=\"./assets/revslider/assets_slider3/bg.png\" data-bg=\"f:100% 100%;\" data-parallax=\"2\" class=\"rev-slidebg\" data-no-retina>\n          <!--\n                                      --><h2\n          id=\"slider-3-slide-3-layer-1\"\n          class=\"rs-layer\"\n          data-type=\"text\"\n          data-color=\"#313e5b\"\n          data-rsp_ch=\"on\"\n          data-xy=\"x:l,l,l,c;xo:69px,15px,37px,-1px;yo:221px,141px,40px,30px;\"\n          data-text=\"s:48,36,42,28;l:65,65,70,55;a:inherit,inherit,inherit,center;\"\n          data-dim=\"w:auto,681px,681px,681px;\"\n          data-layeronlimit=\"on\"\n          data-frame_0=\"y:-50;\"\n          data-frame_1=\"st:600;sp:1000;sR:600;\"\n          data-frame_999=\"o:0;tp:600;st:w;sR:7400;\"\n          style=\"z-index:8;font-family:Lato;text-transform:capitalize;\"\n        >The Analytics Operating System for <br>Data-Driven Companies\n        </h2><!--\n\n\t\t\t\t\t\t\t--><p\n          id=\"slider-3-slide-3-layer-3\"\n          class=\"rs-layer\"\n          data-type=\"text\"\n          data-color=\"#525f81\"\n          data-rsp_ch=\"on\"\n          data-xy=\"x:l,l,l,c;xo:67px,15px,40px,5px;y:m;yo:56px,15px,-180px,-126px;\"\n          data-text=\"s:16,16,18,13;l:30;a:inherit,inherit,inherit,center;\"\n          data-frame_0=\"y:-50;\"\n          data-frame_1=\"st:900;sp:1000;sR:900;\"\n          data-frame_999=\"o:0;tp:600;st:w;sR:7100;\"\n          style=\"z-index:9;font-family:Karla;\"\n        >It is a long established fact that a reader will be distracted by the readable<br>content of a page when looking at its layout.\n        </p><!--\n\n\t\t\t\t\t\t\t--><rs-layer\n          id=\"slider-3-slide-3-layer-11\"\n          data-type=\"image\"\n          data-rsp_ch=\"on\"\n          data-xy=\"xo:867px,721px,226px,78px;yo:68px,82px,332px,258px;\"\n          data-text=\"w:normal;s:20,14,10,6;l:0,18,13,8;\"\n          data-dim=\"w:616px,298px,338px,350px;h:507px,245px,338px,288px;\"\n          data-frame_0=\"sX:0.9;sY:0.9;\"\n          data-frame_1=\"st:2400;sp:1000;sR:2400;\"\n          data-frame_999=\"o:0;st:w;sR:5600;\"\n          style=\"z-index:13;font-family:Roboto;\"\n        ><img src=\"./assets/revslider/assets_slider3/dummy.png\" width=\"890\" height=\"732\" data-lazyload=\"./assets/revslider/assets_slider3/1.png\" data-no-retina>\n        </rs-layer><!--\n\n\t\t\t\t\t\t\t--><rs-layer\n          id=\"slider-3-slide-3-layer-25\"\n          class=\"rs-pxl-1\"\n          data-type=\"image\"\n          data-rsp_ch=\"on\"\n          data-xy=\"xo:1309px,923px,549px,353px;yo:60px,85px,331px,280px;\"\n          data-text=\"w:normal;s:20,14,10,6;l:0,18,13,8;\"\n          data-dim=\"w:151px,110px,112px,77px;h:102px,74px,112px,77px;\"\n          data-frame_0=\"sX:0.9;sY:0.9;\"\n          data-frame_1=\"st:2100;sp:1000;sR:2100;\"\n          data-frame_999=\"o:0;st:w;sR:5900;\"\n          data-tloop=\"u:true;\"\n          data-loop_999=\"sX:0.8;sY:0.8;o:0.6;sp:2000;e:Power2.easeInOut;yys:t;yyf:t;\"\n          style=\"z-index:12;font-family:Roboto;\"\n        ><img src=\"./assets/revslider/assets_slider3/dummy.png\" width=\"364\" height=\"246\" data-lazyload=\"./assets/revslider/assets_slider3/2.png\" data-no-retina>\n        </rs-layer><!--\n\n\t\t\t\t\t\t\t--><rs-layer\n          id=\"slider-3-slide-3-layer-28\"\n          data-type=\"text\"\n          data-rsp_ch=\"on\"\n          data-xy=\"xo:72px,15px,40px,174px;yo:475px,367px,274px,231px;\"\n          data-text=\"w:normal;s:16,11,18,17;l:25,18,13,12;\"\n          data-dim=\"h:auto,auto,auto,17px;\"\n          data-frame_0=\"x:0,0,0,0px;y:-50,-36,-26,-24px;\"\n          data-frame_1=\"x:0,0,0,0px;y:0,0,0,0px;st:1200;sp:1000;sR:1200;\"\n          data-frame_999=\"o:0;st:w;sR:6800;\"\n          style=\"z-index:10;font-family:Roboto;\"\n        ><a class=\"button_link\" href=\"#\"><i class=\"fas fa fa-play\"></i>Watch Video</a>\n        </rs-layer><!--\n\n\t\t\t\t\t\t\t--><rs-layer\n          id=\"slider-3-slide-3-layer-29\"\n          data-type=\"image\"\n          data-rsp_ch=\"on\"\n          data-xy=\"xo:856px,674px,184px,36px;yo:70px,60px,362px,271px;\"\n          data-text=\"w:normal;s:20,14,10,6;l:0,18,13,8;\"\n          data-dim=\"w:738px,539px,470px,429px;h:607px,443px,387px,353px;\"\n          data-frame_0=\"sX:0.9;sY:0.9;\"\n          data-frame_1=\"st:1800;sp:930;sR:1800;\"\n          data-frame_999=\"o:0;st:w;sR:6270;\"\n          style=\"z-index:11;font-family:Roboto;\"\n        ><img src=\"./assets/revslider/assets_slider3/dummy.png\" width=\"890\" height=\"732\" data-lazyload=\"./assets/revslider/assets_slider3/7.png\" data-no-retina>\n        </rs-layer><!--\n\n\t\t\t\t\t\t\t--><rs-layer\n          id=\"slider-3-slide-3-layer-30\"\n          class=\"rs-pxl-1\"\n          data-type=\"image\"\n          data-rsp_ch=\"on\"\n          data-xy=\"xo:751px,631px,118px,0;yo:330px,217px,539px,461px;\"\n          data-text=\"w:normal;s:20,14,10,6;l:0,18,13,8;\"\n          data-dim=\"w:101px,73px,54px,69px;h:58px,42px,31px,40px;\"\n          data-frame_0=\"sX:0.9;sY:0.9;\"\n          data-frame_1=\"st:2700;sp:1000;sR:2700;\"\n          data-frame_999=\"o:0;st:w;sR:5300;\"\n          data-tloop=\"u:true;\"\n          data-loop_999=\"sX:0.8;sY:0.8;o:0.6;sp:2000;e:Power2.easeInOut;yys:t;yyf:t;\"\n          style=\"z-index:14;font-family:Roboto;\"\n        ><img src=\"./assets/revslider/assets_slider3/dummy.png\" width=\"261\" height=\"151\" data-lazyload=\"./assets/revslider/assets_slider3/6.png\" data-no-retina>\n        </rs-layer><!--\n\n\t\t\t\t\t\t\t--><rs-layer\n          id=\"slider-3-slide-3-layer-31\"\n          class=\"rs-pxl-2\"\n          data-type=\"image\"\n          data-rsp_ch=\"on\"\n          data-xy=\"xo:790px,678px,169px,81px;yo:497px,291px,649px,531px;\"\n          data-text=\"w:normal;s:20,14,10,6;l:0,18,13,8;\"\n          data-dim=\"w:131px,95px,71px,64px;h:99px,72px,53px,48px;\"\n          data-frame_0=\"sX:0.9;sY:0.9;\"\n          data-frame_1=\"st:3000;sp:1000;\"\n          data-frame_999=\"o:0;st:w;sR:5000;\"\n          data-loop_999=\"sX:1.2;sY:1.2;o:0.6;sp:2000;st:1000;e:Power0.easeInOut;yys:t;yyf:t;\"\n          style=\"z-index:15;font-family:Roboto;\"\n        ><img src=\"./assets/revslider/assets_slider3/dummy.png\" width=\"387\" height=\"292\" data-lazyload=\"./assets/revslider/assets_slider3/3.png\" data-no-retina>\n        </rs-layer><!--\n\n\t\t\t\t\t\t\t--><rs-layer\n          id=\"slider-3-slide-3-layer-32\"\n          class=\"rs-pxl-1\"\n          data-type=\"image\"\n          data-rsp_ch=\"on\"\n          data-xy=\"xo:1061px,776px,380px,245px;yo:614px,449px,703px,555px;\"\n          data-text=\"w:normal;s:20,14,10,6;l:0,18,13,8;\"\n          data-dim=\"w:87px,63px,47px,70px;h:52px,38px,28px,41px;\"\n          data-frame_0=\"y:-50,-36,-26,-16;\"\n          data-frame_1=\"st:3300;sp:1000;\"\n          data-frame_999=\"o:0;st:w;sR:4700;\"\n          data-tloop=\"u:true;\"\n          data-loop_999=\"sX:0.8;sY:0.8;o:0.6;sp:2000;e:Power2.easeInOut;yys:t;yyf:t;\"\n          style=\"z-index:16;font-family:Roboto;\"\n        ><img src=\"./assets/revslider/assets_slider3/dummy.png\" width=\"206\" height=\"122\" data-lazyload=\"./assets/revslider/assets_slider3/5.png\" data-no-retina>\n        </rs-layer><!--\n-->\t\t\t\t\t\t</rs-slide>\n      </rs-slides>\n      <rs-static-layers><!--\n\t\t\t\t\t--></rs-static-layers>\n      <rs-progress class=\"rs-bottom\" style=\"visibility: hidden !important;\"></rs-progress>\n    </rs-module>\n  </rs-module-wrap>\n  <!-- END REVOLUTION SLIDER -->\n</div>\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/landing-page3/components/service/service.component.html":
+/*!***************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/landing-page3/components/service/service.component.html ***!
+  \***************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<app-about-two [List]=\"Lists\" [titleSectionProp]=\"titleSectionProp\"></app-about-two>\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/landing-page3/components/why-choose-us/why-choose-us.component.html":
+/*!***************************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/landing-page3/components/why-choose-us/why-choose-us.component.html ***!
+  \***************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<app-choose-us [lists]=\"List\"></app-choose-us>\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/landing-page3/index/index.component.html":
+/*!************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/landing-page3/index/index.component.html ***!
+  \************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<!-- Header component start-->\n<app-header [logoImg]=\"logoImage\" [navItemList]=\"navItems\" [contactInfo]=\"contactInfo\"></app-header>\n<!-- Header component end-->\n<!-- START REVOLUTION SLIDER -->\n<app-revolution-slider3></app-revolution-slider3>\n<!-- END REVOLUTION SLIDER -->\n<!-- MainContent -->\n<div class=\"main-content\">\n  <!-- Choose-us -->\n      <app-why-choose-us></app-why-choose-us>\n  <!-- Choose-us -->\n  <!--  card-section-->\n      <app-card-section></app-card-section>\n  <!--  card-section End-->\n  <!-- About Us -->\n      <app-about-us></app-about-us>\n  <!-- About Us End-->\n    <!--Nav tab -->\n      <app-nav-tabs></app-nav-tabs>\n  <!-- Nav tab -->\n  <!-- client counter  -->\n      <app-client-counter></app-client-counter>\n  <!-- client counter End -->\n      <app-service></app-service>\n  <!-- PROCESS -->\n       <app-process></app-process>\n  <!-- PROCESS  End-->\n  <!-- Our Testimonials -->\n       <app-our-testimonials></app-our-testimonials>\n  <!-- Our Testimonials End -->\n  <!-- Blog -->\n      <app-our-blog></app-our-blog>\n  <!-- Blog End-->\n  <!--  Partner-->\n      <app-our-partner></app-our-partner>\n  <!--  Partner End-->\n</div>\n<!-- Footer start -->\n<app-footer [logoImg]=\"logoImage\" [contactInfo]=\"contactInfo\"></app-footer>\n<!-- Footer end -->\n");
 
 /***/ }),
 
@@ -176,7 +202,7 @@ let AboutUsComponent = class AboutUsComponent {
 AboutUsComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-about-us',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./about-us.component.html */ "./node_modules/raw-loader/index.js!./src/app/landing-page3/components/about-us/about-us.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./about-us.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/landing-page3/components/about-us/about-us.component.html")).default,
     })
 ], AboutUsComponent);
 
@@ -229,7 +255,7 @@ let CardSectionComponent = class CardSectionComponent {
 CardSectionComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-card-section',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./card-section.component.html */ "./node_modules/raw-loader/index.js!./src/app/landing-page3/components/card-section/card-section.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./card-section.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/landing-page3/components/card-section/card-section.component.html")).default,
     })
 ], CardSectionComponent);
 
@@ -283,7 +309,7 @@ let ClientCounterComponent = class ClientCounterComponent {
 ClientCounterComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-client-counter',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./client-counter.component.html */ "./node_modules/raw-loader/index.js!./src/app/landing-page3/components/client-counter/client-counter.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./client-counter.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/landing-page3/components/client-counter/client-counter.component.html")).default,
     })
 ], ClientCounterComponent);
 
@@ -350,7 +376,7 @@ let NavTabsComponent = class NavTabsComponent {
 NavTabsComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-nav-tabs',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./nav-tabs.component.html */ "./node_modules/raw-loader/index.js!./src/app/landing-page3/components/nav-tabs/nav-tabs.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./nav-tabs.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/landing-page3/components/nav-tabs/nav-tabs.component.html")).default,
     })
 ], NavTabsComponent);
 
@@ -417,7 +443,7 @@ let OurBlogComponent = class OurBlogComponent {
 OurBlogComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-our-blog',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./our-blog.component.html */ "./node_modules/raw-loader/index.js!./src/app/landing-page3/components/our-blog/our-blog.component.html")).default
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./our-blog.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/landing-page3/components/our-blog/our-blog.component.html")).default
     })
 ], OurBlogComponent);
 
@@ -447,7 +473,7 @@ let OurClientComponent = class OurClientComponent {
 OurClientComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-our-client',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./our-client.component.html */ "./node_modules/raw-loader/index.js!./src/app/landing-page3/components/our-client/our-client.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./our-client.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/landing-page3/components/our-client/our-client.component.html")).default,
     })
 ], OurClientComponent);
 
@@ -499,7 +525,7 @@ let OurPartnerComponent = class OurPartnerComponent {
 OurPartnerComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-our-partner',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./our-partner.component.html */ "./node_modules/raw-loader/index.js!./src/app/landing-page3/components/our-partner/our-partner.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./our-partner.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/landing-page3/components/our-partner/our-partner.component.html")).default,
     })
 ], OurPartnerComponent);
 
@@ -555,7 +581,7 @@ let OurTestimonialsComponent = class OurTestimonialsComponent {
 OurTestimonialsComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-our-testimonials',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./our-testimonials.component.html */ "./node_modules/raw-loader/index.js!./src/app/landing-page3/components/our-testimonials/our-testimonials.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./our-testimonials.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/landing-page3/components/our-testimonials/our-testimonials.component.html")).default,
     })
 ], OurTestimonialsComponent);
 
@@ -616,7 +642,7 @@ let ProcessComponent = class ProcessComponent {
 ProcessComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-process',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./process.component.html */ "./node_modules/raw-loader/index.js!./src/app/landing-page3/components/process/process.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./process.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/landing-page3/components/process/process.component.html")).default,
     })
 ], ProcessComponent);
 
@@ -646,7 +672,7 @@ let RevolutionSlider3Component = class RevolutionSlider3Component {
 RevolutionSlider3Component = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-revolution-slider3',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./revolution-slider3.component.html */ "./node_modules/raw-loader/index.js!./src/app/landing-page3/components/revolution-slider3/revolution-slider3.component.html")).default
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./revolution-slider3.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/landing-page3/components/revolution-slider3/revolution-slider3.component.html")).default
     })
 ], RevolutionSlider3Component);
 
@@ -724,7 +750,7 @@ let ServiceComponent = class ServiceComponent {
 ServiceComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-service',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./service.component.html */ "./node_modules/raw-loader/index.js!./src/app/landing-page3/components/service/service.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./service.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/landing-page3/components/service/service.component.html")).default,
     })
 ], ServiceComponent);
 
@@ -760,7 +786,7 @@ let WhyChooseUsComponent = class WhyChooseUsComponent {
 WhyChooseUsComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-why-choose-us',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./why-choose-us.component.html */ "./node_modules/raw-loader/index.js!./src/app/landing-page3/components/why-choose-us/why-choose-us.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./why-choose-us.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/landing-page3/components/why-choose-us/why-choose-us.component.html")).default,
     })
 ], WhyChooseUsComponent);
 
@@ -812,7 +838,7 @@ IndexComponent.ctorParameters = () => [
 IndexComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-index',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./index.component.html */ "./node_modules/raw-loader/index.js!./src/app/landing-page3/index/index.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./index.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/landing-page3/index/index.component.html")).default,
     })
 ], IndexComponent);
 

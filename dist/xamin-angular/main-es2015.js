@@ -93,630 +93,744 @@ module.exports = webpackAsyncContext;
 
 /***/ }),
 
-/***/ "./node_modules/raw-loader/index.js!./src/app/app.component.html":
-/*!**************************************************************!*\
-  !*** ./node_modules/raw-loader!./src/app/app.component.html ***!
-  \**************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/app.component.html":
+/*!**************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/app.component.html ***!
+  \**************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-module.exports = "<!-- Loader component start-->\n<app-loader></app-loader>\n<!-- Loader component end-->\n<router-outlet></router-outlet>\n<!-- Scroll Top component start -->\n<app-scroll-top></app-scroll-top>\n<!-- Scroll Top component end -->\n\n"
-
-/***/ }),
-
-/***/ "./node_modules/raw-loader/index.js!./src/app/landing-page1/components/revolution-slider1/revolution-slider1.component.html":
-/*!*************************************************************************************************************************!*\
-  !*** ./node_modules/raw-loader!./src/app/landing-page1/components/revolution-slider1/revolution-slider1.component.html ***!
-  \*************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<div class=\"iq-banner\">\n  <!-- START xamin REVOLUTION SLIDER 0.1.0 -->\n  <p class=\"rs-p-wp-fix\"></p>\n  <rs-module-wrap id=\"rev_slider_0_1_wrapper\" data-alias=\"xamin\" data-source=\"gallery\" style=\"background:transparent;padding:0;margin:0px auto;margin-top:0;margin-bottom:0;\">\n    <rs-module id=\"rev_slider_0_1\" class=\" rs-ov-hidden\" style=\"display:none;\" data-version=\"6.1.0\">\n      <rs-slides>\n        <rs-slide data-key=\"rs-6\" data-title=\"Slide\" data-anim=\"ei:d,d,d,d,d,d,d,d,d;eo:d,d,d,d,d,d,d,d,d;s:1000ms,d,d,d,d,d,d,d,d;r:0,0,0,0,0,0,0,0,0;t:fade,grayscale,blurlight,blurstrong,fade,crossfade,fadethroughlight,fadethroughdark,fadethroughtransparent;sl:d,d,d,d,d,d,d,d,d;\" data-firstanim=\"t:fade;sl:12;\">\n          <img src=\"{{ imgSrc }}/dummy.png\" alt=\"images\" title=\"01\" width=\"1600\" height=\"758\" data-lazyload=\"./assets/revslider/assets/01-2.jpg\" data-parallax=\"2\" class=\"rev-slidebg\" data-no-retina>\n          <h2 id=\"slider-4-slide-6-layer-1\" class=\"rs-layer\" data-type=\"text\" data-color=\"#313e5b\" data-rsp_ch=\"on\" data-xy=\"x:l,l,l,c;xo:95px,20px,37px,0;yo:221px,141px,40px,46px;\" data-text=\"s:48,48,50,42;l:65,65,70,55;fw:700;a:inherit,inherit,inherit,center;\" data-frame_0=\"y:-50;\" data-frame_1=\"st:600;sp:1000;sR:600;\" data-frame_999=\"o:0;tp:600;st:w;sR:7400;\" style=\"z-index:9;font-family:Lato;text-transform:capitalize;\">Applying Data Science<br> & Analytics To Life\n          </h2>\n          <p id=\"slider-4-slide-6-layer-3\" class=\"rs-layer\" data-type=\"text\" data-color=\"#525f81\" data-rsp_ch=\"on\" data-xy=\"x:l,l,l,c;xo:95px,15px,40px,0;y:m;yo:94px,15px,-180px,-102px;\" data-text=\"s:16,16,18,20;l:30;a:inherit,inherit,inherit,center;\" data-frame_0=\"y:-50;\" data-frame_1=\"st:900;sp:1000;sR:900;\" data-frame_999=\"o:0;tp:600;st:w;sR:7100;\" style=\"z-index:10;font-family:Karla;\">It is a long established fact that a reader will be\n            <br> distracted by the readable content.\n          </p>\n          <a id=\"slider-4-slide-6-layer-4\" class=\"rs-layer button rev-btn\" href=\"#\" target=\"_self\" rel=\"nofollow\" data-type=\"button\" data-xy=\"xo:95px,15px,40px,60px;y:m;yo:184px,95px,-90px,0;\" data-text=\"s:16,18,20,22;l:24;a:inherit,inherit,inherit,center;\" data-wrpcls=\"blue-btn\" data-padding=\"t:15;r:30;b:15;l:30;\" data-border=\"bor:90px,90px,90px,90px;\" data-frame_0=\"y:-50;\" data-frame_1=\"st:1350;sp:500;sR:1350;\" data-frame_999=\"o:0;tp:600;st:w;sR:7150;\" data-frame_hover=\"skX:0px;skY:0px;c:#fff;bgc:#313e5b;boc:#000;bor:90px,90px,90px,90px;bos:solid;oX:50;oY:50;sp:0;\" style=\"z-index:12;background-color:#437eeb;font-family:Karla;cursor:pointer;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;\">About Us\n          </a>\n          <a id=\"slider-4-slide-6-layer-5\" class=\"rs-layer button blue-btn rev-btn\" href=\"#\" target=\"_self\" rel=\"nofollow\" data-type=\"button\" data-xy=\"x:l,l,l,r;xo:241px,161px,196px,60px;y:m;yo:184px,96px,-90px,0;\" data-text=\"s:16,18,20,22;l:24;a:inherit;\" data-padding=\"t:15;r:30;b:15;l:30;\" data-border=\"bor:90px,90px,90px,90px;\" data-frame_0=\"y:-50;\" data-frame_1=\"st:1350;sp:500;sR:1350;\" data-frame_999=\"x:0;y:0;z:0;sX:1;sY:1;o:1;rX:0;rY:0;rZ:0;skX:0;skY:0;st:w;sp:1000;sR:7150;\" data-frame_hover=\"skX:0px;skY:0px;c:#fff;bgc:#437eeb;boc:#000;bor:90px,90px,90px,90px;bos:solid;oX:50;oY:50;sp:0;\" style=\"z-index:11;background-color:#313e5b;font-family:Karla;cursor:pointer;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;\">Contact Us\n          </a>\n          <rs-layer id=\"slider-4-slide-6-layer-11\" data-type=\"image\" data-rsp_ch=\"on\" data-xy=\"xo:865px,646px,230px,110px;yo:123px,47px,333px,333px;\" data-text=\"w:normal;s:20,14,10,6;l:0,18,13,8;\" data-dim=\"w:494px,361px,338px,234px;h:494px,361px,338px,234px;\" data-frame_0=\"y:top;\" data-frame_1=\"st:1610;sp:1000;sR:1610;\" data-frame_999=\"o:0;st:w;sR:6390;\" style=\"z-index:24;font-family:Roboto;\"><img src=\"{{ imgSrc }}/dummy.png\" alt=\"images\" width=\"445\" height=\"445\" data-lazyload=\"./assets/revslider/assets/01-4.png\" data-no-retina>\n          </rs-layer>\n          <rs-layer id=\"slider-4-slide-6-layer-12\" data-type=\"image\" data-rsp_ch=\"on\" data-xy=\"xo:955px,698px,149px,212px;yo:-134px,-135px,275px,335px;\" data-text=\"w:normal;s:20,14,10,6;l:0,18,13,8;\" data-dim=\"w:824px,602px,450px,281px;h:818px,598px,447px,279px;\" data-frame_1=\"e:Power4.easeInOut;sp:1500;\" data-frame_999=\"o:0;st:w;sR:7500;\" style=\"z-index:8;font-family:Roboto;\"><img src=\"{{ imgSrc }}/dummy.png\" alt=\"images\" width=\"824\" height=\"818\" data-lazyload=\"./assets/revslider/assets/10-2.png\" data-no-retina>\n          </rs-layer>\n          <rs-layer id=\"slider-4-slide-6-layer-13\" class=\"rs-pxl-1\" data-type=\"image\" data-rsp_ch=\"on\" data-xy=\"xo:874px,639px,197px,73px;yo:469px,306px,607px,505px;\" data-text=\"w:normal;s:20,14,10,6;l:0,18,13,8;\" data-dim=\"w:129px,94px,93px,58px;h:86px,62px,62px,38px;\" data-frame_0=\"y:top;\" data-frame_1=\"st:2980;sp:1000;sR:2980;\" data-frame_999=\"o:0;st:w;sR:5020;\" style=\"z-index:14;font-family:Roboto;\"><img src=\"{{ imgSrc }}/dummy.png\" alt=\"images\" width=\"300\" height=\"200\" data-lazyload=\"./assets/revslider/assets/03-5.png\" data-no-retina>\n          </rs-layer>\n          <rs-layer id=\"slider-4-slide-6-layer-14\" class=\"rs-pxl-1\" data-type=\"image\" data-rsp_ch=\"on\" data-xy=\"xo:842px,615px,181px,58px;yo:463px,301px,600px,496px;\" data-text=\"w:normal;s:20,14,10,6;l:0,18,13,8;\" data-dim=\"w:77px,56px,59px,44px;h:51px,37px,39px,29px;\" data-frame_0=\"y:top;\" data-frame_1=\"st:2970;sp:1000;sR:2970;\" data-frame_999=\"o:0;st:8900;sR:5030;\" style=\"z-index:16;font-family:Roboto;\"><img src=\"{{ imgSrc }}/dummy.png\" alt=\"images\" width=\"300\" height=\"200\" data-lazyload=\"./assets/revslider/assets/03-5.png\" data-no-retina>\n          </rs-layer>\n          <rs-layer id=\"slider-4-slide-6-layer-15\" class=\"rs-pxl-1\" data-type=\"image\" data-rsp_ch=\"on\" data-xy=\"xo:933px,682px,230px,112px;yo:497px,341px,634px,472px;\" data-text=\"w:normal;s:20,14,10,6;l:0,18,13,8;\" data-dim=\"w:77px,56px,71px,44px;h:51px,37px,47px,29px;\" data-frame_0=\"y:top;\" data-frame_1=\"st:2980;sp:1000;sR:2980;\" data-frame_999=\"o:0;st:w;sR:5020;\" style=\"z-index:15;font-family:Roboto;\"><img src=\"{{ imgSrc }}/dummy.png\" alt=\"images\" width=\"300\" height=\"200\" data-lazyload=\"./assets/revslider/assets/03-5.png\" data-no-retina>\n          </rs-layer>\n          <rs-layer id=\"slider-4-slide-6-layer-16\" class=\"rs-pxl-2\" data-type=\"image\" data-rsp_ch=\"on\" data-xy=\"x:r;xo:294px,212px,397px,263px;y:b;yo:-8px,173px,80px,12px;\" data-text=\"w:normal;s:20,14,10,6;l:0,18,13,8;\" data-dim=\"w:110px,80px,81px,63px;h:73px,53px,54px,42px;\" data-frame_0=\"y:top;\" data-frame_1=\"st:3020;sp:1000;sR:3020;\" data-frame_999=\"o:0;st:w;sR:4980;\" data-tloop=\"u:true;\" data-loop_0=\"xR:10px;yR:10px;\" data-loop_999=\"xR:10px;yR:10px;crd:t;sp:3000;\" style=\"z-index:17;font-family:Roboto;\"><img src=\"{{ imgSrc }}/dummy.png\" alt=\"img\" width=\"300\" height=\"200\" data-lazyload=\"./assets/revslider/assets/08-3.png\" data-no-retina>\n          </rs-layer>\n          <rs-layer id=\"slider-4-slide-6-layer-18\" data-type=\"image\" data-rsp_ch=\"on\" data-xy=\"xo:1099px,803px,424px,283px;yo:521px,358px,686px,503px;\" data-text=\"w:normal;s:20,14,10,6;l:0,18,13,8;\" data-dim=\"w:155px,113px,84px,52px;h:103px,75px,56px,34px;\" data-frame_0=\"y:top;\" data-frame_1=\"st:3130;sp:1000;sR:3130;\" data-frame_999=\"o:0;st:w;sR:4870;\" style=\"z-index:18;font-family:Roboto;\"><img src=\"{{ imgSrc }}/dummy.png\" alt=\"images\" width=\"300\" height=\"200\" data-lazyload=\"./assets/revslider/assets/07-4.png\" data-no-retina>\n          </rs-layer>\n          <rs-layer id=\"slider-4-slide-6-layer-19\" data-type=\"image\" data-rsp_ch=\"on\" data-xy=\"xo:1172px,874px,456px,72px;yo:456px,296px,558px,481px;\" data-text=\"w:normal;s:20,14,10,6;l:0,18,13,8;\" data-dim=\"w:195px,142px,156px,117px;h:130px,95px,104px,78px;\" data-frame_0=\"y:top;\" data-frame_1=\"st:3270;sp:1000;sR:3270;\" data-frame_999=\"o:0;st:w;sR:4730;\" style=\"z-index:19;font-family:Roboto;\"><img src=\"{{ imgSrc }}/dummy.png\" alt=\"images\" width=\"300\" height=\"200\" data-lazyload=\"./assets/revslider/assets/05-4.png\" data-no-retina>\n          </rs-layer>\n          <rs-layer id=\"slider-4-slide-6-layer-20\" class=\"rs-pxl-3\" data-type=\"image\" data-rsp_ch=\"on\" data-xy=\"xo:924px,932px,193px,310px;yo:180px,222px,377px,426px;\" data-text=\"w:normal;s:20,14,10,6;l:0,18,13,8;\" data-dim=\"w:154px,112px,119px,92px;h:103px,75px,79px,61px;\" data-frame_0=\"y:-50,-36,-26,-16;\" data-frame_1=\"st:3960;sp:1000;sR:3960;\" data-frame_999=\"o:0;st:w;sR:4040;\" data-tloop=\"u:true;\" data-loop_999=\"sX:0.8;sY:0.8;sp:2000;e:Power0.easeInOut;yys:t;yyf:t;\" style=\"z-index:26;font-family:Roboto;\"><img src=\"{{ imgSrc }}/dummy.png\" alt=\"images\" width=\"300\" height=\"200\" data-lazyload=\"./assets/revslider/assets/06-6.png\" data-no-retina>\n          </rs-layer>\n          <rs-layer id=\"slider-4-slide-6-layer-21\" class=\"rs-pxl-1\" data-type=\"image\" data-rsp_ch=\"on\" data-xy=\"xo:765px,559px,128px,42px;yo:323px,199px,434px,444px;\" data-text=\"w:normal;s:20,14,10,6;l:0,18,13,8;\" data-dim=\"w:156px,114px,116px,72px;h:104px,76px,77px,48px;\" data-frame_0=\"y:top;\" data-frame_1=\"st:3380;sp:1000;sR:3380;\" data-frame_999=\"o:0;st:w;sR:4620;\" style=\"z-index:20;font-family:Roboto;\"><img src=\"{{ imgSrc }}/dummy.png\" alt=\"img\" width=\"300\" height=\"200\" data-lazyload=\"./assets/revslider/assets/04-5.png\" data-no-retina>\n          </rs-layer>\n          <rs-layer id=\"slider-4-slide-6-layer-22\" class=\"rs-pxl-3\" data-type=\"image\" data-rsp_ch=\"on\" data-xy=\"xo:886px,648px,363px,237px;yo:267px,158px,631px,530px;\" data-text=\"w:normal;s:20,14,10,6;l:0,18,13,8;\" data-dim=\"w:123px,89px,90px,66px;h:82px,59px,60px,44px;\" data-frame_0=\"y:top;\" data-frame_1=\"st:3720;sp:1000;sR:3720;\" data-frame_999=\"o:0;st:w;sR:4280;\" data-tloop=\"u:true;\" data-loop_0=\"y:-10;\" data-loop_999=\"y:10;crd:t;sp:5000;e:Sine.easeInOut;yym:t;\" style=\"z-index:22;font-family:Roboto;\"><img src=\"{{ imgSrc }}/dummy.png\" alt=\"images\" width=\"300\" height=\"200\" data-lazyload=\"./assets/revslider/assets/09-3.png\" data-no-retina>\n          </rs-layer>\n          <rs-layer id=\"slider-4-slide-6-layer-23\" class=\"rs-pxl-1\" data-type=\"image\" data-rsp_ch=\"on\" data-xy=\"xo:1220px,892px,458px,124px;yo:264px,156px,446px,417px;\" data-text=\"w:normal;s:20,14,10,6;l:0,18,13,8;\" data-dim=\"w:129px,94px,70px,43px;h:86px,62px,46px,28px;\" data-frame_0=\"y:top;\" data-frame_1=\"st:3480;sp:1000;sR:3480;\" data-frame_999=\"o:0;st:w;sR:4520;\" style=\"z-index:21;font-family:Roboto;\"><img src=\"{{ imgSrc }}/dummy.png\" alt=\"images\" width=\"300\" height=\"200\" data-lazyload=\"./assets/revslider/assets/03-5.png\" data-no-retina>\n          </rs-layer>\n          <rs-layer id=\"slider-4-slide-6-layer-24\" class=\"rs-pxl-1\" data-type=\"image\" data-rsp_ch=\"on\" data-xy=\"xo:1279px,935px,491px,136px;yo:312px,191px,473px,398px;\" data-text=\"w:normal;s:20,14,10,6;l:0,18,13,8;\" data-dim=\"w:77px,56px,41px,57px;h:51px,37px,27px,38px;\" data-frame_0=\"y:top;\" data-frame_1=\"st:2280;sp:1000;sR:2280;\" data-frame_999=\"o:0;st:w;sR:5720;\" style=\"z-index:13;font-family:Roboto;\"><img src=\"{{ imgSrc }}/dummy.png\" alt=\"images\" width=\"300\" height=\"200\" data-lazyload=\"./assets/revslider/assets/03-5.png\" data-no-retina>\n          </rs-layer>\n          <rs-layer id=\"slider-4-slide-6-layer-25\" class=\"rs-pxl-2\" data-type=\"image\" data-rsp_ch=\"on\" data-xy=\"xo:1111px,923px,452px,271px;yo:130px,85px,308px,338px;\" data-text=\"w:normal;s:20,14,10,6;l:0,18,13,8;\" data-dim=\"w:151px,110px,112px,77px;h:151px,110px,112px,77px;\" data-frame_0=\"y:top;\" data-frame_1=\"st:4080;sp:1000;sR:4080;\" data-frame_999=\"o:0;st:w;sR:3920;\" data-tloop=\"u:true;\" data-loop_0=\"y:-10;\" data-loop_999=\"y:10;sp:6000;e:Sine.easeInOut;yym:t;\" style=\"z-index:23;font-family:Roboto;\"><img src=\"{{ imgSrc }}/dummy.png\" alt=\"images\" width=\"200\" height=\"200\" data-lazyload=\"./assets/revslider/assets/02.png\" data-no-retina>\n          </rs-layer>\n          <rs-layer id=\"slider-4-slide-6-layer-26\" data-type=\"image\" data-rsp_ch=\"on\" data-xy=\"xo:1077px,806px,369px,207px;yo:245px,139px,417px,388px;\" data-text=\"w:normal;s:20,14,10,6;l:0,18,13,8;\" data-dim=\"w:120px,87px,96px,69px;h:118px,86px,94px,68px;\" data-frame_0=\"x:175%;o:1;\" data-frame_0_mask=\"u:t;x:-100%;\" data-frame_1=\"e:Power3.easeOut;st:4610;sp:1000;sR:4610;\" data-frame_1_mask=\"u:t;\" data-frame_999=\"o:0;st:w;sR:3390;\" style=\"z-index:25;font-family:Roboto;\"><img src=\"{{ imgSrc }}/dummy.png\" alt=\"images\" width=\"172\" height=\"169\" data-lazyload=\"./assets/revslider/assets/11.png\" data-no-retina>\n          </rs-layer>\n        </rs-slide>\n      </rs-slides>\n      <rs-static-layers>\n      </rs-static-layers>\n      <rs-progress class=\"rs-bottom\" style=\"visibility: hidden !important;\"></rs-progress>\n    </rs-module>\n  </rs-module-wrap>\n  <!-- END REVOLUTION SLIDER -->\n</div>\n"
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<!-- Loader component start-->\n<app-loader></app-loader>\n<!-- Loader component end-->\n<router-outlet></router-outlet>\n<!-- Scroll Top component start -->\n<app-scroll-top></app-scroll-top>\n<!-- Scroll Top component end -->\n\n");
 
 /***/ }),
 
-/***/ "./node_modules/raw-loader/index.js!./src/app/landing-page1/components/section-eight-award/section-eight-award.component.html":
-/*!***************************************************************************************************************************!*\
-  !*** ./node_modules/raw-loader!./src/app/landing-page1/components/section-eight-award/section-eight-award.component.html ***!
-  \***************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/landing-page1/components/revolution-slider1/revolution-slider1.component.html":
+/*!*************************************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/landing-page1/components/revolution-slider1/revolution-slider1.component.html ***!
+  \*************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-module.exports = "<p>section-eight-award works!</p>\n"
-
-/***/ }),
-
-/***/ "./node_modules/raw-loader/index.js!./src/app/landing-page1/components/section-five-customer/section-five-customer.component.html":
-/*!*******************************************************************************************************************************!*\
-  !*** ./node_modules/raw-loader!./src/app/landing-page1/components/section-five-customer/section-five-customer.component.html ***!
-  \*******************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<section class=\"xamin-blue-bg\">\n  <div class=\"container\">\n    <div class=\"row\">\n      <div class=\"col-sm-12  wow fadeInUp  \">\n        <div class=\"title-box wow fadeInUp text-white text-center\">\n          <span class=\"title-design sub-title\">customers</span>\n          <h2>Discover customer successful stories</h2>\n        </div>\n        <div class=\" text-center mb-5 pb-4 \">\n          <a href=\"clients.html\" class=\"button white-btn button-icon\"> <span class=\"btn-effect\"> View Customer Stories</span> </a>\n        </div>\n      </div>\n    </div>\n    <div class=\"row mb-5\">\n      <div class=\"col-md-12 wow fadeInUp\">\n        <div class=\"owl-carousel client-logo owl-loaded owl-drag\" data-dots=\"false\" data-nav=\"false\" data-items=\"6\" data-items-laptop=\"4\" data-items-tab=\"3\" data-items-mobile=\"2\" data-items-mobile-sm=\"1\" data-autoplay=\"true\" data-loop=\"true\" data-margin=\"30\">\n          <div class=\"item\">\n            <div class=\"clients-box\"> <img class=\"img-fluid client-img\" src=\"./assets/images/partners/white-1.png\" alt=\"client-image\"> </div>\n          </div>\n          <div class=\"item\">\n            <div class=\"clients-box\"> <img class=\"img-fluid client-img\" src=\"./assets/images/partners/white-2.png\" alt=\"client-image\"> </div>\n          </div>\n          <div class=\"item\">\n            <div class=\"clients-box\"> <img class=\"img-fluid client-img\" src=\"./assets/images/partners/white-3.png\" alt=\"client-image\"> </div>\n          </div>\n          <div class=\"item\">\n            <div class=\"clients-box\"> <img class=\"img-fluid client-img\" src=\"./assets/images/partners/white-4.png\" alt=\"client-image\"> </div>\n          </div>\n          <div class=\"item\">\n            <div class=\"clients-box\"> <img class=\"img-fluid client-img\" src=\"./assets/images/partners/white-1.png\" alt=\"client-image\"> </div>\n          </div>\n          <div class=\"item\">\n            <div class=\"clients-box\"> <img class=\"img-fluid client-img\" src=\"./assets/images/partners/white-2.png\" alt=\"client-image\"> </div>\n          </div>\n        </div>\n      </div>\n    </div>\n    <div class=\"row\">\n      <div class=\"col-sm-12 offset-lg-2 col-lg-8 wow fadeInUp\">\n        <div class=\"owl-carousel client-logo owl-loaded owl-drag\" data-dots=\"false\" data-nav=\"false\" data-items=\"4\" data-items-laptop=\"4\" data-items-tab=\"3\" data-items-mobile=\"2\" data-items-mobile-sm=\"1\" data-autoplay=\"true\" data-loop=\"true\" data-margin=\"30\">\n          <div class=\"item\">\n            <div class=\"clients-box\"> <img class=\"img-fluid client-img\" src=\"./assets/images/partners/white-2.png\" alt=\"client-image\"> </div>\n          </div>\n          <div class=\"item\">\n            <div class=\"clients-box\"> <img class=\"img-fluid client-img\" src=\"./assets/images/partners/white-1.png\" alt=\"client-image\"> </div>\n          </div>\n          <div class=\"item\">\n            <div class=\"clients-box\"> <img class=\"img-fluid client-img\" src=\"./assets/images/partners/white-4.png\" alt=\"client-image\"> </div>\n          </div>\n          <div class=\"item\">\n            <div class=\"clients-box\"> <img class=\"img-fluid client-img\" src=\"./assets/images/partners/white-1.png\" alt=\"client-image\"> </div>\n          </div>\n          <div class=\"item\">\n            <div class=\"clients-box\"> <img class=\"img-fluid client-img\" src=\"./assets/images/partners/white-2.png\" alt=\"client-image\"> </div>\n          </div>\n          <div class=\"item\">\n            <div class=\"clients-box\"> <img class=\"img-fluid client-img\" src=\"./assets/images/partners/white-3.png\" alt=\"client-image\"> </div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</section>\n"
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"iq-banner\">\n  <!-- START xamin REVOLUTION SLIDER 0.1.0 -->\n  <p class=\"rs-p-wp-fix\"></p>\n  <rs-module-wrap id=\"rev_slider_0_1_wrapper\" data-alias=\"xamin\" data-source=\"gallery\" style=\"background:transparent;padding:0;margin:0px auto;margin-top:0;margin-bottom:0;\">\n    <rs-module id=\"rev_slider_0_1\" class=\" rs-ov-hidden\" style=\"display:none;\" data-version=\"6.1.0\">\n      <rs-slides>\n        <rs-slide data-key=\"rs-6\" data-title=\"Slide\" data-anim=\"ei:d,d,d,d,d,d,d,d,d;eo:d,d,d,d,d,d,d,d,d;s:1000ms,d,d,d,d,d,d,d,d;r:0,0,0,0,0,0,0,0,0;t:fade,grayscale,blurlight,blurstrong,fade,crossfade,fadethroughlight,fadethroughdark,fadethroughtransparent;sl:d,d,d,d,d,d,d,d,d;\" data-firstanim=\"t:fade;sl:12;\">\n          <img src=\"{{ imgSrc }}/dummy.png\" alt=\"images\" title=\"01\" width=\"1600\" height=\"758\" data-lazyload=\"./assets/revslider/assets/01-2.jpg\" data-parallax=\"2\" class=\"rev-slidebg\" data-no-retina>\n          <h2 id=\"slider-4-slide-6-layer-1\" class=\"rs-layer\" data-type=\"text\" data-color=\"#313e5b\" data-rsp_ch=\"on\" data-xy=\"x:l,l,l,c;xo:95px,20px,37px,0;yo:221px,141px,40px,46px;\" data-text=\"s:48,48,50,42;l:65,65,70,55;fw:700;a:inherit,inherit,inherit,center;\" data-frame_0=\"y:-50;\" data-frame_1=\"st:600;sp:1000;sR:600;\" data-frame_999=\"o:0;tp:600;st:w;sR:7400;\" style=\"z-index:9;font-family:Lato;text-transform:capitalize;\">Applying Data Science<br> & Analytics To Life\n          </h2>\n          <p id=\"slider-4-slide-6-layer-3\" class=\"rs-layer\" data-type=\"text\" data-color=\"#525f81\" data-rsp_ch=\"on\" data-xy=\"x:l,l,l,c;xo:95px,15px,40px,0;y:m;yo:94px,15px,-180px,-102px;\" data-text=\"s:16,16,18,20;l:30;a:inherit,inherit,inherit,center;\" data-frame_0=\"y:-50;\" data-frame_1=\"st:900;sp:1000;sR:900;\" data-frame_999=\"o:0;tp:600;st:w;sR:7100;\" style=\"z-index:10;font-family:Karla;\">It is a long established fact that a reader will be\n            <br> distracted by the readable content.\n          </p>\n          <a id=\"slider-4-slide-6-layer-4\" class=\"rs-layer button rev-btn\" href=\"#\" target=\"_self\" rel=\"nofollow\" data-type=\"button\" data-xy=\"xo:95px,15px,40px,60px;y:m;yo:184px,95px,-90px,0;\" data-text=\"s:16,18,20,22;l:24;a:inherit,inherit,inherit,center;\" data-wrpcls=\"blue-btn\" data-padding=\"t:15;r:30;b:15;l:30;\" data-border=\"bor:90px,90px,90px,90px;\" data-frame_0=\"y:-50;\" data-frame_1=\"st:1350;sp:500;sR:1350;\" data-frame_999=\"o:0;tp:600;st:w;sR:7150;\" data-frame_hover=\"skX:0px;skY:0px;c:#fff;bgc:#313e5b;boc:#000;bor:90px,90px,90px,90px;bos:solid;oX:50;oY:50;sp:0;\" style=\"z-index:12;background-color:#437eeb;font-family:Karla;cursor:pointer;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;\">About Us\n          </a>\n          <a id=\"slider-4-slide-6-layer-5\" class=\"rs-layer button blue-btn rev-btn\" href=\"#\" target=\"_self\" rel=\"nofollow\" data-type=\"button\" data-xy=\"x:l,l,l,r;xo:241px,161px,196px,60px;y:m;yo:184px,96px,-90px,0;\" data-text=\"s:16,18,20,22;l:24;a:inherit;\" data-padding=\"t:15;r:30;b:15;l:30;\" data-border=\"bor:90px,90px,90px,90px;\" data-frame_0=\"y:-50;\" data-frame_1=\"st:1350;sp:500;sR:1350;\" data-frame_999=\"x:0;y:0;z:0;sX:1;sY:1;o:1;rX:0;rY:0;rZ:0;skX:0;skY:0;st:w;sp:1000;sR:7150;\" data-frame_hover=\"skX:0px;skY:0px;c:#fff;bgc:#437eeb;boc:#000;bor:90px,90px,90px,90px;bos:solid;oX:50;oY:50;sp:0;\" style=\"z-index:11;background-color:#313e5b;font-family:Karla;cursor:pointer;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;\">Contact Us\n          </a>\n          <rs-layer id=\"slider-4-slide-6-layer-11\" data-type=\"image\" data-rsp_ch=\"on\" data-xy=\"xo:865px,646px,230px,110px;yo:123px,47px,333px,333px;\" data-text=\"w:normal;s:20,14,10,6;l:0,18,13,8;\" data-dim=\"w:494px,361px,338px,234px;h:494px,361px,338px,234px;\" data-frame_0=\"y:top;\" data-frame_1=\"st:1610;sp:1000;sR:1610;\" data-frame_999=\"o:0;st:w;sR:6390;\" style=\"z-index:24;font-family:Roboto;\"><img src=\"{{ imgSrc }}/dummy.png\" alt=\"images\" width=\"445\" height=\"445\" data-lazyload=\"./assets/revslider/assets/01-4.png\" data-no-retina>\n          </rs-layer>\n          <rs-layer id=\"slider-4-slide-6-layer-12\" data-type=\"image\" data-rsp_ch=\"on\" data-xy=\"xo:955px,698px,149px,212px;yo:-134px,-135px,275px,335px;\" data-text=\"w:normal;s:20,14,10,6;l:0,18,13,8;\" data-dim=\"w:824px,602px,450px,281px;h:818px,598px,447px,279px;\" data-frame_1=\"e:Power4.easeInOut;sp:1500;\" data-frame_999=\"o:0;st:w;sR:7500;\" style=\"z-index:8;font-family:Roboto;\"><img src=\"{{ imgSrc }}/dummy.png\" alt=\"images\" width=\"824\" height=\"818\" data-lazyload=\"./assets/revslider/assets/10-2.png\" data-no-retina>\n          </rs-layer>\n          <rs-layer id=\"slider-4-slide-6-layer-13\" class=\"rs-pxl-1\" data-type=\"image\" data-rsp_ch=\"on\" data-xy=\"xo:874px,639px,197px,73px;yo:469px,306px,607px,505px;\" data-text=\"w:normal;s:20,14,10,6;l:0,18,13,8;\" data-dim=\"w:129px,94px,93px,58px;h:86px,62px,62px,38px;\" data-frame_0=\"y:top;\" data-frame_1=\"st:2980;sp:1000;sR:2980;\" data-frame_999=\"o:0;st:w;sR:5020;\" style=\"z-index:14;font-family:Roboto;\"><img src=\"{{ imgSrc }}/dummy.png\" alt=\"images\" width=\"300\" height=\"200\" data-lazyload=\"./assets/revslider/assets/03-5.png\" data-no-retina>\n          </rs-layer>\n          <rs-layer id=\"slider-4-slide-6-layer-14\" class=\"rs-pxl-1\" data-type=\"image\" data-rsp_ch=\"on\" data-xy=\"xo:842px,615px,181px,58px;yo:463px,301px,600px,496px;\" data-text=\"w:normal;s:20,14,10,6;l:0,18,13,8;\" data-dim=\"w:77px,56px,59px,44px;h:51px,37px,39px,29px;\" data-frame_0=\"y:top;\" data-frame_1=\"st:2970;sp:1000;sR:2970;\" data-frame_999=\"o:0;st:8900;sR:5030;\" style=\"z-index:16;font-family:Roboto;\"><img src=\"{{ imgSrc }}/dummy.png\" alt=\"images\" width=\"300\" height=\"200\" data-lazyload=\"./assets/revslider/assets/03-5.png\" data-no-retina>\n          </rs-layer>\n          <rs-layer id=\"slider-4-slide-6-layer-15\" class=\"rs-pxl-1\" data-type=\"image\" data-rsp_ch=\"on\" data-xy=\"xo:933px,682px,230px,112px;yo:497px,341px,634px,472px;\" data-text=\"w:normal;s:20,14,10,6;l:0,18,13,8;\" data-dim=\"w:77px,56px,71px,44px;h:51px,37px,47px,29px;\" data-frame_0=\"y:top;\" data-frame_1=\"st:2980;sp:1000;sR:2980;\" data-frame_999=\"o:0;st:w;sR:5020;\" style=\"z-index:15;font-family:Roboto;\"><img src=\"{{ imgSrc }}/dummy.png\" alt=\"images\" width=\"300\" height=\"200\" data-lazyload=\"./assets/revslider/assets/03-5.png\" data-no-retina>\n          </rs-layer>\n          <rs-layer id=\"slider-4-slide-6-layer-16\" class=\"rs-pxl-2\" data-type=\"image\" data-rsp_ch=\"on\" data-xy=\"x:r;xo:294px,212px,397px,263px;y:b;yo:-8px,173px,80px,12px;\" data-text=\"w:normal;s:20,14,10,6;l:0,18,13,8;\" data-dim=\"w:110px,80px,81px,63px;h:73px,53px,54px,42px;\" data-frame_0=\"y:top;\" data-frame_1=\"st:3020;sp:1000;sR:3020;\" data-frame_999=\"o:0;st:w;sR:4980;\" data-tloop=\"u:true;\" data-loop_0=\"xR:10px;yR:10px;\" data-loop_999=\"xR:10px;yR:10px;crd:t;sp:3000;\" style=\"z-index:17;font-family:Roboto;\"><img src=\"{{ imgSrc }}/dummy.png\" alt=\"img\" width=\"300\" height=\"200\" data-lazyload=\"./assets/revslider/assets/08-3.png\" data-no-retina>\n          </rs-layer>\n          <rs-layer id=\"slider-4-slide-6-layer-18\" data-type=\"image\" data-rsp_ch=\"on\" data-xy=\"xo:1099px,803px,424px,283px;yo:521px,358px,686px,503px;\" data-text=\"w:normal;s:20,14,10,6;l:0,18,13,8;\" data-dim=\"w:155px,113px,84px,52px;h:103px,75px,56px,34px;\" data-frame_0=\"y:top;\" data-frame_1=\"st:3130;sp:1000;sR:3130;\" data-frame_999=\"o:0;st:w;sR:4870;\" style=\"z-index:18;font-family:Roboto;\"><img src=\"{{ imgSrc }}/dummy.png\" alt=\"images\" width=\"300\" height=\"200\" data-lazyload=\"./assets/revslider/assets/07-4.png\" data-no-retina>\n          </rs-layer>\n          <rs-layer id=\"slider-4-slide-6-layer-19\" data-type=\"image\" data-rsp_ch=\"on\" data-xy=\"xo:1172px,874px,456px,72px;yo:456px,296px,558px,481px;\" data-text=\"w:normal;s:20,14,10,6;l:0,18,13,8;\" data-dim=\"w:195px,142px,156px,117px;h:130px,95px,104px,78px;\" data-frame_0=\"y:top;\" data-frame_1=\"st:3270;sp:1000;sR:3270;\" data-frame_999=\"o:0;st:w;sR:4730;\" style=\"z-index:19;font-family:Roboto;\"><img src=\"{{ imgSrc }}/dummy.png\" alt=\"images\" width=\"300\" height=\"200\" data-lazyload=\"./assets/revslider/assets/05-4.png\" data-no-retina>\n          </rs-layer>\n          <rs-layer id=\"slider-4-slide-6-layer-20\" class=\"rs-pxl-3\" data-type=\"image\" data-rsp_ch=\"on\" data-xy=\"xo:924px,932px,193px,310px;yo:180px,222px,377px,426px;\" data-text=\"w:normal;s:20,14,10,6;l:0,18,13,8;\" data-dim=\"w:154px,112px,119px,92px;h:103px,75px,79px,61px;\" data-frame_0=\"y:-50,-36,-26,-16;\" data-frame_1=\"st:3960;sp:1000;sR:3960;\" data-frame_999=\"o:0;st:w;sR:4040;\" data-tloop=\"u:true;\" data-loop_999=\"sX:0.8;sY:0.8;sp:2000;e:Power0.easeInOut;yys:t;yyf:t;\" style=\"z-index:26;font-family:Roboto;\"><img src=\"{{ imgSrc }}/dummy.png\" alt=\"images\" width=\"300\" height=\"200\" data-lazyload=\"./assets/revslider/assets/06-6.png\" data-no-retina>\n          </rs-layer>\n          <rs-layer id=\"slider-4-slide-6-layer-21\" class=\"rs-pxl-1\" data-type=\"image\" data-rsp_ch=\"on\" data-xy=\"xo:765px,559px,128px,42px;yo:323px,199px,434px,444px;\" data-text=\"w:normal;s:20,14,10,6;l:0,18,13,8;\" data-dim=\"w:156px,114px,116px,72px;h:104px,76px,77px,48px;\" data-frame_0=\"y:top;\" data-frame_1=\"st:3380;sp:1000;sR:3380;\" data-frame_999=\"o:0;st:w;sR:4620;\" style=\"z-index:20;font-family:Roboto;\"><img src=\"{{ imgSrc }}/dummy.png\" alt=\"img\" width=\"300\" height=\"200\" data-lazyload=\"./assets/revslider/assets/04-5.png\" data-no-retina>\n          </rs-layer>\n          <rs-layer id=\"slider-4-slide-6-layer-22\" class=\"rs-pxl-3\" data-type=\"image\" data-rsp_ch=\"on\" data-xy=\"xo:886px,648px,363px,237px;yo:267px,158px,631px,530px;\" data-text=\"w:normal;s:20,14,10,6;l:0,18,13,8;\" data-dim=\"w:123px,89px,90px,66px;h:82px,59px,60px,44px;\" data-frame_0=\"y:top;\" data-frame_1=\"st:3720;sp:1000;sR:3720;\" data-frame_999=\"o:0;st:w;sR:4280;\" data-tloop=\"u:true;\" data-loop_0=\"y:-10;\" data-loop_999=\"y:10;crd:t;sp:5000;e:Sine.easeInOut;yym:t;\" style=\"z-index:22;font-family:Roboto;\"><img src=\"{{ imgSrc }}/dummy.png\" alt=\"images\" width=\"300\" height=\"200\" data-lazyload=\"./assets/revslider/assets/09-3.png\" data-no-retina>\n          </rs-layer>\n          <rs-layer id=\"slider-4-slide-6-layer-23\" class=\"rs-pxl-1\" data-type=\"image\" data-rsp_ch=\"on\" data-xy=\"xo:1220px,892px,458px,124px;yo:264px,156px,446px,417px;\" data-text=\"w:normal;s:20,14,10,6;l:0,18,13,8;\" data-dim=\"w:129px,94px,70px,43px;h:86px,62px,46px,28px;\" data-frame_0=\"y:top;\" data-frame_1=\"st:3480;sp:1000;sR:3480;\" data-frame_999=\"o:0;st:w;sR:4520;\" style=\"z-index:21;font-family:Roboto;\"><img src=\"{{ imgSrc }}/dummy.png\" alt=\"images\" width=\"300\" height=\"200\" data-lazyload=\"./assets/revslider/assets/03-5.png\" data-no-retina>\n          </rs-layer>\n          <rs-layer id=\"slider-4-slide-6-layer-24\" class=\"rs-pxl-1\" data-type=\"image\" data-rsp_ch=\"on\" data-xy=\"xo:1279px,935px,491px,136px;yo:312px,191px,473px,398px;\" data-text=\"w:normal;s:20,14,10,6;l:0,18,13,8;\" data-dim=\"w:77px,56px,41px,57px;h:51px,37px,27px,38px;\" data-frame_0=\"y:top;\" data-frame_1=\"st:2280;sp:1000;sR:2280;\" data-frame_999=\"o:0;st:w;sR:5720;\" style=\"z-index:13;font-family:Roboto;\"><img src=\"{{ imgSrc }}/dummy.png\" alt=\"images\" width=\"300\" height=\"200\" data-lazyload=\"./assets/revslider/assets/03-5.png\" data-no-retina>\n          </rs-layer>\n          <rs-layer id=\"slider-4-slide-6-layer-25\" class=\"rs-pxl-2\" data-type=\"image\" data-rsp_ch=\"on\" data-xy=\"xo:1111px,923px,452px,271px;yo:130px,85px,308px,338px;\" data-text=\"w:normal;s:20,14,10,6;l:0,18,13,8;\" data-dim=\"w:151px,110px,112px,77px;h:151px,110px,112px,77px;\" data-frame_0=\"y:top;\" data-frame_1=\"st:4080;sp:1000;sR:4080;\" data-frame_999=\"o:0;st:w;sR:3920;\" data-tloop=\"u:true;\" data-loop_0=\"y:-10;\" data-loop_999=\"y:10;sp:6000;e:Sine.easeInOut;yym:t;\" style=\"z-index:23;font-family:Roboto;\"><img src=\"{{ imgSrc }}/dummy.png\" alt=\"images\" width=\"200\" height=\"200\" data-lazyload=\"./assets/revslider/assets/02.png\" data-no-retina>\n          </rs-layer>\n          <rs-layer id=\"slider-4-slide-6-layer-26\" data-type=\"image\" data-rsp_ch=\"on\" data-xy=\"xo:1077px,806px,369px,207px;yo:245px,139px,417px,388px;\" data-text=\"w:normal;s:20,14,10,6;l:0,18,13,8;\" data-dim=\"w:120px,87px,96px,69px;h:118px,86px,94px,68px;\" data-frame_0=\"x:175%;o:1;\" data-frame_0_mask=\"u:t;x:-100%;\" data-frame_1=\"e:Power3.easeOut;st:4610;sp:1000;sR:4610;\" data-frame_1_mask=\"u:t;\" data-frame_999=\"o:0;st:w;sR:3390;\" style=\"z-index:25;font-family:Roboto;\"><img src=\"{{ imgSrc }}/dummy.png\" alt=\"images\" width=\"172\" height=\"169\" data-lazyload=\"./assets/revslider/assets/11.png\" data-no-retina>\n          </rs-layer>\n        </rs-slide>\n      </rs-slides>\n      <rs-static-layers>\n      </rs-static-layers>\n      <rs-progress class=\"rs-bottom\" style=\"visibility: hidden !important;\"></rs-progress>\n    </rs-module>\n  </rs-module-wrap>\n  <!-- END REVOLUTION SLIDER -->\n</div>\n");
 
 /***/ }),
 
-/***/ "./node_modules/raw-loader/index.js!./src/app/landing-page1/components/section-four-services/section-four-services.component.html":
-/*!*******************************************************************************************************************************!*\
-  !*** ./node_modules/raw-loader!./src/app/landing-page1/components/section-four-services/section-four-services.component.html ***!
-  \*******************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<app-services [navList]=\"navList\" [titleSectionProp]=\"titleSectionProp\"></app-services>\n"
-
-/***/ }),
-
-/***/ "./node_modules/raw-loader/index.js!./src/app/landing-page1/components/section-nine-blog/section-nine-blog.component.html":
-/*!***********************************************************************************************************************!*\
-  !*** ./node_modules/raw-loader!./src/app/landing-page1/components/section-nine-blog/section-nine-blog.component.html ***!
-  \***********************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<section class=\"pt-0\">\n  <div class=\"container\">\n    <div class=\"row layer-fly-one\">\n      <div class=\"col-md-12\">\n        <app-title-section [titleSectionProp]=\"titleSectionProp\"></app-title-section>\n      </div>\n    </div>\n    <div class=\"xamin-recentblog v1\">\n      <app-blog-owl [List]=\"List\"></app-blog-owl>\n    </div>\n  </div>\n</section>\n"
-
-/***/ }),
-
-/***/ "./node_modules/raw-loader/index.js!./src/app/landing-page1/components/section-seven-service/section-seven-service.component.html":
-/*!*******************************************************************************************************************************!*\
-  !*** ./node_modules/raw-loader!./src/app/landing-page1/components/section-seven-service/section-seven-service.component.html ***!
-  \*******************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<section class=\"bg-with-image-home2\">\n  <div class=\"container\">\n    <div class=\"row\">\n      <div class=\"col-sm-12 wow fadeInUp\">\n        <app-title-section [titleSectionProp]=\"titleSectionProp\"></app-title-section>\n      </div>\n    </div>\n    <app-testimonials [List]=\"List\"></app-testimonials>\n  </div>\n</section>\n"
-
-/***/ }),
-
-/***/ "./node_modules/raw-loader/index.js!./src/app/landing-page1/components/section-six-projects/section-six-projects.component.html":
-/*!*****************************************************************************************************************************!*\
-  !*** ./node_modules/raw-loader!./src/app/landing-page1/components/section-six-projects/section-six-projects.component.html ***!
-  \*****************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<!-- Project -->\n<section class=\"iq-bg-over iq-pb-70\">\n  <div class=\"container\">\n      <div class=\"row \">\n          <div class=\"col-md-12\">\n              <div class=\"title-box wow fadeInUp text-center\">\n                  <span class=\"title-design\">About Us</span>\n                  <h2>News and Media</h2>\n              </div>\n          </div>\n      </div>\n      <div class=\"row \">\n          <div *ngFor=\"let list of List\" class=\"col-md-6\">\n              <div class=\"xamin-client wow fadeInUp text-center\">\n                  <div class=\"client-icon\">\n                      <img src=\"{{ list.image }}\" alt=\"fancybox\">\n                  </div>\n                  <div class=\"client-detail\">\n                      <h6 class=\"mb-1\">{{ list.title }}</h6>\n                      <!-- <p class=\"mb-0\">{{ list.subtitle }}</p> -->\n                      <a href=\"{{list.subtitle}}\">{{list.info}}</a>\n                      <br>\n                      <a href=\"{{list.subtitle2}}\">{{list.info2}}</a>\n\n                  </div>\n              </div>  \n          </div>\n      </div>\n  </div>\n</section>"
-
-/***/ }),
-
-/***/ "./node_modules/raw-loader/index.js!./src/app/landing-page1/components/section-three/section-three.component.html":
-/*!***************************************************************************************************************!*\
-  !*** ./node_modules/raw-loader!./src/app/landing-page1/components/section-three/section-three.component.html ***!
-  \***************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<!-- How it Works -->\n<section>\n  <div class=\"container\">\n    <div class=\"row \">\n      <div class=\"col-md-12\">\n        <app-title-section [titleSectionProp]=\"titleSectionProp\"></app-title-section>\n      </div>\n    </div>\n    <div class=\"row \">\n      <div class=\"col-lg-4 col-md-4 col-sm-12\">\n        <app-xamin-circle [circleData]=\"circle1Data\"></app-xamin-circle>\n      </div>\n      <div class=\" col-lg-4 col-md-4 col-sm-12 mt-4 mt-md-0\">\n        <app-xamin-circle [circleData]=\"circle2Data\"></app-xamin-circle>\n      </div>\n      <div class=\"col-lg-4 col-md-4 col-sm-12 mt-4 mt-md-0\">\n        <app-xamin-circle [circleData]=\"circle3Data\"></app-xamin-circle>\n      </div>\n    </div>\n  </div>\n</section>\n<!-- How it Works End -->\n"
-
-/***/ }),
-
-/***/ "./node_modules/raw-loader/index.js!./src/app/landing-page1/components/section-vertical-one/section-vertical-one.component.html":
-/*!*****************************************************************************************************************************!*\
-  !*** ./node_modules/raw-loader!./src/app/landing-page1/components/section-vertical-one/section-vertical-one.component.html ***!
-  \*****************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<section class=\"position-relative\">\n  <img src=\"./assets/images/about-us/02.png\" class=\"about-box-img\" alt=\"\">\n  <div class=\"container\">\n    <div class=\"row\">\n      <div class=\"col-lg-6\"></div>\n      <div class=\"col-lg-6 wow fadeInUp align-items-center\">\n        <app-title-section [titleSectionProp]=\"titleSectionProp\"></app-title-section>\n        <app-check-list [lists]=\"lists\"></app-check-list>\n        <div class=\"text-left mt-5\">\n          <a class=\"button button-icon\" href=\"about-us.html\"><span class=\"btn-effect\">Read More</span></a>\n        </div>\n      </div>\n    </div>\n  </div>\n</section>\n"
-
-/***/ }),
-
-/***/ "./node_modules/raw-loader/index.js!./src/app/landing-page1/components/section-vertical-two/section-vertical-two.component.html":
-/*!*****************************************************************************************************************************!*\
-  !*** ./node_modules/raw-loader!./src/app/landing-page1/components/section-vertical-two/section-vertical-two.component.html ***!
-  \*****************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<!-- How We Works -->\n<section id=\"how-it-works\" class=\"iq-bg-over\">\n  <div class=\"container\">\n    <div class=\"row iq-how-it-works\">\n      <div class=\"col-lg-5 col-md-12 mb-0 fadeInUp wow column align-items-center\">\n        <div class=\"title-box wow fadeInUp text-left\">\n          <app-title-section [titleSectionProp]=\"titleSectionProp\"></app-title-section>\n        </div>\n        <app-progress-bar-right-percentage [progressBarDetail]=\"progressBarDetail\" [progressBar1]=\"progressBar1\"></app-progress-bar-right-percentage>\n      </div>\n      <div class=\"fadeInUp col-lg-7 col-md-12\">\n        <img width=\"1260\" height=\"954\" src=\"./assets/images/about-us/06.png\" class=\"single_image-img attachment-full\" alt=\"\">\n      </div>\n    </div>\n  </div>\n</section>\n<!-- How We Works End -->\n"
-
-/***/ }),
-
-/***/ "./node_modules/raw-loader/index.js!./src/app/landing-page1/index/index.component.html":
-/*!************************************************************************************!*\
-  !*** ./node_modules/raw-loader!./src/app/landing-page1/index/index.component.html ***!
-  \************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<!-- Header component start-->\n<app-header [logoImg]=\"logoImage\" [navItemList]=\"navItems\" [contactInfo]=\"contactInfo\"></app-header>\n<!-- Header component end-->\n<!-- START REVOLUTION SLIDER -->\n<!-- <app-revolution-slider1></app-revolution-slider1> -->\n<!-- END REVOLUTION SLIDER -->\n<!-- MainContent -->\n\n<div class=\"main-content\">\n  <!-- About Us -->\n  <!-- <app-section-vertical-one></app-section-vertical-one> -->\n  <!-- About Us  End-->\n  <!-- How We Works -->\n  <!-- <app-section-vertical-two></app-section-vertical-two> -->\n  <!-- How We Works End -->\n  <!-- How it Works -->\n  <!-- <app-section-three></app-section-three> -->\n  <!-- How it Works End -->\n  <!-- Our Services -->\n  <!-- <app-section-four-services></app-section-four-services> -->\n  <!-- Our Services -->\n  <!-- Customer -->\n  <!-- <app-section-five-customer></app-section-five-customer> -->\n  <!-- Customer End -->\n  <!-- Project -->\n  <app-section-six-projects></app-section-six-projects>\n  <!-- Project End -->\n  <!--  Service-->\n  <!-- <app-section-seven-service></app-section-seven-service> -->\n  <!--  Service End-->\n  <!--  Blog-->\n  <!-- <app-section-nine-blog></app-section-nine-blog> -->\n  <!--  Blog End-->\n\n  <!-- Client -->\n\n  <!-- Client End-->\n  <!-- Blog -->\n\n  <!-- Blog End-->\n</div>\n<!-- MainContent End-->\n<!-- Footer start -->\n<app-footer [logoImg]=\"logoImage\" [contactInfo]=\"contactInfo\"></app-footer>\n<!-- Footer end -->\n"
-
-/***/ }),
-
-/***/ "./node_modules/raw-loader/index.js!./src/app/landing-page2/components/about-us/about-us.component.html":
-/*!*****************************************************************************************************!*\
-  !*** ./node_modules/raw-loader!./src/app/landing-page2/components/about-us/about-us.component.html ***!
-  \*****************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<app-about [titleSectionProp]=\"titleSectionProp\" [List]=\"Lists\"></app-about>\n"
-
-/***/ }),
-
-/***/ "./node_modules/raw-loader/index.js!./src/app/landing-page2/components/about-us2/about-us2.component.html":
-/*!*******************************************************************************************************!*\
-  !*** ./node_modules/raw-loader!./src/app/landing-page2/components/about-us2/about-us2.component.html ***!
-  \*******************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<section class=\"iq-bg-over\">\n  <div class=\"container\">\n    <div class=\"row row-fluid row-has-fill iq-how-it-works\">\n      <div class=\"iq-mb-30 fadeInUp wow col-sm-12 col-lg-5 col-md-12 align-items-center\">\n        <app-title-section [titleSectionProp]=\"titleSectionProp\"></app-title-section>\n        <app-progress-bar-right-percentage [progressBarDetail]=\"progressBarDetail\" [progressBar1]=\"progressBar1\" ></app-progress-bar-right-percentage>\n      </div>\n      <div class=\"col-sm-12 offset-lg-1 col-lg-6 col-md-12\">\n        <div class=\"row\">\n          <div class=\"first-tec col-sm-6 col-lg-6\">\n            <div class=\"tec_box\">\n              <div class=\"tec_icons clerfix\">\n                <div class=\"img_icon_one\">\n                  <div class=\"tec_icon\"><img src=\"./assets/images/services/services-small-1.png\" alt=\"tecbox\"></div>\n                </div>\n                <div class=\"img_icon_two\">\n                  <div class=\"tec_icon\"><img src=\"./assets/images/services/services-small-2.png\" alt=\"tecbox\"></div>\n                </div>\n              </div>\n              <div class=\"img_icon_three\">\n                  <div class=\"tec_icon\"><img src=\"./assets/images/services/services-small-3.png\" alt=\"tecbox\"></div>\n              </div>\n              <h5>Big Data Services</h5>\n            </div>\n          </div>\n          <div class=\"col-sm-6 col-lg-6\">\n            <div class=\"tec_box\">\n              <div class=\"tec_icons clerfix\">\n                <div class=\"img_icon_one\">\n                  <div class=\"tec_icon\"><img src=\"./assets/images/services/services-small-1.png\" alt=\"tecbox\"></div>\n                </div>\n                <div class=\"img_icon_two\">\n                  <div class=\"tec_icon\"><img src=\"./assets/images/services/services-small-2.png\" alt=\"tecbox\"></div>\n                </div>\n              </div>\n              <div class=\"img_icon_three\">\n                  <div class=\"tec_icon\"><img src=\"./assets/images/services/services-small-3.png\" alt=\"tecbox\"></div>\n              </div>\n              <h5>Business Intelligence</h5>\n            </div>\n            <div class=\"tec_box\">\n              <div class=\"tec_icons clerfix\">\n                <div class=\"img_icon_one\">\n                  <div class=\"tec_icon\"><img src=\"./assets/images/services/services-small-1.png\" alt=\"tecbox\"></div>\n                </div>\n                <div class=\"img_icon_two\">\n                  <div class=\"tec_icon\"><img src=\"./assets/images/services/services-small-2.png\" alt=\"tecbox\"></div>\n                </div>\n              </div>\n              <div class=\"img_icon_three\">\n                  <div class=\"tec_icon\"><img src=\"./assets/images/services/services-small-3.png\" alt=\"tecbox\"></div>\n              </div>\n              <h5>Data Visualization</h5>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</section>\n"
-
-/***/ }),
-
-/***/ "./node_modules/raw-loader/index.js!./src/app/landing-page2/components/blog/blog.component.html":
-/*!*********************************************************************************************!*\
-  !*** ./node_modules/raw-loader!./src/app/landing-page2/components/blog/blog.component.html ***!
-  \*********************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<section class=\"pt-0\">\n  <div class=\"container\">\n    <div class=\"row layer-fly-one\">\n      <div class=\"col-md-12\">\n          <app-title-section [titleSectionProp]=\"titleSectionProp\"></app-title-section>\n      </div>\n    </div>\n    <div class=\"xamin-recentblog v1\">\n          <app-blog-owl [List]=\"List\"></app-blog-owl>\n      </div>\n  </div>\n</section>\n"
-
-/***/ }),
-
-/***/ "./node_modules/raw-loader/index.js!./src/app/landing-page2/components/our-partner/our-partner.component.html":
-/*!***********************************************************************************************************!*\
-  !*** ./node_modules/raw-loader!./src/app/landing-page2/components/our-partner/our-partner.component.html ***!
-  \***********************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<section class=\"pt-0\">\n  <div class=\"container\">\n    <div class=\"row\">\n      <div class=\"col-md-12\">\n        <app-title-section [titleSectionProp]=\"titleSectionProp\"></app-title-section>\n      </div>\n    </div>\n    <div class=\"row\">\n      <div class=\"col-md-12\">\n        <app-customers [List]=\"List\" [hover]=\"hover\"></app-customers>\n      </div>\n    </div>\n  </div>\n</section>\n"
-
-/***/ }),
-
-/***/ "./node_modules/raw-loader/index.js!./src/app/landing-page2/components/our-testimonial/our-testimonial.component.html":
-/*!*******************************************************************************************************************!*\
-  !*** ./node_modules/raw-loader!./src/app/landing-page2/components/our-testimonial/our-testimonial.component.html ***!
-  \*******************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<section class=\"bg-with-image-home2\">\n  <div class=\"container\">\n    <div class=\"row\">\n      <div class=\"col-sm-12 wow fadeInUp\">\n        <app-title-section [titleSectionProp]=\"titleSectionProp\"></app-title-section>\n      </div>\n    </div>\n    <app-testimonials [List]=\"List\"></app-testimonials>\n  </div>\n</section>\n"
-
-/***/ }),
-
-/***/ "./node_modules/raw-loader/index.js!./src/app/landing-page2/components/revolution-slider2/revolution-slider2.component.html":
-/*!*************************************************************************************************************************!*\
-  !*** ./node_modules/raw-loader!./src/app/landing-page2/components/revolution-slider2/revolution-slider2.component.html ***!
-  \*************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<div class=\"iq-banner\">\n    <!-- START xamin 1 REVOLUTION SLIDER 6.1.0 -->\n    <p class=\"rs-p-wp-fix\"></p>\n    <rs-module-wrap id=\"rev_slider_1_1_wrapper\" data-alias=\"xamin-1\" data-source=\"gallery\" style=\"background:transparent;padding:0;margin:0px auto;margin-top:0;margin-bottom:0;\">\n        <rs-module id=\"rev_slider_1_1\" class=\" rs-ov-hidden\" style=\"display:none;\" data-version=\"6.1.0\">\n            <rs-slides>\n                <rs-slide data-key=\"rs-1\" data-title=\"Slide\" data-anim=\"ei:d;eo:d;s:1000;r:0;t:fade;sl:0;\" data-firstanim=\"t:fade;sl:12;\">\n                    <img src=\"./assets/revslider/assets_slider2/dummy.png\" alt=\"transparent\" data-lazyload=\"./assets/revslider/assets_slider2/transparent.png\" data-parallax=\"off\" class=\"rev-slidebg\" data-no-retina>\n                    <rs-bgvideo\n                        data-video=\"w:80%;h:80%;nse:false;l:true;ptimer:true;\"\n                        data-mp4=\"./assets/revslider/assets_slider2/Comp-1_1-converted-with-Clipchamp.mp4\"></rs-bgvideo>\n                    <h2\n                        id=\"slider-1-slide-1-layer-1\"\n                        class=\"rs-layer\"\n                        data-type=\"text\"\n                        data-rsp_ch=\"on\"\n                        data-xy=\"xo:70px,70px,70px,33px;y:m;yo:-50px,-50px,-50px,-137px;\"\n                        data-text=\"w:normal;s:60,60,60,40;l:70,70,70,50;fw:700;\"\n                        data-frame_0=\"y:100%;\"\n                        data-frame_0_mask=\"u:t;\"\n                        data-frame_1=\"st:300;sp:1200;sR:300;\"\n                        data-frame_1_mask=\"u:t;\"\n                        data-frame_999=\"o:0;st:w;sR:7500;\"\n                        style=\"z-index:8;font-family:Lato;\"\n                        >Data science as<br> a service\n                    </h2>\n                    <rs-layer\n                        id=\"slider-1-slide-1-layer-2\"\n                        data-type=\"text\"\n                        data-color=\"#4bd9ec\"\n                        data-rsp_ch=\"on\"\n                        data-xy=\"xo:70px,70px,70px,33px;y:m;yo:61px,61px,61px,-43px;\"\n                        data-text=\"w:normal;s:16;l:30,30,30,24;\"\n                        data-frame_0=\"y:100%;\"\n                        data-frame_0_mask=\"u:t;\"\n                        data-frame_1=\"st:600;sp:1200;sR:600;\"\n                        data-frame_1_mask=\"u:t;\"\n                        data-frame_999=\"o:0;st:w;sR:7200;\"\n                        style=\"z-index:9;font-family:Karla;\"\n                        >Sigma collects data, transform it for analysis, runs<br>  analytical algorithms, and prepare visualizations.\n                    </rs-layer>\n                    <rs-layer\n                        id=\"slider-1-slide-1-layer-3\"\n                        class=\"blue-btn button rev-btn\"\n                        data-type=\"button\"\n                        data-rsp_ch=\"on\"\n                        data-xy=\"xo:60px,60px,60px,19px;y:m;yo:153px,153px,153px,40px;\"\n                        data-text=\"w:normal;s:16,16,16,14;l:24,24,24,14;\"\n                        data-dim=\"minh:0px,0px,0px,none;\"\n                        data-padding=\"t:15,15,15,20;r:30;b:15,15,15,20;l:30;\"\n                        data-border=\"bor:90px,90px,90px,90px;\"\n                        data-frame_0=\"y:100%;\"\n                        data-frame_0_mask=\"u:t;\"\n                        data-frame_1=\"st:940;sp:1200;sR:940;\"\n                        data-frame_1_mask=\"u:t;\"\n                        data-frame_999=\"o:0;st:w;sR:6860;\"\n                        data-frame_hover=\"c:#fff;bgc:#313e5b;bor:90px,90px,90px,90px;\"\n                        style=\"z-index:10;background-color:#437eeb;font-family:Karla;\"\n                        >Read More\n                    </rs-layer>\n                    <rs-layer\n                        id=\"slider-1-slide-1-layer-7\"\n                        data-type=\"text\"\n                        data-color=\"#4bd9ec\"\n                        data-rsp_ch=\"on\"\n                        data-xy=\"xo:655px,655px,655px,34px;y:m;yo:236px,236px,236px,145px;\"\n                        data-text=\"w:normal;s:16,16,16,14;l:30,30,30,20;\"\n                        data-frame_0=\"y:100%;\"\n                        data-frame_0_mask=\"u:t;\"\n                        data-frame_1=\"st:1780;sp:1200;sR:1780;\"\n                        data-frame_1_mask=\"u:t;\"\n                        data-frame_999=\"o:0;st:w;sR:6020;\"\n                        style=\"z-index:11;font-family:Lato;\"\n                        >Reports Generated\n                    </rs-layer>\n                    <rs-layer\n                        id=\"slider-1-slide-1-layer-8\"\n                        data-type=\"text\"\n                        data-rsp_ch=\"on\"\n                        data-xy=\"xo:654px,654px,654px,35px;yo:611px,611px,611px,460px;\"\n                        data-text=\"w:normal;s:36,36,36,18;l:40,40,40,26;fw:700;\"\n                        data-frame_0=\"y:100%;\"\n                        data-frame_0_mask=\"u:t;\"\n                        data-frame_1=\"st:1790;sp:1200;sR:1790;\"\n                        data-frame_1_mask=\"u:t;\"\n                        data-frame_999=\"o:0;st:w;sR:6010;\"\n                        style=\"z-index:12;font-family:Lato;\"\n                        >12600\n                    </rs-layer>\n                    <rs-layer\n                        id=\"slider-1-slide-1-layer-9\"\n                        data-type=\"text\"\n                        data-color=\"#4bd9ec\"\n                        data-rsp_ch=\"on\"\n                        data-xy=\"xo:980px,980px,980px,227px;y:m;yo:236px,236px,236px,144px;\"\n                        data-text=\"w:normal;s:16,16,16,14;l:30,30,30,20;\"\n                        data-frame_0=\"y:100%;\"\n                        data-frame_0_mask=\"u:t;\"\n                        data-frame_1=\"st:2140;sp:1200;sR:2140;\"\n                        data-frame_1_mask=\"u:t;\"\n                        data-frame_999=\"o:0;st:w;sR:5660;\"\n                        style=\"z-index:13;font-family:Lato;\"\n                        >Hours\n                    </rs-layer>\n                    <rs-layer\n                        id=\"slider-1-slide-1-layer-10\"\n                        data-type=\"text\"\n                        data-rsp_ch=\"on\"\n                        data-xy=\"xo:974px,974px,974px,226px;yo:611px,611px,611px,462px;\"\n                        data-text=\"w:normal;s:36,36,36,18;l:40,40,40,26;fw:700;\"\n                        data-frame_0=\"y:100%;\"\n                        data-frame_0_mask=\"u:t;\"\n                        data-frame_1=\"st:2140;sp:1200;sR:2140;\"\n                        data-frame_1_mask=\"u:t;\"\n                        data-frame_999=\"o:0;st:w;sR:5660;\"\n                        style=\"z-index:14;font-family:Lato;\"\n                        >18:00\n                    </rs-layer>\n                    <rs-layer\n                        id=\"slider-1-slide-1-layer-11\"\n                        data-type=\"text\"\n                        data-color=\"#4bd9ec\"\n                        data-rsp_ch=\"on\"\n                        data-xy=\"xo:1220px,1220px,1220px,366px;y:m;yo:236px,236px,236px,147px;\"\n                        data-text=\"w:normal;s:16,16,16,14;l:30,30,30,20;\"\n                        data-frame_0=\"y:100%;\"\n                        data-frame_0_mask=\"u:t;\"\n                        data-frame_1=\"st:2550;sp:1200;sR:2550;\"\n                        data-frame_1_mask=\"u:t;\"\n                        data-frame_999=\"o:0;st:w;sR:5250;\"\n                        style=\"z-index:15;font-family:Lato;\"\n                        >Sessions\n                    </rs-layer>\n                    <rs-layer\n                        id=\"slider-1-slide-1-layer-12\"\n                        data-type=\"text\"\n                        data-rsp_ch=\"on\"\n                        data-xy=\"xo:1214px,1214px,1214px,366px;yo:611px,611px,611px,463px;\"\n                        data-text=\"w:normal;s:36,36,36,18;l:40,40,40,26;fw:700;\"\n                        data-frame_0=\"y:100%;\"\n                        data-frame_0_mask=\"u:t;\"\n                        data-frame_1=\"st:2540;sp:1200;sR:2540;\"\n                        data-frame_1_mask=\"u:t;\"\n                        data-frame_999=\"o:0;st:w;sR:5260;\"\n                        style=\"z-index:16;font-family:Lato;\"\n                        >5886\n                    </rs-layer>\n                </rs-slide>\n            </rs-slides>\n            <rs-static-layers>\n            </rs-static-layers>\n            <rs-progress class=\"rs-bottom\" style=\"visibility: hidden !important;\"></rs-progress>\n        </rs-module>\n    </rs-module-wrap>\n    <!-- END REVOLUTION SLIDER -->\n</div>"
-
-/***/ }),
-
-/***/ "./node_modules/raw-loader/index.js!./src/app/landing-page2/components/section-vertical-one/section-vertical-one.component.html":
-/*!*****************************************************************************************************************************!*\
-  !*** ./node_modules/raw-loader!./src/app/landing-page2/components/section-vertical-one/section-vertical-one.component.html ***!
-  \*****************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<app-service-box  [Lists]=\"Lists\" [titleSectionProp]=\"titleSectionProp\"></app-service-box>\n"
-
-/***/ }),
-
-/***/ "./node_modules/raw-loader/index.js!./src/app/landing-page2/components/service/service.component.html":
-/*!***************************************************************************************************!*\
-  !*** ./node_modules/raw-loader!./src/app/landing-page2/components/service/service.component.html ***!
-  \***************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<div class=\"xamin-blue-bg py-5\">\n  <div class=\"container\">\n      <app-counter [List]=\"list\"></app-counter>\n  </div>\n</div>\n"
-
-/***/ }),
-
-/***/ "./node_modules/raw-loader/index.js!./src/app/landing-page2/components/trusted-customer/trusted-customer.component.html":
-/*!*********************************************************************************************************************!*\
-  !*** ./node_modules/raw-loader!./src/app/landing-page2/components/trusted-customer/trusted-customer.component.html ***!
-  \*********************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<!-- Customer -->\n<section class=\"pt-0\">\n  <div class=\"container\">\n    <div class=\"row\">\n      <div class=\"col-sm-12  wow fadeInUp  animated\">\n        <app-title-section [titleSectionProp]=\"titleSectionProp\" ></app-title-section>\n      </div>\n    </div>\n    <div class=\"row\">\n      <div class=\"col-md-12 wow fadeInUp\">\n        <div class=\"owl-carousel client-logo owl-loaded owl-drag\" data-dots=\"false\" data-nav=\"false\" data-items=\"6\" data-items-laptop=\"4\" data-items-tab=\"3\" data-items-mobile=\"2\" data-items-mobile-sm=\"1\" data-autoplay=\"true\" data-loop=\"true\" data-margin=\"30\">\n          <div *ngFor=\"let list of List\" class=\"item\">\n              <div class=\"clients-box hover-effct\"> <img class=\"img-fluid client-img\" src=\"./assets/images/partners/{{list.image1}}\" alt=\"client-image\" /> </div>\n              <div class=\"clients-box hover-effct mt-4\"> <img class=\"img-fluid client-img\" src=\"./assets/images/partners/{{list.image2}}\" alt=\"client-image\" /> </div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</section>\n"
-
-/***/ }),
-
-/***/ "./node_modules/raw-loader/index.js!./src/app/landing-page2/components/video/video.component.html":
-/*!***********************************************************************************************!*\
-  !*** ./node_modules/raw-loader!./src/app/landing-page2/components/video/video.component.html ***!
-  \***********************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<!-- Video -->\n<div class=\"iq-ptb-100\">\n  <div class=\"container\">\n    <div class=\"row xamin-bg\">\n      <div class=\"col-sm-12 offset-md-1 offset-lg-1 col-md-10 col-lg-10 wow fadeInUp text-center\">\n        <div>\n          <div class=\"scroll-effect\">\n            <img src=\"./assets/images/about-us/{{ videoDetail.img }}\" class=\"img-fluid img-one\" alt=\"#\" />\n            <div class=\"main-video\">\n              <div class=\"video-img\">\n                <div class=\"consult-video video-btn\">\n                  <div class=\"btn-waves\">\n                    <div class=\"waves wave-1\"></div>\n                    <div class=\"waves wave-2\"></div>\n                    <div class=\"waves wave-3\"></div>\n                  </div>\n                  <a href=\"{{ videoDetail.link }}\" class=\"iq-video popup-youtube\"><i class=\"fa fa-play\"></i></a>\n                </div>\n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n<!-- Video End -->\n"
-
-/***/ }),
-
-/***/ "./node_modules/raw-loader/index.js!./src/app/landing-page2/index/index.component.html":
-/*!************************************************************************************!*\
-  !*** ./node_modules/raw-loader!./src/app/landing-page2/index/index.component.html ***!
-  \************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<!-- Header component start-->\n<app-header [logoImg]=\"logoImage\" [headeClass]=\"headeClass\" [navItemList]=\"navItems\" [contactInfo]=\"contactInfo\"></app-header>\n<!-- Header component end-->\n<!-- START REVOLUTION SLIDER -->\n   <app-revolution-slider2></app-revolution-slider2>\n<!-- END REVOLUTION SLIDER -->\n<!-- MainContent -->\n<div class=\"main-content\">\n  <!-- Our Services -->\n  <!-- <app-our-partner></app-our-partner> -->\n\n  <app-section-vertical-one></app-section-vertical-one>\n  <!-- Our Services End-->\n  <!-- About Us -->\n  <app-about-us></app-about-us>\n  <app-about-us2></app-about-us2>\n  <!-- About Us End -->\n\n  <!-- Service-->\n  <app-service></app-service>\n  <!-- Service End-->\n\n  <!--  Video-->\n  <app-video></app-video>\n  <!--  Video End-->\n\n  <!-- trusted-->\n  <app-trusted-customer></app-trusted-customer>\n  <!-- trusted End-->\n\n  <!-- Testimonial-->\n  <app-our-testimonial></app-our-testimonial>\n  <!-- Testimonial End-->\n\n  <!-- BLOG End-->\n  <app-blog></app-blog>\n  <!-- BLOG End-->\n\n  <!--  Partner-->\n  <app-our-partner></app-our-partner>\n  <!--  Partner End-->\n\n</div>\n<!-- Footer start -->\n<app-footer [logoImg]=\"footerLogoImage\" [contactInfo]=\"contactInfo\"></app-footer>\n<!-- Footer end -->\n"
-
-/***/ }),
-
-/***/ "./node_modules/raw-loader/index.js!./src/app/xamin/components/about-card/about-card.component.html":
-/*!*************************************************************************************************!*\
-  !*** ./node_modules/raw-loader!./src/app/xamin/components/about-card/about-card.component.html ***!
-  \*************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<section class=\"pt-0\">\n  <div class=\"container\">\n    <div class=\"row\">\n      <div *ngFor=\"let list of cardData\" class=\"col-lg-4 col-sm-12\">\n        <div class=\"xamin-services  mb-0 wow fadeInUp text-left\">\n          <div class=\"services-detail\">\n            <h4 class=\"mb-1\">{{ list.title }}</h4>\n            <p class=\"mb-0\">{{ list.desc }}</p>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</section>\n"
-
-/***/ }),
-
-/***/ "./node_modules/raw-loader/index.js!./src/app/xamin/components/about-two/about-two.component.html":
-/*!***********************************************************************************************!*\
-  !*** ./node_modules/raw-loader!./src/app/xamin/components/about-two/about-two.component.html ***!
-  \***********************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<section class=\"position-relative \">\n\n  <ng-template [ngIf]=\"List.isOuter\">\n    <img src=\"./assets/images/about-us/{{ List.img }}\" class=\"about-right-box-img\" alt=\"\">\n  </ng-template>\n  <div class=\"container\">\n    <div class=\"row\">\n      <div class=\"col-lg-6 wow fadeInUp align-items-center\">\n        <app-title-section [titleSectionProp]=\"titleSectionProp\"></app-title-section>\n        <ng-template [ngIf]=\"List.ischkList!==undefined\">\n          <app-check-list [lists]=\"List.chkList\"></app-check-list>\n        </ng-template>\n        <ng-template [ngIf]=\"List.ischkList===undefined\">\n          <p> {{ List.desc }}</p>\n        </ng-template>\n        <div class=\"text-left mt-5\">\n          <a class=\"button button-icon\" href=\"about-us.html\"><span class=\"btn-effect\">Read More</span></a>\n        </div>\n      </div>\n      <div class=\"col-lg-6\">\n        <ng-template [ngIf]=\"!List.isOuter\">\n          <img src=\"./assets/images/about-us/{{ List.img }}\" alt=\"\">\n        </ng-template>\n      </div>\n    </div>\n  </div>\n</section>\n"
-
-/***/ }),
-
-/***/ "./node_modules/raw-loader/index.js!./src/app/xamin/components/about/about.component.html":
-/*!***************************************************************************************!*\
-  !*** ./node_modules/raw-loader!./src/app/xamin/components/about/about.component.html ***!
-  \***************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<section class=\"position-relative pt-0\">\n  <ng-template *ngIf=\"List.isOuter\">\n    <img src=\"./assets/images/about-us/{{ List.img }}\" class=\"about-box-img\" alt=\"\">\n  </ng-template>\n  <div class=\"container\">\n    <div class=\"row\">\n      <div class=\"col-lg-6 col-sm-12\">\n        <ng-template [ngIf]=\"!List.isOuter\">\n          <img src=\"./assets/images/about-us/{{ List.img }}\" alt=\"\">\n        </ng-template>\n      </div>\n      <div class=\"col-lg-6 col-sm-12 wow fadeInUp align-items-center\">\n        <app-title-section [titleSectionProp]=\"titleSectionProp\"></app-title-section>\n        <ng-template *ngIf=\"List.ischkList!==undefined\">\n          <app-check-list [lists]=\"List.chkList\"></app-check-list>\n        </ng-template>\n        <ng-template *ngIf=\"List.ischkList===undefined\">\n          <p> {{ List.desc }}</p>\n        </ng-template>\n        <div class=\"text-left mt-5\">\n          <a class=\"button button-icon\" href=\"about-us.html\"><span class=\"btn-effect\">Read More</span></a>\n        </div>\n      </div>\n    </div>\n  </div>\n</section>\n"
-
-/***/ }),
-
-/***/ "./node_modules/raw-loader/index.js!./src/app/xamin/components/blog-card/blog-card.component.html":
-/*!***********************************************************************************************!*\
-  !*** ./node_modules/raw-loader!./src/app/xamin/components/blog-card/blog-card.component.html ***!
-  \***********************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<div class=\"row\">\n  <div *ngFor=\"let lists of List\" class=\"col-md-{{ grid }}\" >\n    <div  class=\"item\">\n      <div class=\"iq-blog-box  wow fadeInUp\">\n        <div class=\"iq-blog-image clearfix\">\n          <img src=\"{{ lists.img }}\" class=\"img-fluid center-block\" alt=\"blogimage1\">\n          <ul class=\"iq-blogtag\">\n            <li><a routerLink=\"/blog\">{{ lists.name }}</a> </li>\n          </ul>\n        </div>\n        <div class=\"iq-blog-detail\">\n          <div class=\"iq-blog-meta\">\n            <ul>\n              <li class=\"list-inline-item\">  <a routerLink=\"/blog/blog-details\" rel=\"bookmark\"> <time class=\"entry-date published updated\" datetime=\"2019-09-26T06:49:49+00:00\" >{{ lists.time }} </time> </a> </li>\n            </ul>\n          </div>\n          <div class=\"blog-title\">\n            <a routerLink=\"/blog/blog-details\">\n              <h4>{{ lists.title }}</h4>\n            </a>\n          </div>\n          <p>{{ lists.desc }}</p>\n          <div class=\"blog-button\"><a class=\"button-link\" routerLink=\"/blog/blog-details\">Read More<i class=\"fa fa-angle-right\" aria-hidden=\"true\"></i></a></div>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n"
-
-/***/ }),
-
-/***/ "./node_modules/raw-loader/index.js!./src/app/xamin/components/blog-category/blog-category.component.html":
-/*!*******************************************************************************************************!*\
-  !*** ./node_modules/raw-loader!./src/app/xamin/components/blog-category/blog-category.component.html ***!
-  \*******************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "\n<div id=\"categories-4\" class=\"widget widget_categories wow fadeInRight\">\n  <h2 class=\"widget-title\"> Categories</h2>\n  <ul>\n    <li *ngFor=\"let list of List\" class=\"cat-item cat-item-3\"> <a href=\"#\">{{ list.title }}</a> <span class=\"post_count\"> {{ list.count }} </span> </li>\n  </ul>\n</div>\n"
-
-/***/ }),
-
-/***/ "./node_modules/raw-loader/index.js!./src/app/xamin/components/blog-owl/blog-owl.component.html":
-/*!*********************************************************************************************!*\
-  !*** ./node_modules/raw-loader!./src/app/xamin/components/blog-owl/blog-owl.component.html ***!
-  \*********************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<div *ngIf=\"navigation; else elseblock\" class=\"owl-carousel owl-loaded owl-drag\" data-dots=\"false\" data-nav=\"true\" data-items=\"3\" data-items-laptop=\"3\" data-items-tab=\"2\" data-items-mobile=\"1\" data-items-mobile-sm=\"1\" data-autoplay=\"true\" data-loop=\"true\">\n  <div *ngFor=\"let lists of List\"  class=\"item\">\n    <div class=\"iq-blog-box  wow fadeInUp\">\n      <div class=\"iq-blog-image clearfix\">\n        <img src=\"{{ lists.img }}\" class=\"img-fluid center-block\" alt=\"blog-image1\">\n        <ul class=\"iq-blogtag\">\n          <li><a routerLink=\"/blog\">{{ lists.name }}</a> </li>\n        </ul>\n      </div>\n      <div class=\"iq-blog-detail\">\n        <div class=\"iq-blog-meta\">\n          <ul>\n            <li class=\"list-inline-item\">  <a routerLink=\"/blog/blog-details\" rel=\"bookmark\"> <time class=\"entry-date published updated\" datetime=\"2019-09-26T06:49:49+00:00\" >{{ lists.time }} </time> </a> </li>\n          </ul>\n        </div>\n        <div class=\"blog-title\">\n          <a routerLink=\"/blog/blog-details\">\n            <h4>{{ lists.title }}</h4>\n          </a>\n        </div>\n        <p>{{ lists.desc }}</p>\n        <div class=\"blog-button\"><a class=\"button-link\" routerLink=\"/blog/blog-details\">Read More<i class=\"fa fa-angle-right\" aria-hidden=\"true\"></i></a></div>\n      </div>\n    </div>\n  </div>\n</div>\n<ng-template #elseblock>\n  <div class=\"owl-carousel owl-loaded owl-drag\" data-dots=\"false\" data-nav=\"false\" data-items=\"3\" data-items-laptop=\"3\" data-items-tab=\"2\" data-items-mobile=\"1\" data-items-mobile-sm=\"1\" data-autoplay=\"true\" data-loop=\"true\">\n    <div *ngFor=\"let lists of List\"  class=\"item\">\n      <div class=\"iq-blog-box  wow fadeInUp\">\n        <div class=\"iq-blog-image clearfix\">\n          <img src=\"{{ lists.img }}\" class=\"img-fluid center-block\" alt=\"blog-image1\">\n          <ul class=\"iq-blogtag\">\n            <li><a routerLink=\"/blog\">{{ lists.name }}</a> </li>\n          </ul>\n        </div>\n        <div class=\"iq-blog-detail\">\n          <div class=\"iq-blog-meta\">\n            <ul>\n              <li class=\"list-inline-item\">  <a routerLink=\"/blog/blog-details\" rel=\"bookmark\"> <time class=\"entry-date published updated\" datetime=\"2019-09-26T06:49:49+00:00\" >{{ lists.time }} </time> </a> </li>\n            </ul>\n          </div>\n          <div class=\"blog-title\">\n            <a routerLink=\"/blog/blog-details\">\n              <h4>{{ lists.title }}</h4>\n            </a>\n          </div>\n          <p>{{ lists.desc }}</p>\n          <div class=\"blog-button\"><a class=\"button-link\" routerLink=\"/blog/blog-details\">Read More<i class=\"fa fa-angle-right\" aria-hidden=\"true\"></i></a></div>\n        </div>\n      </div>\n    </div>\n  </div>\n</ng-template>"
-
-/***/ }),
-
-/***/ "./node_modules/raw-loader/index.js!./src/app/xamin/components/blog-pagination/blog-pagination.component.html":
-/*!***********************************************************************************************************!*\
-  !*** ./node_modules/raw-loader!./src/app/xamin/components/blog-pagination/blog-pagination.component.html ***!
-  \***********************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<div class=\"row\">\n  <div class=\"col-lg-12 col-md-12 col-sm-12 wow fadeInUp\">\n    <div class=\"pagination justify-content-center\">\n      <nav aria-label=\"Page navigation\">\n        <ul class='page-numbers'>\n          <li> <span aria-current='page' class='page-numbers current'>1</span> </li>\n          <li> <a class='page-numbers' href='#?paged=2'>2</a> </li>\n          <li> <a class=\"next page-numbers\" href=\"#?paged=2'\"> <span aria-hidden=\"true\">Next page</span> </a> </li>\n        </ul>\n      </nav>\n    </div>\n  </div>\n</div>\n"
-
-/***/ }),
-
-/***/ "./node_modules/raw-loader/index.js!./src/app/xamin/components/blog-recent-post/blog-recent-post.component.html":
-/*!*************************************************************************************************************!*\
-  !*** ./node_modules/raw-loader!./src/app/xamin/components/blog-recent-post/blog-recent-post.component.html ***!
-  \*************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<div class=\"iq-widget-menu widget wow fadeInRight\">\n  <h2 class=\"widget-title\">Recent Post</h2>\n  <div class=\"list-inline iq-widget-menu\">\n    <ul class=\"iq-post\">\n      <li *ngFor=\"let list of List\">\n        <div class=\"post-img\">\n          <img width=\"150\" height=\"150\" src=\"./assets/images/about-us/{{ list.img }}\"  alt=\"\" />\n          <div class=\"post-blog\">\n            <div class=\"blog-box\">\n              <ul class=\"list-inline\">\n                <li class=\"list-inline-item  mr-3\"><a href=\"#\"> <i class=\"fa fa-calendar mr-2\" aria-hidden=\"true\"></i>{{ list.time }}</a> </li>\n              </ul>\n              <a class=\"new-link\" href=\"#\">\n                <h5>{{ list.title }}</h5>\n              </a>\n            </div>\n          </div>\n        </div>\n      </li>\n    </ul>\n  </div>\n</div>\n"
-
-/***/ }),
-
-/***/ "./node_modules/raw-loader/index.js!./src/app/xamin/components/blog-search/blog-search.component.html":
-/*!***************************************************************************************************!*\
-  !*** ./node_modules/raw-loader!./src/app/xamin/components/blog-search/blog-search.component.html ***!
-  \***************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<div id=\"search-2\" class=\"widget widget_search wow fadeInRight\">\n  <form method=\"get\" class=\"search-form\">\n    <input type=\"search\"  class=\"search-field\" placeholder=\"Search\" value=\"\" name=\"s\" />\n    <button type=\"submit\" class=\"search-submit\"><i class=\"fa fa-search\"></i></button>\n  </form>\n</div>\n"
-
-/***/ }),
-
-/***/ "./node_modules/raw-loader/index.js!./src/app/xamin/components/blog-slider/blog-slider.component.html":
-/*!***************************************************************************************************!*\
-  !*** ./node_modules/raw-loader!./src/app/xamin/components/blog-slider/blog-slider.component.html ***!
-  \***************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<div class=\"testimonial-widget-menu widget {{ className!== undefined  ? className : 'fadeInRight  wow' }}\">\n  <div class=\"owl-carousel\" data-dots=\"true\" data-nav=\"false\" data-autoplay=\"true\" data-loop=\"true\" data-items=\"1\" data-items-laptop=\"1\" data-items-tab=\"1\" data-items-mobile=\"1\" data-items-mobile-sm=\"1\" data-margin=\"30\">\n    <div *ngFor=\"let list of List\" class=\"testimonial-info\">\n      <p>{{ list.desc }}</p>\n      <div class=\"post-img\">\n        <img width=\"150\" height=\"150\" src=\"./assets/images/testimonials/{{ list.img }}\" class=\"attachment-thumbnail size-thumbnail wp-post-image\" alt=\"\" />\n        <div class=\"testimonial-name\">\n          <h5>{{ list.name }}</h5>\n          <span class=\"sub-title\">{{ list.designation }}</span>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n"
-
-/***/ }),
-
-/***/ "./node_modules/raw-loader/index.js!./src/app/xamin/components/card-one/card-one.component.html":
-/*!*********************************************************************************************!*\
-  !*** ./node_modules/raw-loader!./src/app/xamin/components/card-one/card-one.component.html ***!
-  \*********************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "\n  <div *ngFor=\"let list of List\" class=\"service-box p-4 my-4 wow fadeInUp  text-center text-md-left \">\n    <img src=\"./assets/images/services/{{ list.img }}\" alt=\"fancybox\">\n    <div class=\"service-detail align-self-center\">\n      <h5 class=\"mb-2\">{{ list.title }}</h5>\n      <p>{{ list.desc }}</p>\n    </div>\n  </div>\n"
-
-/***/ }),
-
-/***/ "./node_modules/raw-loader/index.js!./src/app/xamin/components/check-list/check-list.component.html":
-/*!*************************************************************************************************!*\
-  !*** ./node_modules/raw-loader!./src/app/xamin/components/check-list/check-list.component.html ***!
-  \*************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<div class=\"text-left\">\n  <ul class=\"iq-list\">\n    <li *ngFor=\"let list of lists\"><i class=\"fa fa-check-square-o\"></i><span>{{ list }}</span></li>\n  </ul>\n</div>\n"
-
-/***/ }),
-
-/***/ "./node_modules/raw-loader/index.js!./src/app/xamin/components/choose-us/choose-us.component.html":
-/*!***********************************************************************************************!*\
-  !*** ./node_modules/raw-loader!./src/app/xamin/components/choose-us/choose-us.component.html ***!
-  \***********************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<!-- Why Choose Us -->\n<section>\n  <div class=\"container\">\n    <div class=\"row\">\n      <div class=\"col-lg-4 pr-3\">\n        <div class=\"title-box wow fadeInUp mb-0 text-center text-lg-left border-right \">\n          <span class=\"title-design\">{{ lists.title }}</span>\n          <h2>{{ lists.subtitle }}</h2>\n        </div>\n      </div>\n      <div class=\"col-lg-8 align-self-center\">\n        <p>{{ lists.desc }}</p>\n      </div>\n    </div>\n  </div>\n</section>\n"
-
-/***/ }),
-
-/***/ "./node_modules/raw-loader/index.js!./src/app/xamin/components/counter/counter.component.html":
-/*!*******************************************************************************************!*\
-  !*** ./node_modules/raw-loader!./src/app/xamin/components/counter/counter.component.html ***!
-  \*******************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<div *ngIf=\"style; then style_2 else style_1\"></div>\n\n<ng-template #style_1>\n<div class=\"row\">\n  <div *ngFor=\"let list of List\" class=\"col-md-3 col-sm-6 mb-3 mb-md-0\">\n    <div class=\"iq-timer style1 text-center\">\n      <div class=\"timer-details\">\n        <span class=\"timer\"  [attr.data-to]=\"list.value\" data-speed=\"15000\"> {{ list.value }}</span>\n        <i class=\"{{ list.icon}}\" aria-hidden=\"true\"></i>\n        <p>{{ list.text }}</p>\n      </div>\n    </div>\n  </div>\n</div>\n</ng-template>\n<ng-template #style_2>\n  <div class=\"row\">\n    <div *ngFor=\"let list of List\"  class=\"col-md-3 col-sm-6\">\n      <div class=\"iq-timer style2 mb-5  mb-md-0 mb-lg-0   text-center\">\n        <div class=\"iq-icon\">  <i aria-hidden=\"true\" class=\"{{ list.icon }}\"></i> </div>\n        <div class=\"timer-details \">\n          <span class=\"timer dark-timer\" data-to=\"1520\" data-speed=\"5000\">{{ list.value }}</span><span class=\"timer_postfix dark-timer\">M</span><i class=\"fa fa-percent\" aria-hidden=\"true\"></i>\n          <p class=\"dark-timer\"> {{ list.text }}</p>\n        </div>\n      </div>\n    </div>\n  </div>\n</ng-template>\n"
-
-/***/ }),
-
-/***/ "./node_modules/raw-loader/index.js!./src/app/xamin/components/customers/customers.component.html":
-/*!***********************************************************************************************!*\
-  !*** ./node_modules/raw-loader!./src/app/xamin/components/customers/customers.component.html ***!
-  \***********************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "\n\n\n    <div class=\"owl-carousel client-logo owl-loaded owl-drag\" data-dots=\"false\" data-nav=\"false\" data-items=\"6\" data-items-laptop=\"4\" data-items-tab=\"3\" data-items-mobile=\"2\" data-items-mobile-sm=\"1\" data-autoplay=\"true\" data-loop=\"true\" data-margin=\"30\">\n      <div *ngFor=\"let lists of List\" class=\"item\">\n        <ng-template [ngIf]=\"hover\">\n          <div class=\"clients-box hover-effct\">\n            <img class=\"img-fluid client-img\" src=\"./assets/images/partners/{{ lists.img }}\" alt=\"client-image\" />\n          </div>\n        </ng-template>\n        <ng-template [ngIf]=\"!hover\">\n          <div class=\"clients-box \">\n            <img class=\"img-fluid client-img\" src=\"./assets/images/partners/{{ lists.img }}\" alt=\"client-image\" />\n          </div>\n        </ng-template>\n      </div>\n    </div>\n"
-
-/***/ }),
-
-/***/ "./node_modules/raw-loader/index.js!./src/app/xamin/components/footer-style1/footer-style1.component.html":
-/*!*******************************************************************************************************!*\
-  !*** ./node_modules/raw-loader!./src/app/xamin/components/footer-style1/footer-style1.component.html ***!
-  \*******************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<footer class=\"footer-one iq-bg-dark {{ footerProp.class }}\" id=\"contact\">\n    <div class=\"container\">\n        <!-- Address -->\n        <div class=\"footer-top\">\n            <div class=\"row algin-self-center footer_top_block\">\n                <div class=\"col-md-6\">\n                    <!-- <h4 class=\"footer-title\">Subscribe for Newsletter</h4>\t\t\t -->\n                </div>\n                <!-- <div class=\"col-md-6\"> -->\n                    <!-- <div class=\"mc4wp-form-fields\"> -->\n                        <!-- <input type=\"email\" name=\"EMAIL\" placeholder=\"Your Email\" required=\"\">\n                        <input type=\"submit\" value=\"Sign up\"> -->\n                    <!-- </div> -->\n                <!-- </div> -->\n            </div>\n            <div class=\"row\">\n                <div class=\"col-lg-4 col-md-6 col-sm-6 \">\n                    <p class=\"footer-logo\">\n                        <img alt=\"img\" src=\"{{ footerProp.logoImg }}\" width=\"160\">\n                    </p>\n                    <!-- <p class=\"footer-logo\">{{ footerProp.description }}</p> -->\n                    <ul class=\"info-share d-inline list-inline\">\n                        <!-- <li class=\"list-inline-item\"><a href=\"#\"><i class=\"fa fa-facebook-f\"></i></a></li>\n                        <li class=\"list-inline-item\"><a href=\"#\"><i class=\"fa fa-twitter\"></i></a></li>\n                        <li class=\"list-inline-item\"><a href=\"#\"><i class=\"fa fa-instagram\"></i></a></li> -->\n                    </ul>\n                </div>\n                <div class=\"col-lg-2 col-md-6 col-sm-6 mt-4 mt-lg-0 mt-md-0\">\n                    <h4 class=\"footer-title\">Menu</h4>\n                    <!-- <div class=\"menu-footer-menu-container\">\n                        <ul class=\"menu\">\n                            <li class=\"menu-item\"><a routerLink=\"/landing-page1\" aria-current=\"page\">Home</a></li>\n                            <li class=\"menu-item\"><a routerLink=\"/blog\">Strategy</a></li>\n                            <li class=\"menu-item\"><a routerLink=\"/pages/career\">Portfolio</a></li>\n                            <li class=\"menu-item\"><a routerLink=\"/pages/client\">Our Team</a></li>\n                            <li class=\"menu-item\"><a routerLink=\"/services/artificial-intelligence\">Responsibility</a></li>\n                            <li class=\"menu-item\"><a routerLink=\"/pages/career\">Contact Us</a></li>\n                        </ul>\n                    </div> -->\n                    <div class=\"menu-footer-menu-container\">\n                        <ul class=\"menu\">\n                            <li class=\"menu-item\"><a routerLink=\"/home\" aria-current=\"page\">Home</a></li>\n                            <li class=\"menu-item\"><a routerLink=\"/strategy\">Strategy</a></li>\n                            <li class=\"menu-item\"><a routerLink=\"/portfolio\">Portfolio</a></li>\n                            <!-- <li class=\"menu-item\"><a routerLink=\"\">Our Team</a></li> -->\n                            <!-- <li class=\"menu-item\"><a routerLink=\"\">Responsibility</a></li> -->\n                        </ul>\n                    </div>\n                </div>\n                <div class=\"col-lg-2 col-md-6 col-sm-6 mt-lg-0 mt-4\">\n                    <h4 class=\"footer-title iq-rmt-30\">About us</h4>\n                    <div class=\"menu-footer-menu-container\">\n                        <ul class=\"menu\">\n                            <li class=\"menu-item\"><a routerLink=\"/ourteam\">Our Team</a></li>\n                            <li class=\"menu-item\"><a routerLink=\"/responsibility\">Responsibility</a></li>\n                            <!-- <li class=\"menu-item\"><a routerLink=\"\">Limited Partners</a></li> -->\n                        </ul>\n                    </div>\n                </div>\n                <div class=\"col-lg-4 col-md-6 col-sm-6 mt-lg-0 mt-4\">\n                    <h4 class=\"footer-title iq-rmt-30\">Contact</h4>\n                    <div class=\"menu-footer-menu-container\">\n                      <ul class=\"menu\">\n\n                    <li class=\"menu-item\"><a routerLink=\"/pages/contact-us\">Contact Us</a></li>\n                    <li class=\"menu-item\"><a routerLink=\"/disclaimers\">Disclaimers</a></li>\n\n                  </ul>\n                </div>\n                    <ul class=\"iq-contact\">\n                        <!-- <li> <a href=\"tel:{{ contactInfo.contactNumber }}\"><i class=\"fa fa-phone\"></i><span>{{ contactInfo.contactNumber }}</span></a> </li> -->\n                        <!-- <li> <a href=\"mailto:{{ contactInfo.email }}\"><i class=\"fa fa-envelope\"></i><span>{{ contactInfo.email }}</span></a> </li> -->\n                        <li> </li>\n                        <!-- <li> <a><i class=\"fa fa-home\"></i><span>{{ contactInfo.address }}</span></a> </li> -->\n                    </ul>\n                </div>\n            </div>\n        </div>\n        <!-- Address END -->\n        <div class=\"copyright-footer\">\n            <div class=\"pt-3 pb-3\">\n                <div class=\"row flex-row-reverse justify-content-between\">\n                    <div class=\"col-lg-12 col-md-12 text-lg-center text-md-center text-center\">\n                        <div class=\"col-lg-12 col-md-12 text-lg-center text-md-center text-center\"><span class=\"copyright\">Copyright 2023 <a routerLink=\"/landing-page1\">Digital Alpha Advisors LLC</a></span></div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</footer>\n"
-
-/***/ }),
-
-/***/ "./node_modules/raw-loader/index.js!./src/app/xamin/components/footer/footer.component.html":
-/*!*****************************************************************************************!*\
-  !*** ./node_modules/raw-loader!./src/app/xamin/components/footer/footer.component.html ***!
-  \*****************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<!-- Footer -->\n<footer class=\"footer-one iq-bg-dark iq-over-dark-90\" id=\"contact\">\n  <div class=\"container\">\n    <!-- Address -->\n    <div class=\"footer-top\">\n      <div class=\"row\">\n        <div class=\"col-lg-4 col-md-6 col-sm-6 \">\n          <p class=\"footer-logo\"><img alt=\"img\" src=\"{{ logoImg }}\" width=\"160\"></p>\n          <!-- <p class=\"footer-logo\">It is a long established fact that a reader will be distracted by the readable content.</p> -->\n          <ul class=\"info-share d-inline list-inline\">\n            \n          </ul>\n        </div>\n        <div class=\"col-lg-2 col-md-6 col-sm-6 mt-4 mt-lg-0 mt-md-0\">\n          <h4 class=\"footer-title\">Menu</h4>\n          <div class=\"menu-footer-menu-container\">\n            <ul class=\"menu\">\n              <li class=\"menu-item\"><a routerLink=\"/home\" aria-current=\"page\">Home</a></li>\n              <li class=\"menu-item\"><a routerLink=\"/strategy\">Strategy</a></li>\n              <li class=\"menu-item\"><a routerLink=\"/portfolio\">Portfolio</a></li>\n              <!-- <li class=\"menu-item\"><a routerLink=\"/pages/client\">Our Team</a></li> -->\n              <!-- <li class=\"menu-item\"><a routerLink=\"/services/artificial-intelligence\">Responsibility</a></li> -->\n              <!-- <li class=\"menu-item\"><a routerLink=\"/pages/career\">Contact Us</a></li> -->\n\n            </ul>\n          </div>\n        </div>\n        <div class=\"col-lg-2 col-md-6 col-sm-6 mt-lg-0 mt-4\">\n          <h4 class=\"footer-title iq-rmt-30\">About us</h4>\n          <div class=\"menu-footer-menu-container\">\n            <ul class=\"menu\">\n              <li class=\"menu-item\"><a routerLink=\"/ourteam\" aria-current=\"page\">Our Team</a></li>\n              <li class=\"menu-item\"><a routerLink=\"/responsibility\">Responsibility</a></li>\n              <!-- <li class=\"menu-item\"><a routerLink=\"/pages/career\">Limited Partners</a></li> -->\n              <!-- <li class=\"menu-item\"><a routerLink=\"/pages/client\">Our Team</a></li> -->\n              <!-- <li class=\"menu-item\"><a routerLink=\"/services/artificial-intelligence\">Responsibility</a></li> -->\n              <!-- <li class=\"menu-item\"><a routerLink=\"/pages/career\">Contact Us</a></li> -->\n            </ul>\n          </div>\n        </div>\n        <div class=\"col-lg-4 col-md-6 col-sm-6 mt-lg-0 mt-4\">\n          <h4 class=\"footer-title iq-rmt-30\">Contact</h4>\n          <div class=\"menu-footer-menu-container\">\n            <ul class=\"menu\">\n\n          <li class=\"menu-item\"><a routerLink=\"/pages/contact-us\">Contact Us</a></li>\n          <li class=\"menu-item\"><a routerLink=\"/disclaimers\">Disclaimers</a></li>\n\n        </ul>\n      </div>\n          <ul class=\"iq-contact\">\n            <!-- <li><a href=\"tel:{{ contactInfo.contactNumber }}\"><i class=\"fa fa-phone\"></i><span>{{ contactInfo.contactNumber }}</span></a></li> -->\n            <!-- <li><a href=\"mailto:{{ contactInfo.email }}\"><i class=\"fa fa-envelope\"></i><span>email</span></a></li> -->\n            <!-- <li></li> -->\n            <!-- <li><a><i class=\"fa fa-home\"></i><span>1234 North Avenue Luke Lane, South Bend, IN 360001</span></a></li> -->\n          </ul>\n        </div>\n      </div>\n    </div>\n    <!-- Address END -->\n    <div class=\"copyright-footer\">\n      <div class=\"pt-3 pb-3\">\n        <div class=\"row flex-row-reverse justify-content-between\">\n          <div class=\"col-lg-12 col-md-12 text-lg-center text-md-center text-center\"><span class=\"copyright\">Copyright 2022 <a routerLink=\"/landing-page1\">Digital Alpha Advisors LLC</a></span></div>\n        </div>\n      </div>\n    </div>\n  </div>\n</footer>\n<!-- Footer End-->\n"
-
-/***/ }),
-
-/***/ "./node_modules/raw-loader/index.js!./src/app/xamin/components/header/header.component.html":
-/*!*****************************************************************************************!*\
-  !*** ./node_modules/raw-loader!./src/app/xamin/components/header/header.component.html ***!
-  \*****************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<header class=\"style-one {{ headeClass ? headeClass : '' }}\" id=\"main-header\">\n  <div class=\"container-fluid sub-header\">\n    <div class=\"row\">\n      <div class=\"col-auto\">\n        <div class=\"number-info\">\n          <ul class=\"list-inline\">\n            <li class=\"list-inline-item\">\n              <!-- <a href=\"mailto:{{ contactInfo.email }}\"><i class=\"fa fa-envelope\"></i>{{ contactInfo.email }}</a> -->\n            </li>\n            <li class=\"list-inline-item\">\n              <!-- <a href=\"tel:{{ contactInfo.contactNumber }}\"><i class=\"fa fa-phone\"></i>{{ contactInfo.contactNumber }}</a> -->\n            </li>\n          </ul>\n        </div>\n      </div>\n      <div class=\"col-auto ml-auto sub-main\">\n        <div class=\"social-icone\">\n          <ul class=\"list-inline\">\n            <!-- <li class=\"d-inline\">\n              <a href=\"#\"><i class=\"fa fa-facebook-f\"></i></a>\n            </li>\n            <li class=\"d-inline\">\n              <a href=\"#\"><i class=\"fa fa-twitter\"></i></a>\n            </li>\n            <li class=\"d-inline\">\n              <a href=\"#\"><i class=\"fa fa-instagram\"></i></a>\n            </li> -->\n          </ul>\n        </div>\n      </div>\n    </div>\n  </div>\n  <div class=\"container-fluid main-header\">\n    <div class=\"row\">\n      <div class=\"col-sm-12\">\n        <nav class=\"navbar navbar-expand-lg navbar-light\">\n          <a class=\"navbar-brand\" href=\"home\">\n            <img id=\"{{ logoId ? 'logo_img' : '' }}\" class=\"img-fluid logo\" src=\"{{ logoImg }}\" alt=\"Xamin\"/>\n          </a>\n          <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n            <span class=\"navbar-toggler-icon\"><i class=\"ion-navicon\"></i></span>\n          </button>\n          <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <div class=\"menu-main-menu-container\">\n              <ul id=\"top-menu\" class=\"navbar-nav ml-auto\">\n                <li class=\"menu-item {{ option.isCurrent !== undefined && option.isCurrent ? 'current-menu-item' : '' }}\" *ngFor=\"let option of navItemList\">\n                  <a href=\"{{ option.href }}\">{{ option.title }}</a><i *ngIf=\"option.submenu\" class=\"fa fa-angle-down toggledrop\" aria-hidden=\"true\"></i>\n                  <ul class=\"sub-menu\" *ngIf=\"option.submenu\">\n                    <li *ngFor=\"let child of option.submenu\" class=\"menu-item {{ child.isCurrent !== undefined && child.isCurrent ? 'current-menu-item' : '' }}\">\n                      <a class=\"isubmenu\" [routerLink]=\"child.href\" [routerLinkActive]=\"['active']\" [routerLinkActiveOptions]=\"{exact: true}\">{{ child.title }}</a><i *ngIf=\"child.submenu\" class=\"fa fa-angle-down toggledrop\" aria-hidden=\"true\"></i>\n                      <ul class=\"sub-menu\" *ngIf=\"child.submenu\">\n                        <li class=\"menu-item\" *ngFor=\"let subchild of child.submenu\">\n                          <a class=\"isubmenu\" [routerLink]=\"subchild.href\" [routerLinkActive]=\"['active']\" [routerLinkActiveOptions]=\"{exact: true}\">{{ subchild.title }}</a>\n                        </li>\n                      </ul>\n                    </li>\n                  </ul>\n                </li>\n              </ul>\n            </div>\n          </div>\n          <div class=\"sub-main\">\n            <nav aria-label=\"breadcrumb\">\n              <!-- <div class=\"blue-btn button\"><a href=\"#\">Limited Partners</a></div> -->\n            </nav>\n          </div>\n        </nav>\n      </div>\n    </div>\n  </div>\n</header>"
-
-/***/ }),
-
-/***/ "./node_modules/raw-loader/index.js!./src/app/xamin/components/loader/loader.component.html":
-/*!*****************************************************************************************!*\
-  !*** ./node_modules/raw-loader!./src/app/xamin/components/loader/loader.component.html ***!
-  \*****************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<!-- Loading [START] -->\n<div id=\"loading\">\n  <div class=\"loading-center\">\n    <img src=\"./assets/images/loader.gif\" alt=\"loader\" />\n  </div>\n</div>\n<!-- Loading [END] -->\n"
-
-/***/ }),
-
-/***/ "./node_modules/raw-loader/index.js!./src/app/xamin/components/masonry-porfolio-box/masonry-porfolio-box.component.html":
-/*!*********************************************************************************************************************!*\
-  !*** ./node_modules/raw-loader!./src/app/xamin/components/masonry-porfolio-box/masonry-porfolio-box.component.html ***!
-  \*********************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<div *ngFor=\"let port of portfolioList\" class=\"iq-masonry-item item {{ port.class }}\">\n  <div class=\"iq-portfolio\">\n    <a href=\"{{ port.href }}\" class=\"iq-portfolio-img\">\n      <img width=\"1260\" height=\"954\" src=\"./assets/images/about-us/{{ port.img }}\" class=\"attachment-post-thumbnail size-post-thumbnail wp-post-image\" alt=\"\">\n    </a>\n    <div class=\"iq-portfolio-content text-center\">\n      <div class=\"details-box clearfix\">\n        <div class=\"consult-details\">\n          <a href=\"{{ port.href }}\">\n            <h5 class=\"text-hover\">{{ port.title }}</h5>\n          </a>\n          <p class=\"mb-0\">{{ port.type }}</p>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n"
-
-/***/ }),
-
-/***/ "./node_modules/raw-loader/index.js!./src/app/xamin/components/nav-tabs/nav-tabs.component.html":
-/*!*********************************************************************************************!*\
-  !*** ./node_modules/raw-loader!./src/app/xamin/components/nav-tabs/nav-tabs.component.html ***!
-  \*********************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<div class=\"custom-tab\">\n  <ul class=\"nav nav-pills mb-5 text-center\" id=\"pills-tab\" role=\"tablist\">\n    <li class=\"nav-item\" *ngFor=\"let nav of navList\">\n      <a class=\"nav-link {{ nav.active !== undefined && nav.active ? 'active show' : '' }}\" data-toggle=\"pill\" (click)=\"tabActive(nav.id)\"  href=\"{{ '#' + nav.id }}\" role=\"tab\" [attr.aria-selected]=\" nav.active !== undefined ? true : false \">\n        <img src=\"./assets/images/services/{{ nav.img }}\" alt=\"tab-image\" class=\"img-fluid\">\n        <h5 class=\"tab-title\">{{ nav.title }}</h5>\n      </a>\n    </li>\n  </ul>\n  <div class=\"show_content\">\n    <div *ngFor=\"let nav of navList\" id=\"{{ nav.id }}\" class=\"tab-pane fade {{ nav.active !== undefined && nav.active ? 'show active' : '' }}\">\n      <ng-template [ngIf]=\"nav.id === 'tab-big-data' || nav.id === 'tab-analytical-ai'\">\n        <div class=\"row pl-lg-5 pr-lg-5\">\n          <div class=\"col-sm-12\">\n            <h4 class=\"custom_heading mb-2\">{{ nav.subtitle }}</h4>\n            <div class=\"text-left mb-3\">\n              <p>{{ nav.desc }}</p>\n            </div>\n          </div>\n        </div>\n        <div class=\"row pl-lg-5 pr-lg-5\">\n          <div class=\"col-sm-4\">\n            <app-check-list [lists]=\"nav.chkList1\"></app-check-list>\n          </div>\n          <div class=\"col-sm-4\">\n            <app-check-list [lists]=\"nav.chkList2\"></app-check-list>\n          </div>\n          <div class=\"col-sm-4\">\n            <app-check-list [lists]=\"nav.chkList3\"></app-check-list>\n          </div>\n        </div>\n        <div class=\"row pl-lg-5 pr-lg-5\">\n          <div class=\"col-sm-12\">\n            <div class=\" text-left mt-4 \"><a class=\"button button-icon\" [routerLink]=\"[nav.link]\"><span class=\"btn-effect\"> View all Services</span></a>\n            </div>\n          </div>\n        </div>\n      </ng-template>\n      <ng-template [ngIf]=\"nav.id === 'tab-machine-learning' || nav.id === 'tab-computer-vision'\">\n        <div class=\"row pl-lg-5 pr-lg-5\">\n          <div class=\"col-sm-6\">\n            <h4 class=\"custom_heading mb-2\">{{ nav.subtitle }}</h4>\n            <div class=\"text-left no-margin\">\n              <p> {{ nav.desc }} </p>\n            </div>\n            <div class=\" text-left mt-4 mb-lg-0 mb-md-0 mb-4 \"> <a class=\"button button-icon\" [routerLink]=\"[nav.link]\"><span class=\"btn-effect\"> Read More</span></a></div>\n          </div>\n          <div class=\"col-sm-6\">\n            <h4 class=\"custom_heading mb-3\" *ngIf=\"nav.subtitle2\">{{ nav.subtitle2 }}</h4>\n            <app-check-list [lists]=\"nav.chkList\"></app-check-list>\n          </div>\n        </div>\n      </ng-template>\n    </div>\n  </div>\n</div>\n"
-
-/***/ }),
-
-/***/ "./node_modules/raw-loader/index.js!./src/app/xamin/components/portfolio-box/portfolio-box.component.html":
-/*!*******************************************************************************************************!*\
-  !*** ./node_modules/raw-loader!./src/app/xamin/components/portfolio-box/portfolio-box.component.html ***!
-  \*******************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<div *ngFor=\"let port of portfolioList\" class=\"iq-masonry-item item {{ port.class }}\">\n  <div class=\"iq-portfolio\">\n    <a href=\"{{ port.href }}\" class=\"iq-portfolio-img\">\n      <img width=\"1260\" height=\"954\" src=\"./assets/images/about-us/{{ port.img }}\" class=\"attachment-post-thumbnail size-post-thumbnail wp-post-image\" alt=\"\">\n    </a>\n    <div class=\"iq-portfolio-content text-center\">\n      <div class=\"details-box clearfix\">\n        <div class=\"consult-details\">\n          <a href=\"{{ port.href }}\">\n            <h5 class=\"text-hover\">{{ port.title }}</h5>\n          </a>\n          <p class=\"mb-0\">{{ port.type }}</p>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n"
-
-/***/ }),
-
-/***/ "./node_modules/raw-loader/index.js!./src/app/xamin/components/portfolio-owl/portfolio-owl.component.html":
-/*!*******************************************************************************************************!*\
-  !*** ./node_modules/raw-loader!./src/app/xamin/components/portfolio-owl/portfolio-owl.component.html ***!
-  \*******************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "\n\n<div *ngFor=\"let port of List\" class=\"iq-masonry-item item html\">\n    <div class=\"iq-portfolio\">\n       <a routerLink=\"/portfolio-details\" class=\"iq-portfolio-img\"><img width=\"1260\" height=\"954\" src=\"./assets/images/about-us/{{ port.img }}\" class=\"attachment-post-thumbnail size-post-thumbnail wp-post-image\" alt=\"\" ></a>\n       <div class=\"iq-portfolio-content  text-center\">\n          <div class=\"details-box clearfix\">\n             <div class=\"consult-details\">\n                <a routerLink=\"/portfolio-details\">\n                   <h5 class=\"text-hover\"> {{ port.title }}</h5>\n                </a>\n                <p class=\"mb-0\">{{ port.type }}</p>\n             </div>\n          </div>\n       </div>\n    </div>\n</div>"
-
-/***/ }),
-
-/***/ "./node_modules/raw-loader/index.js!./src/app/xamin/components/progress-bar-right-percentage/progress-bar-right-percentage.component.html":
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/landing-page1/components/section-eight-award/section-eight-award.component.html":
 /*!***************************************************************************************************************************************!*\
-  !*** ./node_modules/raw-loader!./src/app/xamin/components/progress-bar-right-percentage/progress-bar-right-percentage.component.html ***!
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/landing-page1/components/section-eight-award/section-eight-award.component.html ***!
   \***************************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-module.exports = "<div *ngIf=\"progressBar1; then progressBar_1 else progressBar_2\"></div>\n\n<ng-template #progressBar_1>\n  <div class=\"iq-services-box wow fadeInUp text-left\">\n    <div class=\"services-content\" *ngFor=\"let progress of progressBarDetail\">\n      <h6>{{ progress.title }}</h6>\n      <span class=\"progress-value\">{{ progress.percentage + '%'}}</span>\n      <div class=\"iq-progress-bar\"><span class=\"position-relative\" [attr.data-percent]=\"progress.percentage\"></span></div>\n    </div>\n  </div>\n</ng-template>\n\n<ng-template #progressBar_2>\n  <div class=\"services-content wow fadeInUp progress-style text-left\">\n    <div class=\"progress-content\"  *ngFor=\"let progress of progressBarDetail\">\n      <div class=\"progress-value\">{{ progress.percentage + '%'}}</div>\n      <div class=\"progress-title\">\n        <div class=\"progress-main\">\n          <h6>{{ progress.title }}</h6>\n        </div>\n        <div class=\"iq-progress-bar\">\n          <span class=\"position-relative\" [attr.data-percent]=\"progress.percentage\" ></span>\n        </div>\n      </div>\n    </div>\n\n  </div>\n</ng-template>\n"
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<p>section-eight-award works!</p>\n");
 
 /***/ }),
 
-/***/ "./node_modules/raw-loader/index.js!./src/app/xamin/components/project-portfolio-box/project-portfolio-box.component.html":
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/landing-page1/components/section-five-customer/section-five-customer.component.html":
+/*!*******************************************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/landing-page1/components/section-five-customer/section-five-customer.component.html ***!
+  \*******************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<section class=\"xamin-blue-bg\">\n  <div class=\"container\">\n    <div class=\"row\">\n      <div class=\"col-sm-12  wow fadeInUp  \">\n        <div class=\"title-box wow fadeInUp text-white text-center\">\n          <span class=\"title-design sub-title\">customers</span>\n          <h2>Discover customer successful stories</h2>\n        </div>\n        <div class=\" text-center mb-5 pb-4 \">\n          <a href=\"clients.html\" class=\"button white-btn button-icon\"> <span class=\"btn-effect\"> View Customer Stories</span> </a>\n        </div>\n      </div>\n    </div>\n    <div class=\"row mb-5\">\n      <div class=\"col-md-12 wow fadeInUp\">\n        <div class=\"owl-carousel client-logo owl-loaded owl-drag\" data-dots=\"false\" data-nav=\"false\" data-items=\"6\" data-items-laptop=\"4\" data-items-tab=\"3\" data-items-mobile=\"2\" data-items-mobile-sm=\"1\" data-autoplay=\"true\" data-loop=\"true\" data-margin=\"30\">\n          <div class=\"item\">\n            <div class=\"clients-box\"> <img class=\"img-fluid client-img\" src=\"./assets/images/partners/white-1.png\" alt=\"client-image\"> </div>\n          </div>\n          <div class=\"item\">\n            <div class=\"clients-box\"> <img class=\"img-fluid client-img\" src=\"./assets/images/partners/white-2.png\" alt=\"client-image\"> </div>\n          </div>\n          <div class=\"item\">\n            <div class=\"clients-box\"> <img class=\"img-fluid client-img\" src=\"./assets/images/partners/white-3.png\" alt=\"client-image\"> </div>\n          </div>\n          <div class=\"item\">\n            <div class=\"clients-box\"> <img class=\"img-fluid client-img\" src=\"./assets/images/partners/white-4.png\" alt=\"client-image\"> </div>\n          </div>\n          <div class=\"item\">\n            <div class=\"clients-box\"> <img class=\"img-fluid client-img\" src=\"./assets/images/partners/white-1.png\" alt=\"client-image\"> </div>\n          </div>\n          <div class=\"item\">\n            <div class=\"clients-box\"> <img class=\"img-fluid client-img\" src=\"./assets/images/partners/white-2.png\" alt=\"client-image\"> </div>\n          </div>\n        </div>\n      </div>\n    </div>\n    <div class=\"row\">\n      <div class=\"col-sm-12 offset-lg-2 col-lg-8 wow fadeInUp\">\n        <div class=\"owl-carousel client-logo owl-loaded owl-drag\" data-dots=\"false\" data-nav=\"false\" data-items=\"4\" data-items-laptop=\"4\" data-items-tab=\"3\" data-items-mobile=\"2\" data-items-mobile-sm=\"1\" data-autoplay=\"true\" data-loop=\"true\" data-margin=\"30\">\n          <div class=\"item\">\n            <div class=\"clients-box\"> <img class=\"img-fluid client-img\" src=\"./assets/images/partners/white-2.png\" alt=\"client-image\"> </div>\n          </div>\n          <div class=\"item\">\n            <div class=\"clients-box\"> <img class=\"img-fluid client-img\" src=\"./assets/images/partners/white-1.png\" alt=\"client-image\"> </div>\n          </div>\n          <div class=\"item\">\n            <div class=\"clients-box\"> <img class=\"img-fluid client-img\" src=\"./assets/images/partners/white-4.png\" alt=\"client-image\"> </div>\n          </div>\n          <div class=\"item\">\n            <div class=\"clients-box\"> <img class=\"img-fluid client-img\" src=\"./assets/images/partners/white-1.png\" alt=\"client-image\"> </div>\n          </div>\n          <div class=\"item\">\n            <div class=\"clients-box\"> <img class=\"img-fluid client-img\" src=\"./assets/images/partners/white-2.png\" alt=\"client-image\"> </div>\n          </div>\n          <div class=\"item\">\n            <div class=\"clients-box\"> <img class=\"img-fluid client-img\" src=\"./assets/images/partners/white-3.png\" alt=\"client-image\"> </div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</section>\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/landing-page1/components/section-four-services/section-four-services.component.html":
+/*!*******************************************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/landing-page1/components/section-four-services/section-four-services.component.html ***!
+  \*******************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<app-services [navList]=\"navList\" [titleSectionProp]=\"titleSectionProp\"></app-services>\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/landing-page1/components/section-nine-blog/section-nine-blog.component.html":
+/*!***********************************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/landing-page1/components/section-nine-blog/section-nine-blog.component.html ***!
+  \***********************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<section class=\"pt-0\">\n  <div class=\"container\">\n    <div class=\"row layer-fly-one\">\n      <div class=\"col-md-12\">\n        <app-title-section [titleSectionProp]=\"titleSectionProp\"></app-title-section>\n      </div>\n    </div>\n    <div class=\"xamin-recentblog v1\">\n      <app-blog-owl [List]=\"List\"></app-blog-owl>\n    </div>\n  </div>\n</section>\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/landing-page1/components/section-seven-service/section-seven-service.component.html":
+/*!*******************************************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/landing-page1/components/section-seven-service/section-seven-service.component.html ***!
+  \*******************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<section class=\"bg-with-image-home2\">\n  <div class=\"container\">\n    <div class=\"row\">\n      <div class=\"col-sm-12 wow fadeInUp\">\n        <app-title-section [titleSectionProp]=\"titleSectionProp\"></app-title-section>\n      </div>\n    </div>\n    <app-testimonials [List]=\"List\"></app-testimonials>\n  </div>\n</section>\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/landing-page1/components/section-six-projects/section-six-projects.component.html":
+/*!*****************************************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/landing-page1/components/section-six-projects/section-six-projects.component.html ***!
+  \*****************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<!-- Project -->\n<section class=\"iq-bg-over iq-pb-70\">\n  <div class=\"container\">\n      <div class=\"row \">\n          <div class=\"col-md-12\">\n              <div class=\"title-box wow fadeInUp text-center\">\n                  <span class=\"title-design\">About Us</span>\n                  <h2>News and Media</h2>\n              </div>\n          </div>\n      </div>\n      <div class=\"row \">\n          <div *ngFor=\"let list of List\" class=\"col-md-6\">\n              <div class=\"xamin-client wow fadeInUp text-center\">\n                  <div class=\"client-icon\">\n                      <img src=\"{{ list.image }}\" alt=\"fancybox\">\n                  </div>\n                  <div class=\"client-detail\">\n                      <h6 class=\"mb-1\">{{ list.title }}</h6>\n                      <!-- <p class=\"mb-0\">{{ list.subtitle }}</p> -->\n                      <a href=\"{{list.subtitle}}\">{{list.info}}</a>\n                      <br>\n                      <a href=\"{{list.subtitle2}}\">{{list.info2}}</a>\n\n                  </div>\n              </div>  \n          </div>\n      </div>\n  </div>\n</section>");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/landing-page1/components/section-three/section-three.component.html":
+/*!***************************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/landing-page1/components/section-three/section-three.component.html ***!
+  \***************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<!-- How it Works -->\n<section>\n  <div class=\"container\">\n    <div class=\"row \">\n      <div class=\"col-md-12\">\n        <app-title-section [titleSectionProp]=\"titleSectionProp\"></app-title-section>\n      </div>\n    </div>\n    <div class=\"row \">\n      <div class=\"col-lg-4 col-md-4 col-sm-12\">\n        <app-xamin-circle [circleData]=\"circle1Data\"></app-xamin-circle>\n      </div>\n      <div class=\" col-lg-4 col-md-4 col-sm-12 mt-4 mt-md-0\">\n        <app-xamin-circle [circleData]=\"circle2Data\"></app-xamin-circle>\n      </div>\n      <div class=\"col-lg-4 col-md-4 col-sm-12 mt-4 mt-md-0\">\n        <app-xamin-circle [circleData]=\"circle3Data\"></app-xamin-circle>\n      </div>\n    </div>\n  </div>\n</section>\n<!-- How it Works End -->\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/landing-page1/components/section-vertical-one/section-vertical-one.component.html":
+/*!*****************************************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/landing-page1/components/section-vertical-one/section-vertical-one.component.html ***!
+  \*****************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<section class=\"position-relative\">\n  <img src=\"./assets/images/about-us/02.png\" class=\"about-box-img\" alt=\"\">\n  <div class=\"container\">\n    <div class=\"row\">\n      <div class=\"col-lg-6\"></div>\n      <div class=\"col-lg-6 wow fadeInUp align-items-center\">\n        <app-title-section [titleSectionProp]=\"titleSectionProp\"></app-title-section>\n        <app-check-list [lists]=\"lists\"></app-check-list>\n        <div class=\"text-left mt-5\">\n          <a class=\"button button-icon\" href=\"about-us.html\"><span class=\"btn-effect\">Read More</span></a>\n        </div>\n      </div>\n    </div>\n  </div>\n</section>\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/landing-page1/components/section-vertical-two/section-vertical-two.component.html":
+/*!*****************************************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/landing-page1/components/section-vertical-two/section-vertical-two.component.html ***!
+  \*****************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<!-- How We Works -->\n<section id=\"how-it-works\" class=\"iq-bg-over\">\n  <div class=\"container\">\n    <div class=\"row iq-how-it-works\">\n      <div class=\"col-lg-5 col-md-12 mb-0 fadeInUp wow column align-items-center\">\n        <div class=\"title-box wow fadeInUp text-left\">\n          <app-title-section [titleSectionProp]=\"titleSectionProp\"></app-title-section>\n        </div>\n        <app-progress-bar-right-percentage [progressBarDetail]=\"progressBarDetail\" [progressBar1]=\"progressBar1\"></app-progress-bar-right-percentage>\n      </div>\n      <div class=\"fadeInUp col-lg-7 col-md-12\">\n        <img width=\"1260\" height=\"954\" src=\"./assets/images/about-us/06.png\" class=\"single_image-img attachment-full\" alt=\"\">\n      </div>\n    </div>\n  </div>\n</section>\n<!-- How We Works End -->\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/landing-page1/index/index.component.html":
+/*!************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/landing-page1/index/index.component.html ***!
+  \************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<!-- Header component start-->\n<app-header [logoImg]=\"logoImage\" [navItemList]=\"navItems\" [contactInfo]=\"contactInfo\"></app-header>\n<!-- Header component end-->\n<!-- START REVOLUTION SLIDER -->\n<!-- <app-revolution-slider1></app-revolution-slider1> -->\n<!-- END REVOLUTION SLIDER -->\n<!-- MainContent -->\n\n<div class=\"main-content\">\n  <!-- About Us -->\n  <!-- <app-section-vertical-one></app-section-vertical-one> -->\n  <!-- About Us  End-->\n  <!-- How We Works -->\n  <!-- <app-section-vertical-two></app-section-vertical-two> -->\n  <!-- How We Works End -->\n  <!-- How it Works -->\n  <!-- <app-section-three></app-section-three> -->\n  <!-- How it Works End -->\n  <!-- Our Services -->\n  <!-- <app-section-four-services></app-section-four-services> -->\n  <!-- Our Services -->\n  <!-- Customer -->\n  <!-- <app-section-five-customer></app-section-five-customer> -->\n  <!-- Customer End -->\n  <!-- Project -->\n  <app-section-six-projects></app-section-six-projects>\n  <!-- Project End -->\n  <!--  Service-->\n  <!-- <app-section-seven-service></app-section-seven-service> -->\n  <!--  Service End-->\n  <!--  Blog-->\n  <!-- <app-section-nine-blog></app-section-nine-blog> -->\n  <!--  Blog End-->\n\n  <!-- Client -->\n\n  <!-- Client End-->\n  <!-- Blog -->\n\n  <!-- Blog End-->\n</div>\n<!-- MainContent End-->\n<!-- Footer start -->\n<app-footer [logoImg]=\"logoImage\" [contactInfo]=\"contactInfo\"></app-footer>\n<!-- Footer end -->\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/landing-page2/components/about-us/about-us.component.html":
+/*!*****************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/landing-page2/components/about-us/about-us.component.html ***!
+  \*****************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<app-about [titleSectionProp]=\"titleSectionProp\" [List]=\"Lists\"></app-about>\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/landing-page2/components/about-us2/about-us2.component.html":
+/*!*******************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/landing-page2/components/about-us2/about-us2.component.html ***!
+  \*******************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<section class=\"iq-bg-over\">\n  <div class=\"container\">\n    <div class=\"row row-fluid row-has-fill iq-how-it-works\">\n      <div class=\"iq-mb-30 fadeInUp wow col-sm-12 col-lg-5 col-md-12 align-items-center\">\n        <app-title-section [titleSectionProp]=\"titleSectionProp\"></app-title-section>\n        <app-progress-bar-right-percentage [progressBarDetail]=\"progressBarDetail\" [progressBar1]=\"progressBar1\" ></app-progress-bar-right-percentage>\n      </div>\n      <div class=\"col-sm-12 offset-lg-1 col-lg-6 col-md-12\">\n        <div class=\"row\">\n          <div class=\"first-tec col-sm-6 col-lg-6\">\n            <div class=\"tec_box\">\n              <div class=\"tec_icons clerfix\">\n                <div class=\"img_icon_one\">\n                  <div class=\"tec_icon\"><img src=\"./assets/images/services/services-small-1.png\" alt=\"tecbox\"></div>\n                </div>\n                <div class=\"img_icon_two\">\n                  <div class=\"tec_icon\"><img src=\"./assets/images/services/services-small-2.png\" alt=\"tecbox\"></div>\n                </div>\n              </div>\n              <div class=\"img_icon_three\">\n                  <div class=\"tec_icon\"><img src=\"./assets/images/services/services-small-3.png\" alt=\"tecbox\"></div>\n              </div>\n              <h5>Big Data Services</h5>\n            </div>\n          </div>\n          <div class=\"col-sm-6 col-lg-6\">\n            <div class=\"tec_box\">\n              <div class=\"tec_icons clerfix\">\n                <div class=\"img_icon_one\">\n                  <div class=\"tec_icon\"><img src=\"./assets/images/services/services-small-1.png\" alt=\"tecbox\"></div>\n                </div>\n                <div class=\"img_icon_two\">\n                  <div class=\"tec_icon\"><img src=\"./assets/images/services/services-small-2.png\" alt=\"tecbox\"></div>\n                </div>\n              </div>\n              <div class=\"img_icon_three\">\n                  <div class=\"tec_icon\"><img src=\"./assets/images/services/services-small-3.png\" alt=\"tecbox\"></div>\n              </div>\n              <h5>Business Intelligence</h5>\n            </div>\n            <div class=\"tec_box\">\n              <div class=\"tec_icons clerfix\">\n                <div class=\"img_icon_one\">\n                  <div class=\"tec_icon\"><img src=\"./assets/images/services/services-small-1.png\" alt=\"tecbox\"></div>\n                </div>\n                <div class=\"img_icon_two\">\n                  <div class=\"tec_icon\"><img src=\"./assets/images/services/services-small-2.png\" alt=\"tecbox\"></div>\n                </div>\n              </div>\n              <div class=\"img_icon_three\">\n                  <div class=\"tec_icon\"><img src=\"./assets/images/services/services-small-3.png\" alt=\"tecbox\"></div>\n              </div>\n              <h5>Data Visualization</h5>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</section>\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/landing-page2/components/blog/blog.component.html":
+/*!*********************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/landing-page2/components/blog/blog.component.html ***!
+  \*********************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<section class=\"pt-0\">\n  <div class=\"container\">\n    <div class=\"row layer-fly-one\">\n      <div class=\"col-md-12\">\n          <app-title-section [titleSectionProp]=\"titleSectionProp\"></app-title-section>\n      </div>\n    </div>\n    <div class=\"xamin-recentblog v1\">\n          <app-blog-owl [List]=\"List\"></app-blog-owl>\n      </div>\n  </div>\n</section>\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/landing-page2/components/our-partner/our-partner.component.html":
 /*!***********************************************************************************************************************!*\
-  !*** ./node_modules/raw-loader!./src/app/xamin/components/project-portfolio-box/project-portfolio-box.component.html ***!
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/landing-page2/components/our-partner/our-partner.component.html ***!
   \***********************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-module.exports = "<div class=\"owl-carousel owl-loaded owl-drag\" data-dots=\"false\" data-nav=\"false\" data-items=\"3\" data-items-laptop=\"3\" data-items-tab=\"2\" data-items-mobile=\"1\" data-items-mobile-sm=\"1\" data-autoplay=\"false\" data-loop=\"true\" data-margin=\"30\">\n  <div *ngFor=\"let port of portfolioList\" class=\"iq-masonry-item item {{ port.class }}\">\n    <div class=\"iq-portfolio\">\n      <a href=\"{{ port.href }}\" class=\"iq-portfolio-img\">\n        <img width=\"1260\" height=\"954\" src=\"{{ port.img }}\" class=\"attachment-post-thumbnail size-post-thumbnail wp-post-image\" alt=\"\">\n      </a>\n      <div class=\"iq-portfolio-content text-center\">\n        <div class=\"details-box clearfix\">\n          <div class=\"consult-details\">\n            <a href=\"{{ port.href }}\">\n              <h5 class=\"text-hover\">{{ port.title }}</h5>\n            </a>\n            <p class=\"mb-0\">{{ port.type }}</p>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n"
-
-/***/ }),
-
-/***/ "./node_modules/raw-loader/index.js!./src/app/xamin/components/scroll-top/scroll-top.component.html":
-/*!*************************************************************************************************!*\
-  !*** ./node_modules/raw-loader!./src/app/xamin/components/scroll-top/scroll-top.component.html ***!
-  \*************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<!-- back-to-top -->\n<div id=\"back-to-top\" style=\"display: none;\">\n  <a class=\"top\" id=\"top\" href=\"javascript:void(0)\" (click)=\"scrollTop()\"> <i class=\"ion-ios-arrow-up\"></i> </a>\n</div>\n<!-- back-to-top End -->\n"
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<section class=\"pt-0\">\n  <div class=\"container\">\n    <div class=\"row\">\n      <div class=\"col-md-12\">\n        <app-title-section [titleSectionProp]=\"titleSectionProp\"></app-title-section>\n      </div>\n    </div>\n    <div class=\"row\">\n      <div class=\"col-md-12\">\n        <app-customers [List]=\"List\" [hover]=\"hover\"></app-customers>\n      </div>\n    </div>\n  </div>\n</section>\n");
 
 /***/ }),
 
-/***/ "./node_modules/raw-loader/index.js!./src/app/xamin/components/service-box/service-box.component.html":
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/landing-page2/components/our-testimonial/our-testimonial.component.html":
+/*!*******************************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/landing-page2/components/our-testimonial/our-testimonial.component.html ***!
+  \*******************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<section class=\"bg-with-image-home2\">\n  <div class=\"container\">\n    <div class=\"row\">\n      <div class=\"col-sm-12 wow fadeInUp\">\n        <app-title-section [titleSectionProp]=\"titleSectionProp\"></app-title-section>\n      </div>\n    </div>\n    <app-testimonials [List]=\"List\"></app-testimonials>\n  </div>\n</section>\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/landing-page2/components/revolution-slider2/revolution-slider2.component.html":
+/*!*************************************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/landing-page2/components/revolution-slider2/revolution-slider2.component.html ***!
+  \*************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"iq-banner\">\n    <!-- START xamin 1 REVOLUTION SLIDER 6.1.0 -->\n    <p class=\"rs-p-wp-fix\"></p>\n    <rs-module-wrap id=\"rev_slider_1_1_wrapper\" data-alias=\"xamin-1\" data-source=\"gallery\" style=\"background:transparent;padding:0;margin:0px auto;margin-top:0;margin-bottom:0;\">\n        <rs-module id=\"rev_slider_1_1\" class=\" rs-ov-hidden\" style=\"display:none;\" data-version=\"6.1.0\">\n            <rs-slides>\n                <rs-slide data-key=\"rs-1\" data-title=\"Slide\" data-anim=\"ei:d;eo:d;s:1000;r:0;t:fade;sl:0;\" data-firstanim=\"t:fade;sl:12;\">\n                    <img src=\"./assets/revslider/assets_slider2/dummy.png\" alt=\"transparent\" data-lazyload=\"./assets/revslider/assets_slider2/transparent.png\" data-parallax=\"off\" class=\"rev-slidebg\" data-no-retina>\n                    <rs-bgvideo\n                        data-video=\"w:80%;h:80%;nse:false;l:true;ptimer:true;\"\n                        data-mp4=\"./assets/revslider/assets_slider2/Comp-1_1-converted-with-Clipchamp.mp4\"></rs-bgvideo>\n                    <h2\n                        id=\"slider-1-slide-1-layer-1\"\n                        class=\"rs-layer\"\n                        data-type=\"text\"\n                        data-rsp_ch=\"on\"\n                        data-xy=\"xo:70px,70px,70px,33px;y:m;yo:-50px,-50px,-50px,-137px;\"\n                        data-text=\"w:normal;s:60,60,60,40;l:70,70,70,50;fw:700;\"\n                        data-frame_0=\"y:100%;\"\n                        data-frame_0_mask=\"u:t;\"\n                        data-frame_1=\"st:300;sp:1200;sR:300;\"\n                        data-frame_1_mask=\"u:t;\"\n                        data-frame_999=\"o:0;st:w;sR:7500;\"\n                        style=\"z-index:8;font-family:Lato;\"\n                        >Data science as<br> a service\n                    </h2>\n                    <rs-layer\n                        id=\"slider-1-slide-1-layer-2\"\n                        data-type=\"text\"\n                        data-color=\"#4bd9ec\"\n                        data-rsp_ch=\"on\"\n                        data-xy=\"xo:70px,70px,70px,33px;y:m;yo:61px,61px,61px,-43px;\"\n                        data-text=\"w:normal;s:16;l:30,30,30,24;\"\n                        data-frame_0=\"y:100%;\"\n                        data-frame_0_mask=\"u:t;\"\n                        data-frame_1=\"st:600;sp:1200;sR:600;\"\n                        data-frame_1_mask=\"u:t;\"\n                        data-frame_999=\"o:0;st:w;sR:7200;\"\n                        style=\"z-index:9;font-family:Karla;\"\n                        >Sigma collects data, transform it for analysis, runs<br>  analytical algorithms, and prepare visualizations.\n                    </rs-layer>\n                    <rs-layer\n                        id=\"slider-1-slide-1-layer-3\"\n                        class=\"blue-btn button rev-btn\"\n                        data-type=\"button\"\n                        data-rsp_ch=\"on\"\n                        data-xy=\"xo:60px,60px,60px,19px;y:m;yo:153px,153px,153px,40px;\"\n                        data-text=\"w:normal;s:16,16,16,14;l:24,24,24,14;\"\n                        data-dim=\"minh:0px,0px,0px,none;\"\n                        data-padding=\"t:15,15,15,20;r:30;b:15,15,15,20;l:30;\"\n                        data-border=\"bor:90px,90px,90px,90px;\"\n                        data-frame_0=\"y:100%;\"\n                        data-frame_0_mask=\"u:t;\"\n                        data-frame_1=\"st:940;sp:1200;sR:940;\"\n                        data-frame_1_mask=\"u:t;\"\n                        data-frame_999=\"o:0;st:w;sR:6860;\"\n                        data-frame_hover=\"c:#fff;bgc:#313e5b;bor:90px,90px,90px,90px;\"\n                        style=\"z-index:10;background-color:#437eeb;font-family:Karla;\"\n                        >Read More\n                    </rs-layer>\n                    <rs-layer\n                        id=\"slider-1-slide-1-layer-7\"\n                        data-type=\"text\"\n                        data-color=\"#4bd9ec\"\n                        data-rsp_ch=\"on\"\n                        data-xy=\"xo:655px,655px,655px,34px;y:m;yo:236px,236px,236px,145px;\"\n                        data-text=\"w:normal;s:16,16,16,14;l:30,30,30,20;\"\n                        data-frame_0=\"y:100%;\"\n                        data-frame_0_mask=\"u:t;\"\n                        data-frame_1=\"st:1780;sp:1200;sR:1780;\"\n                        data-frame_1_mask=\"u:t;\"\n                        data-frame_999=\"o:0;st:w;sR:6020;\"\n                        style=\"z-index:11;font-family:Lato;\"\n                        >Reports Generated\n                    </rs-layer>\n                    <rs-layer\n                        id=\"slider-1-slide-1-layer-8\"\n                        data-type=\"text\"\n                        data-rsp_ch=\"on\"\n                        data-xy=\"xo:654px,654px,654px,35px;yo:611px,611px,611px,460px;\"\n                        data-text=\"w:normal;s:36,36,36,18;l:40,40,40,26;fw:700;\"\n                        data-frame_0=\"y:100%;\"\n                        data-frame_0_mask=\"u:t;\"\n                        data-frame_1=\"st:1790;sp:1200;sR:1790;\"\n                        data-frame_1_mask=\"u:t;\"\n                        data-frame_999=\"o:0;st:w;sR:6010;\"\n                        style=\"z-index:12;font-family:Lato;\"\n                        >12600\n                    </rs-layer>\n                    <rs-layer\n                        id=\"slider-1-slide-1-layer-9\"\n                        data-type=\"text\"\n                        data-color=\"#4bd9ec\"\n                        data-rsp_ch=\"on\"\n                        data-xy=\"xo:980px,980px,980px,227px;y:m;yo:236px,236px,236px,144px;\"\n                        data-text=\"w:normal;s:16,16,16,14;l:30,30,30,20;\"\n                        data-frame_0=\"y:100%;\"\n                        data-frame_0_mask=\"u:t;\"\n                        data-frame_1=\"st:2140;sp:1200;sR:2140;\"\n                        data-frame_1_mask=\"u:t;\"\n                        data-frame_999=\"o:0;st:w;sR:5660;\"\n                        style=\"z-index:13;font-family:Lato;\"\n                        >Hours\n                    </rs-layer>\n                    <rs-layer\n                        id=\"slider-1-slide-1-layer-10\"\n                        data-type=\"text\"\n                        data-rsp_ch=\"on\"\n                        data-xy=\"xo:974px,974px,974px,226px;yo:611px,611px,611px,462px;\"\n                        data-text=\"w:normal;s:36,36,36,18;l:40,40,40,26;fw:700;\"\n                        data-frame_0=\"y:100%;\"\n                        data-frame_0_mask=\"u:t;\"\n                        data-frame_1=\"st:2140;sp:1200;sR:2140;\"\n                        data-frame_1_mask=\"u:t;\"\n                        data-frame_999=\"o:0;st:w;sR:5660;\"\n                        style=\"z-index:14;font-family:Lato;\"\n                        >18:00\n                    </rs-layer>\n                    <rs-layer\n                        id=\"slider-1-slide-1-layer-11\"\n                        data-type=\"text\"\n                        data-color=\"#4bd9ec\"\n                        data-rsp_ch=\"on\"\n                        data-xy=\"xo:1220px,1220px,1220px,366px;y:m;yo:236px,236px,236px,147px;\"\n                        data-text=\"w:normal;s:16,16,16,14;l:30,30,30,20;\"\n                        data-frame_0=\"y:100%;\"\n                        data-frame_0_mask=\"u:t;\"\n                        data-frame_1=\"st:2550;sp:1200;sR:2550;\"\n                        data-frame_1_mask=\"u:t;\"\n                        data-frame_999=\"o:0;st:w;sR:5250;\"\n                        style=\"z-index:15;font-family:Lato;\"\n                        >Sessions\n                    </rs-layer>\n                    <rs-layer\n                        id=\"slider-1-slide-1-layer-12\"\n                        data-type=\"text\"\n                        data-rsp_ch=\"on\"\n                        data-xy=\"xo:1214px,1214px,1214px,366px;yo:611px,611px,611px,463px;\"\n                        data-text=\"w:normal;s:36,36,36,18;l:40,40,40,26;fw:700;\"\n                        data-frame_0=\"y:100%;\"\n                        data-frame_0_mask=\"u:t;\"\n                        data-frame_1=\"st:2540;sp:1200;sR:2540;\"\n                        data-frame_1_mask=\"u:t;\"\n                        data-frame_999=\"o:0;st:w;sR:5260;\"\n                        style=\"z-index:16;font-family:Lato;\"\n                        >5886\n                    </rs-layer>\n                </rs-slide>\n            </rs-slides>\n            <rs-static-layers>\n            </rs-static-layers>\n            <rs-progress class=\"rs-bottom\" style=\"visibility: hidden !important;\"></rs-progress>\n        </rs-module>\n    </rs-module-wrap>\n    <!-- END REVOLUTION SLIDER -->\n</div>");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/landing-page2/components/section-vertical-one/section-vertical-one.component.html":
+/*!*****************************************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/landing-page2/components/section-vertical-one/section-vertical-one.component.html ***!
+  \*****************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<app-service-box  [Lists]=\"Lists\" [titleSectionProp]=\"titleSectionProp\"></app-service-box>\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/landing-page2/components/service/service.component.html":
+/*!***************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/landing-page2/components/service/service.component.html ***!
+  \***************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"xamin-blue-bg py-5\">\n  <div class=\"container\">\n      <app-counter [List]=\"list\"></app-counter>\n  </div>\n</div>\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/landing-page2/components/trusted-customer/trusted-customer.component.html":
+/*!*********************************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/landing-page2/components/trusted-customer/trusted-customer.component.html ***!
+  \*********************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<!-- Customer -->\n<section class=\"pt-0\">\n  <div class=\"container\">\n    <div class=\"row\">\n      <div class=\"col-sm-12  wow fadeInUp  animated\">\n        <app-title-section [titleSectionProp]=\"titleSectionProp\" ></app-title-section>\n      </div>\n    </div>\n    <div class=\"row\">\n      <div class=\"col-md-12 wow fadeInUp\">\n        <div class=\"owl-carousel client-logo owl-loaded owl-drag\" data-dots=\"false\" data-nav=\"false\" data-items=\"6\" data-items-laptop=\"4\" data-items-tab=\"3\" data-items-mobile=\"2\" data-items-mobile-sm=\"1\" data-autoplay=\"true\" data-loop=\"true\" data-margin=\"30\">\n          <div *ngFor=\"let list of List\" class=\"item\">\n              <div class=\"clients-box hover-effct\"> <img class=\"img-fluid client-img\" src=\"./assets/images/partners/{{list.image1}}\" alt=\"client-image\" /> </div>\n              <div class=\"clients-box hover-effct mt-4\"> <img class=\"img-fluid client-img\" src=\"./assets/images/partners/{{list.image2}}\" alt=\"client-image\" /> </div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</section>\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/landing-page2/components/video/video.component.html":
+/*!***********************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/landing-page2/components/video/video.component.html ***!
+  \***********************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<!-- Video -->\n<div class=\"iq-ptb-100\">\n  <div class=\"container\">\n    <div class=\"row xamin-bg\">\n      <div class=\"col-sm-12 offset-md-1 offset-lg-1 col-md-10 col-lg-10 wow fadeInUp text-center\">\n        <div>\n          <div class=\"scroll-effect\">\n            <img src=\"./assets/images/about-us/{{ videoDetail.img }}\" class=\"img-fluid img-one\" alt=\"#\" />\n            <div class=\"main-video\">\n              <div class=\"video-img\">\n                <div class=\"consult-video video-btn\">\n                  <div class=\"btn-waves\">\n                    <div class=\"waves wave-1\"></div>\n                    <div class=\"waves wave-2\"></div>\n                    <div class=\"waves wave-3\"></div>\n                  </div>\n                  <a href=\"{{ videoDetail.link }}\" class=\"iq-video popup-youtube\"><i class=\"fa fa-play\"></i></a>\n                </div>\n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n<!-- Video End -->\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/landing-page2/index/index.component.html":
+/*!************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/landing-page2/index/index.component.html ***!
+  \************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<!-- Header component start-->\n<app-header [logoImg]=\"logoImage\" [headeClass]=\"headeClass\" [navItemList]=\"navItems\" [contactInfo]=\"contactInfo\"></app-header>\n<!-- Header component end-->\n<!-- START REVOLUTION SLIDER -->\n   <app-revolution-slider2></app-revolution-slider2>\n<!-- END REVOLUTION SLIDER -->\n<!-- MainContent -->\n<div class=\"main-content\">\n  <!-- Our Services -->\n  <!-- <app-our-partner></app-our-partner> -->\n\n  <app-section-vertical-one></app-section-vertical-one>\n  <!-- Our Services End-->\n  <!-- About Us -->\n  <app-about-us></app-about-us>\n  <app-about-us2></app-about-us2>\n  <!-- About Us End -->\n\n  <!-- Service-->\n  <app-service></app-service>\n  <!-- Service End-->\n\n  <!--  Video-->\n  <app-video></app-video>\n  <!--  Video End-->\n\n  <!-- trusted-->\n  <app-trusted-customer></app-trusted-customer>\n  <!-- trusted End-->\n\n  <!-- Testimonial-->\n  <app-our-testimonial></app-our-testimonial>\n  <!-- Testimonial End-->\n\n  <!-- BLOG End-->\n  <app-blog></app-blog>\n  <!-- BLOG End-->\n\n  <!--  Partner-->\n  <app-our-partner></app-our-partner>\n  <!--  Partner End-->\n\n</div>\n<!-- Footer start -->\n<app-footer [logoImg]=\"footerLogoImage\" [contactInfo]=\"contactInfo\"></app-footer>\n<!-- Footer end -->\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/xamin/components/about-card/about-card.component.html":
+/*!*************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/xamin/components/about-card/about-card.component.html ***!
+  \*************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<section class=\"pt-0\">\n  <div class=\"container\">\n    <div class=\"row\">\n      <div *ngFor=\"let list of cardData\" class=\"col-lg-4 col-sm-12\">\n        <div class=\"xamin-services  mb-0 wow fadeInUp text-left\">\n          <div class=\"services-detail\">\n            <h4 class=\"mb-1\">{{ list.title }}</h4>\n            <p class=\"mb-0\">{{ list.desc }}</p>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</section>\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/xamin/components/about-two/about-two.component.html":
+/*!***********************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/xamin/components/about-two/about-two.component.html ***!
+  \***********************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<section class=\"position-relative \">\n\n  <ng-template [ngIf]=\"List.isOuter\">\n    <img src=\"./assets/images/about-us/{{ List.img }}\" class=\"about-right-box-img\" alt=\"\">\n  </ng-template>\n  <div class=\"container\">\n    <div class=\"row\">\n      <div class=\"col-lg-6 wow fadeInUp align-items-center\">\n        <app-title-section [titleSectionProp]=\"titleSectionProp\"></app-title-section>\n        <ng-template [ngIf]=\"List.ischkList!==undefined\">\n          <app-check-list [lists]=\"List.chkList\"></app-check-list>\n        </ng-template>\n        <ng-template [ngIf]=\"List.ischkList===undefined\">\n          <p> {{ List.desc }}</p>\n        </ng-template>\n        <div class=\"text-left mt-5\">\n          <a class=\"button button-icon\" href=\"about-us.html\"><span class=\"btn-effect\">Read More</span></a>\n        </div>\n      </div>\n      <div class=\"col-lg-6\">\n        <ng-template [ngIf]=\"!List.isOuter\">\n          <img src=\"./assets/images/about-us/{{ List.img }}\" alt=\"\">\n        </ng-template>\n      </div>\n    </div>\n  </div>\n</section>\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/xamin/components/about/about.component.html":
 /*!***************************************************************************************************!*\
-  !*** ./node_modules/raw-loader!./src/app/xamin/components/service-box/service-box.component.html ***!
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/xamin/components/about/about.component.html ***!
   \***************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-module.exports = "<section class=\"aboutus-two-service\">\n  <div class=\"container\">\n    <div class=\"row\">\n      <div class=\"col-lg-12\">\n        <div class=\"title-box wow fadeInUp text-center\">\n          <app-title-section [titleSectionProp]=\"titleSectionProp\"></app-title-section>\n        </div>\n      </div>\n    </div>\n    <div class=\"row\">\n      <div *ngFor=\"let list of Lists\" class=\"col-lg-4 col-md-6\">\n      <div class=\"service-box d-inherit p-4 my-3 wow fadeInUp text-left\">\n          <img class=\"fancy-list-img\" src=\"./assets/images/services/{{ list.img }}\" alt=\"fancy-list\" />\n          <div class=\"service-detail align-self-center\">\n              <h4 class=\"mb-2\">{{ list.title }}</h4>\n              <p> {{ list.desc }} </p>\n            <app-check-list [lists]=\"list.chkList\"></app-check-list>\n          </div>\n      </div>\n    </div>\n    </div>\n  </div>\n</section>\n"
-
-/***/ }),
-
-/***/ "./node_modules/raw-loader/index.js!./src/app/xamin/components/services/services.component.html":
-/*!*********************************************************************************************!*\
-  !*** ./node_modules/raw-loader!./src/app/xamin/components/services/services.component.html ***!
-  \*********************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<!-- Our Services -->\n<section class=\"pt-0\">\n  <div class=\"container\">\n    <div class=\"row\">\n      <div class=\"col-sm-12 wow fadeInUp\">\n        <app-title-section [titleSectionProp]=\"titleSectionProp\"></app-title-section>\n        <app-nav-tabs [navList]=\"navList\"></app-nav-tabs>\n      </div>\n    </div>\n  </div>\n</section>\n<!-- Our Services -->\n"
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<section class=\"position-relative pt-0\">\n  <ng-template *ngIf=\"List.isOuter\">\n    <img src=\"./assets/images/about-us/{{ List.img }}\" class=\"about-box-img\" alt=\"\">\n  </ng-template>\n  <div class=\"container\">\n    <div class=\"row\">\n      <div class=\"col-lg-6 col-sm-12\">\n        <ng-template [ngIf]=\"!List.isOuter\">\n          <img src=\"./assets/images/about-us/{{ List.img }}\" alt=\"\">\n        </ng-template>\n      </div>\n      <div class=\"col-lg-6 col-sm-12 wow fadeInUp align-items-center\">\n        <app-title-section [titleSectionProp]=\"titleSectionProp\"></app-title-section>\n        <ng-template *ngIf=\"List.ischkList!==undefined\">\n          <app-check-list [lists]=\"List.chkList\"></app-check-list>\n        </ng-template>\n        <ng-template *ngIf=\"List.ischkList===undefined\">\n          <p> {{ List.desc }}</p>\n        </ng-template>\n        <div class=\"text-left mt-5\">\n          <a class=\"button button-icon\" href=\"about-us.html\"><span class=\"btn-effect\">Read More</span></a>\n        </div>\n      </div>\n    </div>\n  </div>\n</section>\n");
 
 /***/ }),
 
-/***/ "./node_modules/raw-loader/index.js!./src/app/xamin/components/team/team.component.html":
-/*!*************************************************************************************!*\
-  !*** ./node_modules/raw-loader!./src/app/xamin/components/team/team.component.html ***!
-  \*************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/xamin/components/blog-card/blog-card.component.html":
+/*!***********************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/xamin/components/blog-card/blog-card.component.html ***!
+  \***********************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-module.exports = "<div class=\"owl-carousel owl-loaded owl-drag\" data-dots=\"false\" data-nav=\"false\" data-items=\"4\" data-items-laptop=\"4\" data-items-tab=\"3\" data-items-mobile=\"2\" data-items-mobile-sm=\"1\" data-autoplay=\"true\" data-loop=\"true\" data-margin=\"30\">\n  <div *ngFor=\"let list of List\" class=\"item text-left\">\n    <div class=\"iq-team\">\n      <div class=\"iq-team-img\"> <img src=\"./assets/images/team/{{ list.img }}\" class=\"img-fluid\" alt=\"#1\"> </div>\n      <div class=\"iq-share\">\n        <div class=\"slideouticons\">\n          <label class=\"mainlabel\"><i class=\"fa fa-share-alt\"></i></label>\n          <div class=\"iconswrapper\">\n            <ul>\n              <li><a href=\"#\"><i class=\"fa fa-facebook-f\"></i></a></li>\n              <li><a href=\"#\"><i class=\"fa fa-twitter\"></i></a></li>\n              <li><a href=\"#\"><i class=\"fa fa-instagram\"></i></a></li>\n            </ul>\n          </div>\n        </div>\n      </div>\n      <div class=\"iq-team-info text-center\">\n        <a> <h5>{{ list.name }}</h5></a>\n        <span>{{ list.position }}</span>\n      </div>\n    </div>\n  </div>\n</div>\n"
-
-/***/ }),
-
-/***/ "./node_modules/raw-loader/index.js!./src/app/xamin/components/testimonials/testimonials.component.html":
-/*!*****************************************************************************************************!*\
-  !*** ./node_modules/raw-loader!./src/app/xamin/components/testimonials/testimonials.component.html ***!
-  \*****************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<div class=\"row\">\n  <div class=\"col-md-12 wow fadeInUp\">\n    <div *ngIf=\"navigation; else elseblock\" class=\"owl-carousel testimonial-style owl-loaded owl-drag\" data-dots=\"true\" data-nav=\"true\" data-autoplay=\"true\" data-loop=\"true\" data-items=\"1\" data-items-laptop=\"1\" data-items-tab=\"1\" data-items-mobile=\"1\" data-items-mobile-sm=\"1\" data-margin=\"30\">\n      <div *ngFor=\"let lists of List\" class=\"item text-center\">\n        <div class=\"iq-testimonial\">\n          <div class=\"testimonial-info\">\n            <img alt=\"#\" class=\"img-fluid rounded-circle\" src=\"./assets/images/testimonials/{{ lists.img }}\" />\n            <div class=\"testimonial-name\">\n              <h5>{{ lists.name }}</h5>\n              <span class=\"sub-title\">{{ lists.designation }}</span>\n            </div>\n          </div>\n          <p> {{ lists.desc }} </p>\n        </div>\n      </div>\n    </div>\n    <ng-template #elseblock>\n      <div class=\"owl-carousel testimonial-style owl-loaded owl-drag\" data-dots=\"true\" data-nav=\"false\" data-autoplay=\"true\" data-loop=\"true\" data-items=\"1\" data-items-laptop=\"1\" data-items-tab=\"1\" data-items-mobile=\"1\" data-items-mobile-sm=\"1\" data-margin=\"30\">\n        <div *ngFor=\"let lists of List\" class=\"item text-center\">\n          <div class=\"iq-testimonial\">\n            <div class=\"testimonial-info\">\n              <!-- <img alt=\"#\" class=\"img-fluid rounded-circle\" src=\"./assets/images/testimonials/{{ lists.img }}\" /> -->\n              <div class=\"testimonial-name\">\n                <h5>{{ lists.name }}</h5>\n                <span class=\"sub-title\">{{ lists.designation }}</span>\n              </div>\n            </div>\n            <p> {{ lists.desc }} </p>\n          </div>\n        </div>\n      </div>\n    </ng-template>\n  </div>\n</div>\n"
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"row\">\n  <div *ngFor=\"let lists of List\" class=\"col-md-{{ grid }}\" >\n    <div  class=\"item\">\n      <div class=\"iq-blog-box  wow fadeInUp\">\n        <div class=\"iq-blog-image clearfix\">\n          <img src=\"{{ lists.img }}\" class=\"img-fluid center-block\" alt=\"blogimage1\">\n          <ul class=\"iq-blogtag\">\n            <li><a routerLink=\"/blog\">{{ lists.name }}</a> </li>\n          </ul>\n        </div>\n        <div class=\"iq-blog-detail\">\n          <div class=\"iq-blog-meta\">\n            <ul>\n              <li class=\"list-inline-item\">  <a routerLink=\"/blog/blog-details\" rel=\"bookmark\"> <time class=\"entry-date published updated\" datetime=\"2019-09-26T06:49:49+00:00\" >{{ lists.time }} </time> </a> </li>\n            </ul>\n          </div>\n          <div class=\"blog-title\">\n            <a routerLink=\"/blog/blog-details\">\n              <h4>{{ lists.title }}</h4>\n            </a>\n          </div>\n          <p>{{ lists.desc }}</p>\n          <div class=\"blog-button\"><a class=\"button-link\" routerLink=\"/blog/blog-details\">Read More<i class=\"fa fa-angle-right\" aria-hidden=\"true\"></i></a></div>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n");
 
 /***/ }),
 
-/***/ "./node_modules/raw-loader/index.js!./src/app/xamin/components/title-section/title-section.component.html":
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/xamin/components/blog-category/blog-category.component.html":
+/*!*******************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/xamin/components/blog-category/blog-category.component.html ***!
+  \*******************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n<div id=\"categories-4\" class=\"widget widget_categories wow fadeInRight\">\n  <h2 class=\"widget-title\"> Categories</h2>\n  <ul>\n    <li *ngFor=\"let list of List\" class=\"cat-item cat-item-3\"> <a href=\"#\">{{ list.title }}</a> <span class=\"post_count\"> {{ list.count }} </span> </li>\n  </ul>\n</div>\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/xamin/components/blog-owl/blog-owl.component.html":
+/*!*********************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/xamin/components/blog-owl/blog-owl.component.html ***!
+  \*********************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<div *ngIf=\"navigation; else elseblock\" class=\"owl-carousel owl-loaded owl-drag\" data-dots=\"false\" data-nav=\"true\" data-items=\"3\" data-items-laptop=\"3\" data-items-tab=\"2\" data-items-mobile=\"1\" data-items-mobile-sm=\"1\" data-autoplay=\"true\" data-loop=\"true\">\n  <div *ngFor=\"let lists of List\"  class=\"item\">\n    <div class=\"iq-blog-box  wow fadeInUp\">\n      <div class=\"iq-blog-image clearfix\">\n        <img src=\"{{ lists.img }}\" class=\"img-fluid center-block\" alt=\"blog-image1\">\n        <ul class=\"iq-blogtag\">\n          <li><a routerLink=\"/blog\">{{ lists.name }}</a> </li>\n        </ul>\n      </div>\n      <div class=\"iq-blog-detail\">\n        <div class=\"iq-blog-meta\">\n          <ul>\n            <li class=\"list-inline-item\">  <a routerLink=\"/blog/blog-details\" rel=\"bookmark\"> <time class=\"entry-date published updated\" datetime=\"2019-09-26T06:49:49+00:00\" >{{ lists.time }} </time> </a> </li>\n          </ul>\n        </div>\n        <div class=\"blog-title\">\n          <a routerLink=\"/blog/blog-details\">\n            <h4>{{ lists.title }}</h4>\n          </a>\n        </div>\n        <p>{{ lists.desc }}</p>\n        <div class=\"blog-button\"><a class=\"button-link\" routerLink=\"/blog/blog-details\">Read More<i class=\"fa fa-angle-right\" aria-hidden=\"true\"></i></a></div>\n      </div>\n    </div>\n  </div>\n</div>\n<ng-template #elseblock>\n  <div class=\"owl-carousel owl-loaded owl-drag\" data-dots=\"false\" data-nav=\"false\" data-items=\"3\" data-items-laptop=\"3\" data-items-tab=\"2\" data-items-mobile=\"1\" data-items-mobile-sm=\"1\" data-autoplay=\"true\" data-loop=\"true\">\n    <div *ngFor=\"let lists of List\"  class=\"item\">\n      <div class=\"iq-blog-box  wow fadeInUp\">\n        <div class=\"iq-blog-image clearfix\">\n          <img src=\"{{ lists.img }}\" class=\"img-fluid center-block\" alt=\"blog-image1\">\n          <ul class=\"iq-blogtag\">\n            <li><a routerLink=\"/blog\">{{ lists.name }}</a> </li>\n          </ul>\n        </div>\n        <div class=\"iq-blog-detail\">\n          <div class=\"iq-blog-meta\">\n            <ul>\n              <li class=\"list-inline-item\">  <a routerLink=\"/blog/blog-details\" rel=\"bookmark\"> <time class=\"entry-date published updated\" datetime=\"2019-09-26T06:49:49+00:00\" >{{ lists.time }} </time> </a> </li>\n            </ul>\n          </div>\n          <div class=\"blog-title\">\n            <a routerLink=\"/blog/blog-details\">\n              <h4>{{ lists.title }}</h4>\n            </a>\n          </div>\n          <p>{{ lists.desc }}</p>\n          <div class=\"blog-button\"><a class=\"button-link\" routerLink=\"/blog/blog-details\">Read More<i class=\"fa fa-angle-right\" aria-hidden=\"true\"></i></a></div>\n        </div>\n      </div>\n    </div>\n  </div>\n</ng-template>");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/xamin/components/blog-pagination/blog-pagination.component.html":
+/*!***********************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/xamin/components/blog-pagination/blog-pagination.component.html ***!
+  \***********************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"row\">\n  <div class=\"col-lg-12 col-md-12 col-sm-12 wow fadeInUp\">\n    <div class=\"pagination justify-content-center\">\n      <nav aria-label=\"Page navigation\">\n        <ul class='page-numbers'>\n          <li> <span aria-current='page' class='page-numbers current'>1</span> </li>\n          <li> <a class='page-numbers' href='#?paged=2'>2</a> </li>\n          <li> <a class=\"next page-numbers\" href=\"#?paged=2'\"> <span aria-hidden=\"true\">Next page</span> </a> </li>\n        </ul>\n      </nav>\n    </div>\n  </div>\n</div>\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/xamin/components/blog-recent-post/blog-recent-post.component.html":
+/*!*************************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/xamin/components/blog-recent-post/blog-recent-post.component.html ***!
+  \*************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"iq-widget-menu widget wow fadeInRight\">\n  <h2 class=\"widget-title\">Recent Post</h2>\n  <div class=\"list-inline iq-widget-menu\">\n    <ul class=\"iq-post\">\n      <li *ngFor=\"let list of List\">\n        <div class=\"post-img\">\n          <img width=\"150\" height=\"150\" src=\"./assets/images/about-us/{{ list.img }}\"  alt=\"\" />\n          <div class=\"post-blog\">\n            <div class=\"blog-box\">\n              <ul class=\"list-inline\">\n                <li class=\"list-inline-item  mr-3\"><a href=\"#\"> <i class=\"fa fa-calendar mr-2\" aria-hidden=\"true\"></i>{{ list.time }}</a> </li>\n              </ul>\n              <a class=\"new-link\" href=\"#\">\n                <h5>{{ list.title }}</h5>\n              </a>\n            </div>\n          </div>\n        </div>\n      </li>\n    </ul>\n  </div>\n</div>\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/xamin/components/blog-search/blog-search.component.html":
+/*!***************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/xamin/components/blog-search/blog-search.component.html ***!
+  \***************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<div id=\"search-2\" class=\"widget widget_search wow fadeInRight\">\n  <form method=\"get\" class=\"search-form\">\n    <input type=\"search\"  class=\"search-field\" placeholder=\"Search\" value=\"\" name=\"s\" />\n    <button type=\"submit\" class=\"search-submit\"><i class=\"fa fa-search\"></i></button>\n  </form>\n</div>\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/xamin/components/blog-slider/blog-slider.component.html":
+/*!***************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/xamin/components/blog-slider/blog-slider.component.html ***!
+  \***************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"testimonial-widget-menu widget {{ className!== undefined  ? className : 'fadeInRight  wow' }}\">\n  <div class=\"owl-carousel\" data-dots=\"true\" data-nav=\"false\" data-autoplay=\"true\" data-loop=\"true\" data-items=\"1\" data-items-laptop=\"1\" data-items-tab=\"1\" data-items-mobile=\"1\" data-items-mobile-sm=\"1\" data-margin=\"30\">\n    <div *ngFor=\"let list of List\" class=\"testimonial-info\">\n      <p>{{ list.desc }}</p>\n      <div class=\"post-img\">\n        <img width=\"150\" height=\"150\" src=\"./assets/images/testimonials/{{ list.img }}\" class=\"attachment-thumbnail size-thumbnail wp-post-image\" alt=\"\" />\n        <div class=\"testimonial-name\">\n          <h5>{{ list.name }}</h5>\n          <span class=\"sub-title\">{{ list.designation }}</span>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/xamin/components/card-one/card-one.component.html":
+/*!*********************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/xamin/components/card-one/card-one.component.html ***!
+  \*********************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n  <div *ngFor=\"let list of List\" class=\"service-box p-4 my-4 wow fadeInUp  text-center text-md-left \">\n    <img src=\"./assets/images/services/{{ list.img }}\" alt=\"fancybox\">\n    <div class=\"service-detail align-self-center\">\n      <h5 class=\"mb-2\">{{ list.title }}</h5>\n      <p>{{ list.desc }}</p>\n    </div>\n  </div>\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/xamin/components/check-list/check-list.component.html":
+/*!*************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/xamin/components/check-list/check-list.component.html ***!
+  \*************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"text-left\">\n  <ul class=\"iq-list\">\n    <li *ngFor=\"let list of lists\"><i class=\"fa fa-check-square-o\"></i><span>{{ list }}</span></li>\n  </ul>\n</div>\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/xamin/components/choose-us/choose-us.component.html":
+/*!***********************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/xamin/components/choose-us/choose-us.component.html ***!
+  \***********************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<!-- Why Choose Us -->\n<section>\n  <div class=\"container\">\n    <div class=\"row\">\n      <div class=\"col-lg-4 pr-3\">\n        <div class=\"title-box wow fadeInUp mb-0 text-center text-lg-left border-right \">\n          <span class=\"title-design\">{{ lists.title }}</span>\n          <h2>{{ lists.subtitle }}</h2>\n        </div>\n      </div>\n      <div class=\"col-lg-8 align-self-center\">\n        <p>{{ lists.desc }}</p>\n      </div>\n    </div>\n  </div>\n</section>\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/xamin/components/counter/counter.component.html":
 /*!*******************************************************************************************************!*\
-  !*** ./node_modules/raw-loader!./src/app/xamin/components/title-section/title-section.component.html ***!
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/xamin/components/counter/counter.component.html ***!
   \*******************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-module.exports = "<div class=\"title-box wow fadeInUp {{ titleSectionProp.class }}\">\n  <span class=\"title-design {{ titleSectionProp.titleClass }}\">{{ titleSectionProp.title }}</span>\n  <h2 class=\"{{titleSectionProp.subTitleClass}}\">{{ titleSectionProp.subTitle }}</h2>\n  <p *ngIf=\"titleSectionProp.description\" class=\"{{titleSectionProp.descClass}}\">{{ titleSectionProp.description }}</p>\n</div>\n"
-
-/***/ }),
-
-/***/ "./node_modules/raw-loader/index.js!./src/app/xamin/components/top-banner/top-banner.component.html":
-/*!*************************************************************************************************!*\
-  !*** ./node_modules/raw-loader!./src/app/xamin/components/top-banner/top-banner.component.html ***!
-  \*************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<!-- Breadcrumb -->\n<div class=\"text-left iq-breadcrumb-one iq-bg-over black\">\n  <div class=\"container\">\n    <div class=\"row align-items-center\">\n      <div class=\"col-lg-8 col-md-8 text-left align-self-center\">\n        <nav aria-label=\"breadcrumb\" class=\"text-left\">\n          <h2 class=\"title\">{{ data.title }}</h2>\n          <ol class=\"breadcrumb main-bg\">\n            <li class=\"breadcrumb-item\"><a href=\"index.html\">Home</a> </li>\n            <li class=\"breadcrumb-item active\">{{ data.title }}</li>\n          </ol>\n        </nav>\n      </div>\n      <div class=\"col-lg-4 col-md-4 col-sm-12 text-right wow fadeInRight\"> <img src=\"./assets/images/about-us/{{ data.img }}\" class=\"img-fluid float-right\" alt=\"banner\"> </div>\n    </div>\n  </div>\n</div>\n<!-- Breadcrumb End -->\n"
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<div *ngIf=\"style; then style_2 else style_1\"></div>\n\n<ng-template #style_1>\n<div class=\"row\">\n  <div *ngFor=\"let list of List\" class=\"col-md-3 col-sm-6 mb-3 mb-md-0\">\n    <div class=\"iq-timer style1 text-center\">\n      <div class=\"timer-details\">\n        <span class=\"timer\"  [attr.data-to]=\"list.value\" data-speed=\"15000\"> {{ list.value }}</span>\n        <i class=\"{{ list.icon}}\" aria-hidden=\"true\"></i>\n        <p>{{ list.text }}</p>\n      </div>\n    </div>\n  </div>\n</div>\n</ng-template>\n<ng-template #style_2>\n  <div class=\"row\">\n    <div *ngFor=\"let list of List\"  class=\"col-md-3 col-sm-6\">\n      <div class=\"iq-timer style2 mb-5  mb-md-0 mb-lg-0   text-center\">\n        <div class=\"iq-icon\">  <i aria-hidden=\"true\" class=\"{{ list.icon }}\"></i> </div>\n        <div class=\"timer-details \">\n          <span class=\"timer dark-timer\" data-to=\"1520\" data-speed=\"5000\">{{ list.value }}</span><span class=\"timer_postfix dark-timer\">M</span><i class=\"fa fa-percent\" aria-hidden=\"true\"></i>\n          <p class=\"dark-timer\"> {{ list.text }}</p>\n        </div>\n      </div>\n    </div>\n  </div>\n</ng-template>\n");
 
 /***/ }),
 
-/***/ "./node_modules/raw-loader/index.js!./src/app/xamin/components/xamin-circle/xamin-circle.component.html":
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/xamin/components/customers/customers.component.html":
+/*!***********************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/xamin/components/customers/customers.component.html ***!
+  \***********************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n\n\n    <div class=\"owl-carousel client-logo owl-loaded owl-drag\" data-dots=\"false\" data-nav=\"false\" data-items=\"6\" data-items-laptop=\"4\" data-items-tab=\"3\" data-items-mobile=\"2\" data-items-mobile-sm=\"1\" data-autoplay=\"true\" data-loop=\"true\" data-margin=\"30\">\n      <div *ngFor=\"let lists of List\" class=\"item\">\n        <ng-template [ngIf]=\"hover\">\n          <div class=\"clients-box hover-effct\">\n            <img class=\"img-fluid client-img\" src=\"./assets/images/partners/{{ lists.img }}\" alt=\"client-image\" />\n          </div>\n        </ng-template>\n        <ng-template [ngIf]=\"!hover\">\n          <div class=\"clients-box \">\n            <img class=\"img-fluid client-img\" src=\"./assets/images/partners/{{ lists.img }}\" alt=\"client-image\" />\n          </div>\n        </ng-template>\n      </div>\n    </div>\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/xamin/components/footer-style1/footer-style1.component.html":
+/*!*******************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/xamin/components/footer-style1/footer-style1.component.html ***!
+  \*******************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<footer class=\"footer-one iq-bg-dark {{ footerProp.class }}\" id=\"contact\">\n    <div class=\"container\">\n        <!-- Address -->\n        <div class=\"footer-top\">\n            <div class=\"row algin-self-center footer_top_block\">\n                <div class=\"col-md-6\">\n                    <!-- <h4 class=\"footer-title\">Subscribe for Newsletter</h4>\t\t\t -->\n                </div>\n                <!-- <div class=\"col-md-6\"> -->\n                    <!-- <div class=\"mc4wp-form-fields\"> -->\n                        <!-- <input type=\"email\" name=\"EMAIL\" placeholder=\"Your Email\" required=\"\">\n                        <input type=\"submit\" value=\"Sign up\"> -->\n                    <!-- </div> -->\n                <!-- </div> -->\n            </div>\n            <div class=\"row\">\n                <div class=\"col-lg-4 col-md-6 col-sm-6 \">\n                    <p class=\"footer-logo\">\n                        <img alt=\"img\" src=\"{{ footerProp.logoImg }}\" width=\"160\">\n                    </p>\n                    <!-- <p class=\"footer-logo\">{{ footerProp.description }}</p> -->\n                    <ul class=\"info-share d-inline list-inline\">\n                        <!-- <li class=\"list-inline-item\"><a href=\"#\"><i class=\"fa fa-facebook-f\"></i></a></li>\n                        <li class=\"list-inline-item\"><a href=\"#\"><i class=\"fa fa-twitter\"></i></a></li>\n                        <li class=\"list-inline-item\"><a href=\"#\"><i class=\"fa fa-instagram\"></i></a></li> -->\n                    </ul>\n                </div>\n                <div class=\"col-lg-2 col-md-6 col-sm-6 mt-4 mt-lg-0 mt-md-0\">\n                    <h4 class=\"footer-title\">Menu</h4>\n                    <!-- <div class=\"menu-footer-menu-container\">\n                        <ul class=\"menu\">\n                            <li class=\"menu-item\"><a routerLink=\"/landing-page1\" aria-current=\"page\">Home</a></li>\n                            <li class=\"menu-item\"><a routerLink=\"/blog\">Strategy</a></li>\n                            <li class=\"menu-item\"><a routerLink=\"/pages/career\">Portfolio</a></li>\n                            <li class=\"menu-item\"><a routerLink=\"/pages/client\">Our Team</a></li>\n                            <li class=\"menu-item\"><a routerLink=\"/services/artificial-intelligence\">Responsibility</a></li>\n                            <li class=\"menu-item\"><a routerLink=\"/pages/career\">Contact Us</a></li>\n                        </ul>\n                    </div> -->\n                    <div class=\"menu-footer-menu-container\">\n                        <ul class=\"menu\">\n                            <li class=\"menu-item\"><a routerLink=\"/home\" aria-current=\"page\">Home</a></li>\n                            <li class=\"menu-item\"><a routerLink=\"/strategy\">Strategy</a></li>\n                            <li class=\"menu-item\"><a routerLink=\"/portfolio\">Portfolio</a></li>\n                            <!-- <li class=\"menu-item\"><a routerLink=\"\">Our Team</a></li> -->\n                            <!-- <li class=\"menu-item\"><a routerLink=\"\">Responsibility</a></li> -->\n                        </ul>\n                    </div>\n                </div>\n                <div class=\"col-lg-2 col-md-6 col-sm-6 mt-lg-0 mt-4\">\n                    <h4 class=\"footer-title iq-rmt-30\">About us</h4>\n                    <div class=\"menu-footer-menu-container\">\n                        <ul class=\"menu\">\n                            <li class=\"menu-item\"><a routerLink=\"/ourteam\">Our Team</a></li>\n                            <li class=\"menu-item\"><a routerLink=\"/responsibility\">Responsibility</a></li>\n                            <!-- <li class=\"menu-item\"><a routerLink=\"\">Limited Partners</a></li> -->\n                        </ul>\n                    </div>\n                </div>\n                <div class=\"col-lg-4 col-md-6 col-sm-6 mt-lg-0 mt-4\">\n                    <h4 class=\"footer-title iq-rmt-30\">Contact</h4>\n                    <div class=\"menu-footer-menu-container\">\n                      <ul class=\"menu\">\n\n                    <li class=\"menu-item\"><a routerLink=\"/pages/contact-us\">Contact Us</a></li>\n                    <li class=\"menu-item\"><a routerLink=\"/disclaimers\">Disclaimers</a></li>\n\n                  </ul>\n                </div>\n                    <ul class=\"iq-contact\">\n                        <!-- <li> <a href=\"tel:{{ contactInfo.contactNumber }}\"><i class=\"fa fa-phone\"></i><span>{{ contactInfo.contactNumber }}</span></a> </li> -->\n                        <!-- <li> <a href=\"mailto:{{ contactInfo.email }}\"><i class=\"fa fa-envelope\"></i><span>{{ contactInfo.email }}</span></a> </li> -->\n                        <li> </li>\n                        <!-- <li> <a><i class=\"fa fa-home\"></i><span>{{ contactInfo.address }}</span></a> </li> -->\n                    </ul>\n                </div>\n            </div>\n        </div>\n        <!-- Address END -->\n        <div class=\"copyright-footer\">\n            <div class=\"pt-3 pb-3\">\n                <div class=\"row flex-row-reverse justify-content-between\">\n                    <div class=\"col-lg-12 col-md-12 text-lg-center text-md-center text-center\">\n                        <div class=\"col-lg-12 col-md-12 text-lg-center text-md-center text-center\"><span class=\"copyright\">Copyright 2023 <a routerLink=\"/landing-page1\">Digital Alpha Advisors LLC</a></span></div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</footer>\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/xamin/components/footer/footer.component.html":
 /*!*****************************************************************************************************!*\
-  !*** ./node_modules/raw-loader!./src/app/xamin/components/xamin-circle/xamin-circle.component.html ***!
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/xamin/components/footer/footer.component.html ***!
   \*****************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-module.exports = "<div class=\" {{ circleData.type }} xamin-circle wow fadeInUp text-center {{ circleData.positionClass }}\" [attr.data-wow-delay]=\"circleData.delay\">\n  <div class=\"circle-effect\"><img src=\"./assets/images/services/{{ circleData.img }}\" alt=\"fancybox\"> </div>\n  <h5 class=\"mb-2\">{{ circleData.title }}</h5>\n  <p class=\"mb-0\">{{ circleData.description }}</p>\n</div>\n"
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<!-- Footer -->\n<footer class=\"footer-one iq-bg-dark iq-over-dark-90\" id=\"contact\">\n  <div class=\"container\">\n    <!-- Address -->\n    <div class=\"footer-top\">\n      <div class=\"row\">\n        <div class=\"col-lg-4 col-md-6 col-sm-6 \">\n          <p class=\"footer-logo\"><img alt=\"img\" src=\"{{ logoImg }}\" width=\"160\"></p>\n          <!-- <p class=\"footer-logo\">It is a long established fact that a reader will be distracted by the readable content.</p> -->\n          <ul class=\"info-share d-inline list-inline\">\n            \n          </ul>\n        </div>\n        <div class=\"col-lg-2 col-md-6 col-sm-6 mt-4 mt-lg-0 mt-md-0\">\n          <h4 class=\"footer-title\">Menu</h4>\n          <div class=\"menu-footer-menu-container\">\n            <ul class=\"menu\">\n              <li class=\"menu-item\"><a routerLink=\"/home\" aria-current=\"page\">Home</a></li>\n              <li class=\"menu-item\"><a routerLink=\"/strategy\">Strategy</a></li>\n              <li class=\"menu-item\"><a routerLink=\"/portfolio\">Portfolio</a></li>\n              <!-- <li class=\"menu-item\"><a routerLink=\"/pages/client\">Our Team</a></li> -->\n              <!-- <li class=\"menu-item\"><a routerLink=\"/services/artificial-intelligence\">Responsibility</a></li> -->\n              <!-- <li class=\"menu-item\"><a routerLink=\"/pages/career\">Contact Us</a></li> -->\n\n            </ul>\n          </div>\n        </div>\n        <div class=\"col-lg-2 col-md-6 col-sm-6 mt-lg-0 mt-4\">\n          <h4 class=\"footer-title iq-rmt-30\">About us</h4>\n          <div class=\"menu-footer-menu-container\">\n            <ul class=\"menu\">\n              <li class=\"menu-item\"><a routerLink=\"/ourteam\" aria-current=\"page\">Our Team</a></li>\n              <li class=\"menu-item\"><a routerLink=\"/responsibility\">Responsibility</a></li>\n              <!-- <li class=\"menu-item\"><a routerLink=\"/pages/career\">Limited Partners</a></li> -->\n              <!-- <li class=\"menu-item\"><a routerLink=\"/pages/client\">Our Team</a></li> -->\n              <!-- <li class=\"menu-item\"><a routerLink=\"/services/artificial-intelligence\">Responsibility</a></li> -->\n              <!-- <li class=\"menu-item\"><a routerLink=\"/pages/career\">Contact Us</a></li> -->\n            </ul>\n          </div>\n        </div>\n        <div class=\"col-lg-4 col-md-6 col-sm-6 mt-lg-0 mt-4\">\n          <h4 class=\"footer-title iq-rmt-30\">Contact</h4>\n          <div class=\"menu-footer-menu-container\">\n            <ul class=\"menu\">\n\n          <li class=\"menu-item\"><a routerLink=\"/pages/contact-us\">Contact Us</a></li>\n          <li class=\"menu-item\"><a routerLink=\"/disclaimers\">Disclaimers</a></li>\n\n        </ul>\n      </div>\n          <ul class=\"iq-contact\">\n            <!-- <li><a href=\"tel:{{ contactInfo.contactNumber }}\"><i class=\"fa fa-phone\"></i><span>{{ contactInfo.contactNumber }}</span></a></li> -->\n            <!-- <li><a href=\"mailto:{{ contactInfo.email }}\"><i class=\"fa fa-envelope\"></i><span>email</span></a></li> -->\n            <!-- <li></li> -->\n            <!-- <li><a><i class=\"fa fa-home\"></i><span>1234 North Avenue Luke Lane, South Bend, IN 360001</span></a></li> -->\n          </ul>\n        </div>\n      </div>\n    </div>\n    <!-- Address END -->\n    <div class=\"copyright-footer\">\n      <div class=\"pt-3 pb-3\">\n        <div class=\"row flex-row-reverse justify-content-between\">\n          <div class=\"col-lg-12 col-md-12 text-lg-center text-md-center text-center\"><span class=\"copyright\">Copyright 2022 <a routerLink=\"/landing-page1\">Digital Alpha Advisors LLC</a></span></div>\n        </div>\n      </div>\n    </div>\n  </div>\n</footer>\n<!-- Footer End-->\n");
 
 /***/ }),
 
-/***/ "./node_modules/raw-loader/index.js!./src/app/xamin/service-menu/service-menu.component.html":
-/*!******************************************************************************************!*\
-  !*** ./node_modules/raw-loader!./src/app/xamin/service-menu/service-menu.component.html ***!
-  \******************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/xamin/components/header/header.component.html":
+/*!*****************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/xamin/components/header/header.component.html ***!
+  \*****************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-module.exports = "<div class=\"nav flex-column nav-pills mb-5 widget widget_nav_menu\"> \n    <a *ngFor=\"let list of serviceMenu\" class=\"nav-link {{ list.href == activeMenu ? 'current-menu-item' : '' }}\" [routerLink]=\"list.href\">{{ list.title }}</a>\n</div>"
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<header class=\"style-one {{ headeClass ? headeClass : '' }}\" id=\"main-header\">\n  <div class=\"container-fluid sub-header\">\n    <div class=\"row\">\n      <div class=\"col-auto\">\n        <div class=\"number-info\">\n          <ul class=\"list-inline\">\n            <li class=\"list-inline-item\">\n              <!-- <a href=\"mailto:{{ contactInfo.email }}\"><i class=\"fa fa-envelope\"></i>{{ contactInfo.email }}</a> -->\n            </li>\n            <li class=\"list-inline-item\">\n              <!-- <a href=\"tel:{{ contactInfo.contactNumber }}\"><i class=\"fa fa-phone\"></i>{{ contactInfo.contactNumber }}</a> -->\n            </li>\n          </ul>\n        </div>\n      </div>\n      <div class=\"col-auto ml-auto sub-main\">\n        <div class=\"social-icone\">\n          <ul class=\"list-inline\">\n            <!-- <li class=\"d-inline\">\n              <a href=\"#\"><i class=\"fa fa-facebook-f\"></i></a>\n            </li>\n            <li class=\"d-inline\">\n              <a href=\"#\"><i class=\"fa fa-twitter\"></i></a>\n            </li>\n            <li class=\"d-inline\">\n              <a href=\"#\"><i class=\"fa fa-instagram\"></i></a>\n            </li> -->\n          </ul>\n        </div>\n      </div>\n    </div>\n  </div>\n  <div class=\"container-fluid main-header\">\n    <div class=\"row\">\n      <div class=\"col-sm-12\">\n        <nav class=\"navbar navbar-expand-lg navbar-light\">\n          <a class=\"navbar-brand\" href=\"home\">\n            <img id=\"{{ logoId ? 'logo_img' : '' }}\" class=\"img-fluid logo\" src=\"{{ logoImg }}\" alt=\"Xamin\"/>\n          </a>\n          <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n            <span class=\"navbar-toggler-icon\"><i class=\"ion-navicon\"></i></span>\n          </button>\n          <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <div class=\"menu-main-menu-container\">\n              <ul id=\"top-menu\" class=\"navbar-nav ml-auto\">\n                <li class=\"menu-item {{ option.isCurrent !== undefined && option.isCurrent ? 'current-menu-item' : '' }}\" *ngFor=\"let option of navItemList\">\n                  <a href=\"{{ option.href }}\">{{ option.title }}</a><i *ngIf=\"option.submenu\" class=\"fa fa-angle-down toggledrop\" aria-hidden=\"true\"></i>\n                  <ul class=\"sub-menu\" *ngIf=\"option.submenu\">\n                    <li *ngFor=\"let child of option.submenu\" class=\"menu-item {{ child.isCurrent !== undefined && child.isCurrent ? 'current-menu-item' : '' }}\">\n                      <a class=\"isubmenu\" [routerLink]=\"child.href\" [routerLinkActive]=\"['active']\" [routerLinkActiveOptions]=\"{exact: true}\">{{ child.title }}</a><i *ngIf=\"child.submenu\" class=\"fa fa-angle-down toggledrop\" aria-hidden=\"true\"></i>\n                      <ul class=\"sub-menu\" *ngIf=\"child.submenu\">\n                        <li class=\"menu-item\" *ngFor=\"let subchild of child.submenu\">\n                          <a class=\"isubmenu\" [routerLink]=\"subchild.href\" [routerLinkActive]=\"['active']\" [routerLinkActiveOptions]=\"{exact: true}\">{{ subchild.title }}</a>\n                        </li>\n                      </ul>\n                    </li>\n                  </ul>\n                </li>\n              </ul>\n            </div>\n          </div>\n          <div class=\"sub-main\">\n            <nav aria-label=\"breadcrumb\">\n              <!-- <div class=\"blue-btn button\"><a href=\"#\">Limited Partners</a></div> -->\n            </nav>\n          </div>\n        </nav>\n      </div>\n    </div>\n  </div>\n</header>");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/xamin/components/loader/loader.component.html":
+/*!*****************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/xamin/components/loader/loader.component.html ***!
+  \*****************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<!-- Loading [START] -->\n<div id=\"loading\">\n  <div class=\"loading-center\">\n    <img src=\"./assets/images/loader.gif\" alt=\"loader\" />\n  </div>\n</div>\n<!-- Loading [END] -->\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/xamin/components/masonry-porfolio-box/masonry-porfolio-box.component.html":
+/*!*********************************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/xamin/components/masonry-porfolio-box/masonry-porfolio-box.component.html ***!
+  \*********************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<div *ngFor=\"let port of portfolioList\" class=\"iq-masonry-item item {{ port.class }}\">\n  <div class=\"iq-portfolio\">\n    <a href=\"{{ port.href }}\" class=\"iq-portfolio-img\">\n      <img width=\"1260\" height=\"954\" src=\"./assets/images/about-us/{{ port.img }}\" class=\"attachment-post-thumbnail size-post-thumbnail wp-post-image\" alt=\"\">\n    </a>\n    <div class=\"iq-portfolio-content text-center\">\n      <div class=\"details-box clearfix\">\n        <div class=\"consult-details\">\n          <a href=\"{{ port.href }}\">\n            <h5 class=\"text-hover\">{{ port.title }}</h5>\n          </a>\n          <p class=\"mb-0\">{{ port.type }}</p>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/xamin/components/nav-tabs/nav-tabs.component.html":
+/*!*********************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/xamin/components/nav-tabs/nav-tabs.component.html ***!
+  \*********************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"custom-tab\">\n  <ul class=\"nav nav-pills mb-5 text-center\" id=\"pills-tab\" role=\"tablist\">\n    <li class=\"nav-item\" *ngFor=\"let nav of navList\">\n      <a class=\"nav-link {{ nav.active !== undefined && nav.active ? 'active show' : '' }}\" data-toggle=\"pill\" (click)=\"tabActive(nav.id)\"  href=\"{{ '#' + nav.id }}\" role=\"tab\" [attr.aria-selected]=\" nav.active !== undefined ? true : false \">\n        <img src=\"./assets/images/services/{{ nav.img }}\" alt=\"tab-image\" class=\"img-fluid\">\n        <h5 class=\"tab-title\">{{ nav.title }}</h5>\n      </a>\n    </li>\n  </ul>\n  <div class=\"show_content\">\n    <div *ngFor=\"let nav of navList\" id=\"{{ nav.id }}\" class=\"tab-pane fade {{ nav.active !== undefined && nav.active ? 'show active' : '' }}\">\n      <ng-template [ngIf]=\"nav.id === 'tab-big-data' || nav.id === 'tab-analytical-ai'\">\n        <div class=\"row pl-lg-5 pr-lg-5\">\n          <div class=\"col-sm-12\">\n            <h4 class=\"custom_heading mb-2\">{{ nav.subtitle }}</h4>\n            <div class=\"text-left mb-3\">\n              <p>{{ nav.desc }}</p>\n            </div>\n          </div>\n        </div>\n        <div class=\"row pl-lg-5 pr-lg-5\">\n          <div class=\"col-sm-4\">\n            <app-check-list [lists]=\"nav.chkList1\"></app-check-list>\n          </div>\n          <div class=\"col-sm-4\">\n            <app-check-list [lists]=\"nav.chkList2\"></app-check-list>\n          </div>\n          <div class=\"col-sm-4\">\n            <app-check-list [lists]=\"nav.chkList3\"></app-check-list>\n          </div>\n        </div>\n        <div class=\"row pl-lg-5 pr-lg-5\">\n          <div class=\"col-sm-12\">\n            <div class=\" text-left mt-4 \"><a class=\"button button-icon\" [routerLink]=\"[nav.link]\"><span class=\"btn-effect\"> View all Services</span></a>\n            </div>\n          </div>\n        </div>\n      </ng-template>\n      <ng-template [ngIf]=\"nav.id === 'tab-machine-learning' || nav.id === 'tab-computer-vision'\">\n        <div class=\"row pl-lg-5 pr-lg-5\">\n          <div class=\"col-sm-6\">\n            <h4 class=\"custom_heading mb-2\">{{ nav.subtitle }}</h4>\n            <div class=\"text-left no-margin\">\n              <p> {{ nav.desc }} </p>\n            </div>\n            <div class=\" text-left mt-4 mb-lg-0 mb-md-0 mb-4 \"> <a class=\"button button-icon\" [routerLink]=\"[nav.link]\"><span class=\"btn-effect\"> Read More</span></a></div>\n          </div>\n          <div class=\"col-sm-6\">\n            <h4 class=\"custom_heading mb-3\" *ngIf=\"nav.subtitle2\">{{ nav.subtitle2 }}</h4>\n            <app-check-list [lists]=\"nav.chkList\"></app-check-list>\n          </div>\n        </div>\n      </ng-template>\n    </div>\n  </div>\n</div>\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/xamin/components/portfolio-box/portfolio-box.component.html":
+/*!*******************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/xamin/components/portfolio-box/portfolio-box.component.html ***!
+  \*******************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<div *ngFor=\"let port of portfolioList\" class=\"iq-masonry-item item {{ port.class }}\">\n  <div class=\"iq-portfolio\">\n    <a href=\"{{ port.href }}\" class=\"iq-portfolio-img\">\n      <img width=\"1260\" height=\"954\" src=\"./assets/images/about-us/{{ port.img }}\" class=\"attachment-post-thumbnail size-post-thumbnail wp-post-image\" alt=\"\">\n    </a>\n    <div class=\"iq-portfolio-content text-center\">\n      <div class=\"details-box clearfix\">\n        <div class=\"consult-details\">\n          <a href=\"{{ port.href }}\">\n            <h5 class=\"text-hover\">{{ port.title }}</h5>\n          </a>\n          <p class=\"mb-0\">{{ port.type }}</p>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/xamin/components/portfolio-owl/portfolio-owl.component.html":
+/*!*******************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/xamin/components/portfolio-owl/portfolio-owl.component.html ***!
+  \*******************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n\n<div *ngFor=\"let port of List\" class=\"iq-masonry-item item html\">\n    <div class=\"iq-portfolio\">\n       <a routerLink=\"/portfolio-details\" class=\"iq-portfolio-img\"><img width=\"1260\" height=\"954\" src=\"./assets/images/about-us/{{ port.img }}\" class=\"attachment-post-thumbnail size-post-thumbnail wp-post-image\" alt=\"\" ></a>\n       <div class=\"iq-portfolio-content  text-center\">\n          <div class=\"details-box clearfix\">\n             <div class=\"consult-details\">\n                <a routerLink=\"/portfolio-details\">\n                   <h5 class=\"text-hover\"> {{ port.title }}</h5>\n                </a>\n                <p class=\"mb-0\">{{ port.type }}</p>\n             </div>\n          </div>\n       </div>\n    </div>\n</div>");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/xamin/components/progress-bar-right-percentage/progress-bar-right-percentage.component.html":
+/*!***************************************************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/xamin/components/progress-bar-right-percentage/progress-bar-right-percentage.component.html ***!
+  \***************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<div *ngIf=\"progressBar1; then progressBar_1 else progressBar_2\"></div>\n\n<ng-template #progressBar_1>\n  <div class=\"iq-services-box wow fadeInUp text-left\">\n    <div class=\"services-content\" *ngFor=\"let progress of progressBarDetail\">\n      <h6>{{ progress.title }}</h6>\n      <span class=\"progress-value\">{{ progress.percentage + '%'}}</span>\n      <div class=\"iq-progress-bar\"><span class=\"position-relative\" [attr.data-percent]=\"progress.percentage\"></span></div>\n    </div>\n  </div>\n</ng-template>\n\n<ng-template #progressBar_2>\n  <div class=\"services-content wow fadeInUp progress-style text-left\">\n    <div class=\"progress-content\"  *ngFor=\"let progress of progressBarDetail\">\n      <div class=\"progress-value\">{{ progress.percentage + '%'}}</div>\n      <div class=\"progress-title\">\n        <div class=\"progress-main\">\n          <h6>{{ progress.title }}</h6>\n        </div>\n        <div class=\"iq-progress-bar\">\n          <span class=\"position-relative\" [attr.data-percent]=\"progress.percentage\" ></span>\n        </div>\n      </div>\n    </div>\n\n  </div>\n</ng-template>\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/xamin/components/project-portfolio-box/project-portfolio-box.component.html":
+/*!***********************************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/xamin/components/project-portfolio-box/project-portfolio-box.component.html ***!
+  \***********************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"owl-carousel owl-loaded owl-drag\" data-dots=\"false\" data-nav=\"false\" data-items=\"3\" data-items-laptop=\"3\" data-items-tab=\"2\" data-items-mobile=\"1\" data-items-mobile-sm=\"1\" data-autoplay=\"false\" data-loop=\"true\" data-margin=\"30\">\n  <div *ngFor=\"let port of portfolioList\" class=\"iq-masonry-item item {{ port.class }}\">\n    <div class=\"iq-portfolio\">\n      <a href=\"{{ port.href }}\" class=\"iq-portfolio-img\">\n        <img width=\"1260\" height=\"954\" src=\"{{ port.img }}\" class=\"attachment-post-thumbnail size-post-thumbnail wp-post-image\" alt=\"\">\n      </a>\n      <div class=\"iq-portfolio-content text-center\">\n        <div class=\"details-box clearfix\">\n          <div class=\"consult-details\">\n            <a href=\"{{ port.href }}\">\n              <h5 class=\"text-hover\">{{ port.title }}</h5>\n            </a>\n            <p class=\"mb-0\">{{ port.type }}</p>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/xamin/components/scroll-top/scroll-top.component.html":
+/*!*************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/xamin/components/scroll-top/scroll-top.component.html ***!
+  \*************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<!-- back-to-top -->\n<div id=\"back-to-top\" style=\"display: none;\">\n  <a class=\"top\" id=\"top\" href=\"javascript:void(0)\" (click)=\"scrollTop()\"> <i class=\"ion-ios-arrow-up\"></i> </a>\n</div>\n<!-- back-to-top End -->\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/xamin/components/service-box/service-box.component.html":
+/*!***************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/xamin/components/service-box/service-box.component.html ***!
+  \***************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<section class=\"aboutus-two-service\">\n  <div class=\"container\">\n    <div class=\"row\">\n      <div class=\"col-lg-12\">\n        <div class=\"title-box wow fadeInUp text-center\">\n          <app-title-section [titleSectionProp]=\"titleSectionProp\"></app-title-section>\n        </div>\n      </div>\n    </div>\n    <div class=\"row\">\n      <div *ngFor=\"let list of Lists\" class=\"col-lg-4 col-md-6\">\n      <div class=\"service-box d-inherit p-4 my-3 wow fadeInUp text-left\">\n          <img class=\"fancy-list-img\" src=\"./assets/images/services/{{ list.img }}\" alt=\"fancy-list\" />\n          <div class=\"service-detail align-self-center\">\n              <h4 class=\"mb-2\">{{ list.title }}</h4>\n              <p> {{ list.desc }} </p>\n            <app-check-list [lists]=\"list.chkList\"></app-check-list>\n          </div>\n      </div>\n    </div>\n    </div>\n  </div>\n</section>\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/xamin/components/services/services.component.html":
+/*!*********************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/xamin/components/services/services.component.html ***!
+  \*********************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<!-- Our Services -->\n<section class=\"pt-0\">\n  <div class=\"container\">\n    <div class=\"row\">\n      <div class=\"col-sm-12 wow fadeInUp\">\n        <app-title-section [titleSectionProp]=\"titleSectionProp\"></app-title-section>\n        <app-nav-tabs [navList]=\"navList\"></app-nav-tabs>\n      </div>\n    </div>\n  </div>\n</section>\n<!-- Our Services -->\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/xamin/components/team/team.component.html":
+/*!*************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/xamin/components/team/team.component.html ***!
+  \*************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"owl-carousel owl-loaded owl-drag\" data-dots=\"false\" data-nav=\"false\" data-items=\"4\" data-items-laptop=\"4\" data-items-tab=\"3\" data-items-mobile=\"2\" data-items-mobile-sm=\"1\" data-autoplay=\"true\" data-loop=\"true\" data-margin=\"30\">\n  <div *ngFor=\"let list of List\" class=\"item text-left\">\n    <div class=\"iq-team\">\n      <div class=\"iq-team-img\"> <img src=\"./assets/images/team/{{ list.img }}\" class=\"img-fluid\" alt=\"#1\"> </div>\n      <div class=\"iq-share\">\n        <div class=\"slideouticons\">\n          <label class=\"mainlabel\"><i class=\"fa fa-share-alt\"></i></label>\n          <div class=\"iconswrapper\">\n            <ul>\n              <li><a href=\"#\"><i class=\"fa fa-facebook-f\"></i></a></li>\n              <li><a href=\"#\"><i class=\"fa fa-twitter\"></i></a></li>\n              <li><a href=\"#\"><i class=\"fa fa-instagram\"></i></a></li>\n            </ul>\n          </div>\n        </div>\n      </div>\n      <div class=\"iq-team-info text-center\">\n        <a> <h5>{{ list.name }}</h5></a>\n        <span>{{ list.position }}</span>\n      </div>\n    </div>\n  </div>\n</div>\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/xamin/components/testimonials/testimonials.component.html":
+/*!*****************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/xamin/components/testimonials/testimonials.component.html ***!
+  \*****************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"row\">\n  <div class=\"col-md-12 wow fadeInUp\">\n    <div *ngIf=\"navigation; else elseblock\" class=\"owl-carousel testimonial-style owl-loaded owl-drag\" data-dots=\"true\" data-nav=\"true\" data-autoplay=\"true\" data-loop=\"true\" data-items=\"1\" data-items-laptop=\"1\" data-items-tab=\"1\" data-items-mobile=\"1\" data-items-mobile-sm=\"1\" data-margin=\"30\">\n      <div *ngFor=\"let lists of List\" class=\"item text-center\">\n        <div class=\"iq-testimonial\">\n          <div class=\"testimonial-info\">\n            <img alt=\"#\" class=\"img-fluid rounded-circle\" src=\"./assets/images/testimonials/{{ lists.img }}\" />\n            <div class=\"testimonial-name\">\n              <h5>{{ lists.name }}</h5>\n              <span class=\"sub-title\">{{ lists.designation }}</span>\n            </div>\n          </div>\n          <p> {{ lists.desc }} </p>\n        </div>\n      </div>\n    </div>\n    <ng-template #elseblock>\n      <div class=\"owl-carousel testimonial-style owl-loaded owl-drag\" data-dots=\"true\" data-nav=\"false\" data-autoplay=\"true\" data-loop=\"true\" data-items=\"1\" data-items-laptop=\"1\" data-items-tab=\"1\" data-items-mobile=\"1\" data-items-mobile-sm=\"1\" data-margin=\"30\">\n        <div *ngFor=\"let lists of List\" class=\"item text-center\">\n          <div class=\"iq-testimonial\">\n            <div class=\"testimonial-info\">\n              <!-- <img alt=\"#\" class=\"img-fluid rounded-circle\" src=\"./assets/images/testimonials/{{ lists.img }}\" /> -->\n              <div class=\"testimonial-name\">\n                <h5>{{ lists.name }}</h5>\n                <span class=\"sub-title\">{{ lists.designation }}</span>\n              </div>\n            </div>\n            <p> {{ lists.desc }} </p>\n          </div>\n        </div>\n      </div>\n    </ng-template>\n  </div>\n</div>\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/xamin/components/title-section/title-section.component.html":
+/*!*******************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/xamin/components/title-section/title-section.component.html ***!
+  \*******************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"title-box wow fadeInUp {{ titleSectionProp.class }}\">\n  <span class=\"title-design {{ titleSectionProp.titleClass }}\">{{ titleSectionProp.title }}</span>\n  <h2 class=\"{{titleSectionProp.subTitleClass}}\">{{ titleSectionProp.subTitle }}</h2>\n  <p *ngIf=\"titleSectionProp.description\" class=\"{{titleSectionProp.descClass}}\">{{ titleSectionProp.description }}</p>\n</div>\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/xamin/components/top-banner/top-banner.component.html":
+/*!*************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/xamin/components/top-banner/top-banner.component.html ***!
+  \*************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<!-- Breadcrumb -->\n<div class=\"text-left iq-breadcrumb-one iq-bg-over black\">\n  <div class=\"container\">\n    <div class=\"row align-items-center\">\n      <div class=\"col-lg-8 col-md-8 text-left align-self-center\">\n        <nav aria-label=\"breadcrumb\" class=\"text-left\">\n          <h2 class=\"title\">{{ data.title }}</h2>\n          <ol class=\"breadcrumb main-bg\">\n            <li class=\"breadcrumb-item\"><a href=\"index.html\">Home</a> </li>\n            <li class=\"breadcrumb-item active\">{{ data.title }}</li>\n          </ol>\n        </nav>\n      </div>\n      <div class=\"col-lg-4 col-md-4 col-sm-12 text-right wow fadeInRight\"> <img src=\"./assets/images/about-us/{{ data.img }}\" class=\"img-fluid float-right\" alt=\"banner\"> </div>\n    </div>\n  </div>\n</div>\n<!-- Breadcrumb End -->\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/xamin/components/xamin-circle/xamin-circle.component.html":
+/*!*****************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/xamin/components/xamin-circle/xamin-circle.component.html ***!
+  \*****************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\" {{ circleData.type }} xamin-circle wow fadeInUp text-center {{ circleData.positionClass }}\" [attr.data-wow-delay]=\"circleData.delay\">\n  <div class=\"circle-effect\"><img src=\"./assets/images/services/{{ circleData.img }}\" alt=\"fancybox\"> </div>\n  <h5 class=\"mb-2\">{{ circleData.title }}</h5>\n  <p class=\"mb-0\">{{ circleData.description }}</p>\n</div>\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/xamin/service-menu/service-menu.component.html":
+/*!******************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/xamin/service-menu/service-menu.component.html ***!
+  \******************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"nav flex-column nav-pills mb-5 widget widget_nav_menu\"> \n    <a *ngFor=\"let list of serviceMenu\" class=\"nav-link {{ list.href == activeMenu ? 'current-menu-item' : '' }}\" [routerLink]=\"list.href\">{{ list.title }}</a>\n</div>");
 
 /***/ }),
 
@@ -724,7 +838,7 @@ module.exports = "<div class=\"nav flex-column nav-pills mb-5 widget widget_nav_
 /*!*****************************************!*\
   !*** ./node_modules/tslib/tslib.es6.js ***!
   \*****************************************/
-/*! exports provided: __extends, __assign, __rest, __decorate, __param, __metadata, __awaiter, __generator, __createBinding, __exportStar, __values, __read, __spread, __spreadArrays, __await, __asyncGenerator, __asyncDelegator, __asyncValues, __makeTemplateObject, __importStar, __importDefault, __classPrivateFieldGet, __classPrivateFieldSet */
+/*! exports provided: __extends, __assign, __rest, __decorate, __param, __metadata, __awaiter, __generator, __exportStar, __values, __read, __spread, __spreadArrays, __await, __asyncGenerator, __asyncDelegator, __asyncValues, __makeTemplateObject, __importStar, __importDefault */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -737,7 +851,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "__metadata", function() { return __metadata; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "__awaiter", function() { return __awaiter; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "__generator", function() { return __generator; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "__createBinding", function() { return __createBinding; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "__exportStar", function() { return __exportStar; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "__values", function() { return __values; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "__read", function() { return __read; });
@@ -750,21 +863,19 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "__makeTemplateObject", function() { return __makeTemplateObject; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "__importStar", function() { return __importStar; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "__importDefault", function() { return __importDefault; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "__classPrivateFieldGet", function() { return __classPrivateFieldGet; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "__classPrivateFieldSet", function() { return __classPrivateFieldSet; });
 /*! *****************************************************************************
-Copyright (c) Microsoft Corporation.
+Copyright (c) Microsoft Corporation. All rights reserved.
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use
+this file except in compliance with the License. You may obtain a copy of the
+License at http://www.apache.org/licenses/LICENSE-2.0
 
-Permission to use, copy, modify, and/or distribute this software for any
-purpose with or without fee is hereby granted.
+THIS CODE IS PROVIDED ON AN *AS IS* BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, EITHER EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION ANY IMPLIED
+WARRANTIES OR CONDITIONS OF TITLE, FITNESS FOR A PARTICULAR PURPOSE,
+MERCHANTABLITY OR NON-INFRINGEMENT.
 
-THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH
-REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY
-AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT,
-INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM
-LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
-OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
-PERFORMANCE OF THIS SOFTWARE.
+See the Apache Version 2.0 License for specific language governing permissions
+and limitations under the License.
 ***************************************************************************** */
 /* global Reflect, Promise */
 
@@ -820,11 +931,10 @@ function __metadata(metadataKey, metadataValue) {
 }
 
 function __awaiter(thisArg, _arguments, P, generator) {
-    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
     return new (P || (P = Promise))(function (resolve, reject) {
         function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
         function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
-        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }
+        function step(result) { result.done ? resolve(result.value) : new P(function (resolve) { resolve(result.value); }).then(fulfilled, rejected); }
         step((generator = generator.apply(thisArg, _arguments || [])).next());
     });
 }
@@ -857,25 +967,19 @@ function __generator(thisArg, body) {
     }
 }
 
-function __createBinding(o, m, k, k2) {
-    if (k2 === undefined) k2 = k;
-    o[k2] = m[k];
-}
-
 function __exportStar(m, exports) {
-    for (var p in m) if (p !== "default" && !exports.hasOwnProperty(p)) exports[p] = m[p];
+    for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
 }
 
 function __values(o) {
-    var s = typeof Symbol === "function" && Symbol.iterator, m = s && o[s], i = 0;
+    var m = typeof Symbol === "function" && o[Symbol.iterator], i = 0;
     if (m) return m.call(o);
-    if (o && typeof o.length === "number") return {
+    return {
         next: function () {
             if (o && i >= o.length) o = void 0;
             return { value: o && o[i++], done: !o };
         }
     };
-    throw new TypeError(s ? "Object is not iterable." : "Symbol.iterator is not defined.");
 }
 
 function __read(o, n) {
@@ -954,21 +1058,6 @@ function __importStar(mod) {
 
 function __importDefault(mod) {
     return (mod && mod.__esModule) ? mod : { default: mod };
-}
-
-function __classPrivateFieldGet(receiver, privateMap) {
-    if (!privateMap.has(receiver)) {
-        throw new TypeError("attempted to get private field on non-instance");
-    }
-    return privateMap.get(receiver);
-}
-
-function __classPrivateFieldSet(receiver, privateMap, value) {
-    if (!privateMap.has(receiver)) {
-        throw new TypeError("attempted to set private field on non-instance");
-    }
-    privateMap.set(receiver, value);
-    return value;
 }
 
 
@@ -1070,7 +1159,7 @@ AppComponent.ctorParameters = () => [
 AppComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-root',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./app.component.html */ "./node_modules/raw-loader/index.js!./src/app/app.component.html")).default
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./app.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/app.component.html")).default
     })
 ], AppComponent);
 
@@ -1151,7 +1240,7 @@ let RevolutionSlider1Component = class RevolutionSlider1Component {
 RevolutionSlider1Component = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-revolution-slider1',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./revolution-slider1.component.html */ "./node_modules/raw-loader/index.js!./src/app/landing-page1/components/revolution-slider1/revolution-slider1.component.html")).default
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./revolution-slider1.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/landing-page1/components/revolution-slider1/revolution-slider1.component.html")).default
     })
 ], RevolutionSlider1Component);
 
@@ -1200,10 +1289,12 @@ RevolutionSlider1Module = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 /*!************************************************************************************************!*\
   !*** ./src/app/landing-page1/components/section-eight-award/section-eight-award.component.css ***!
   \************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2xhbmRpbmctcGFnZTEvY29tcG9uZW50cy9zZWN0aW9uLWVpZ2h0LWF3YXJkL3NlY3Rpb24tZWlnaHQtYXdhcmQuY29tcG9uZW50LmNzcyJ9 */"
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2xhbmRpbmctcGFnZTEvY29tcG9uZW50cy9zZWN0aW9uLWVpZ2h0LWF3YXJkL3NlY3Rpb24tZWlnaHQtYXdhcmQuY29tcG9uZW50LmNzcyJ9 */");
 
 /***/ }),
 
@@ -1229,7 +1320,7 @@ let SectionEightAwardComponent = class SectionEightAwardComponent {
 SectionEightAwardComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-section-eight-award',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./section-eight-award.component.html */ "./node_modules/raw-loader/index.js!./src/app/landing-page1/components/section-eight-award/section-eight-award.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./section-eight-award.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/landing-page1/components/section-eight-award/section-eight-award.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./section-eight-award.component.css */ "./src/app/landing-page1/components/section-eight-award/section-eight-award.component.css")).default]
     })
 ], SectionEightAwardComponent);
@@ -1260,7 +1351,7 @@ let SectionFiveCustomerComponent = class SectionFiveCustomerComponent {
 SectionFiveCustomerComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-section-five-customer',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./section-five-customer.component.html */ "./node_modules/raw-loader/index.js!./src/app/landing-page1/components/section-five-customer/section-five-customer.component.html")).default
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./section-five-customer.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/landing-page1/components/section-five-customer/section-five-customer.component.html")).default
     })
 ], SectionFiveCustomerComponent);
 
@@ -1341,7 +1432,7 @@ let SectionFourServicesComponent = class SectionFourServicesComponent {
 SectionFourServicesComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-section-four-services',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./section-four-services.component.html */ "./node_modules/raw-loader/index.js!./src/app/landing-page1/components/section-four-services/section-four-services.component.html")).default
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./section-four-services.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/landing-page1/components/section-four-services/section-four-services.component.html")).default
     })
 ], SectionFourServicesComponent);
 
@@ -1407,7 +1498,7 @@ let SectionNineBlogComponent = class SectionNineBlogComponent {
 SectionNineBlogComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-section-nine-blog',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./section-nine-blog.component.html */ "./node_modules/raw-loader/index.js!./src/app/landing-page1/components/section-nine-blog/section-nine-blog.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./section-nine-blog.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/landing-page1/components/section-nine-blog/section-nine-blog.component.html")).default,
     })
 ], SectionNineBlogComponent);
 
@@ -1463,7 +1554,7 @@ let SectionSevenServiceComponent = class SectionSevenServiceComponent {
 SectionSevenServiceComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-section-seven-service',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./section-seven-service.component.html */ "./node_modules/raw-loader/index.js!./src/app/landing-page1/components/section-seven-service/section-seven-service.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./section-seven-service.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/landing-page1/components/section-seven-service/section-seven-service.component.html")).default,
     })
 ], SectionSevenServiceComponent);
 
@@ -1540,7 +1631,7 @@ let SectionSixProjectsComponent = class SectionSixProjectsComponent {
 SectionSixProjectsComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-section-six-projects',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./section-six-projects.component.html */ "./node_modules/raw-loader/index.js!./src/app/landing-page1/components/section-six-projects/section-six-projects.component.html")).default
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./section-six-projects.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/landing-page1/components/section-six-projects/section-six-projects.component.html")).default
     })
 ], SectionSixProjectsComponent);
 
@@ -1601,7 +1692,7 @@ let SectionThreeComponent = class SectionThreeComponent {
 SectionThreeComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-section-three',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./section-three.component.html */ "./node_modules/raw-loader/index.js!./src/app/landing-page1/components/section-three/section-three.component.html")).default
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./section-three.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/landing-page1/components/section-three/section-three.component.html")).default
     })
 ], SectionThreeComponent);
 
@@ -1641,7 +1732,7 @@ let SectionVerticalOneComponent = class SectionVerticalOneComponent {
 SectionVerticalOneComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-section-vertical-one',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./section-vertical-one.component.html */ "./node_modules/raw-loader/index.js!./src/app/landing-page1/components/section-vertical-one/section-vertical-one.component.html")).default
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./section-vertical-one.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/landing-page1/components/section-vertical-one/section-vertical-one.component.html")).default
     })
 ], SectionVerticalOneComponent);
 
@@ -1694,7 +1785,7 @@ let SectionVerticalTwoComponent = class SectionVerticalTwoComponent {
 SectionVerticalTwoComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-section-vertical-two',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./section-vertical-two.component.html */ "./node_modules/raw-loader/index.js!./src/app/landing-page1/components/section-vertical-two/section-vertical-two.component.html")).default
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./section-vertical-two.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/landing-page1/components/section-vertical-two/section-vertical-two.component.html")).default
     })
 ], SectionVerticalTwoComponent);
 
@@ -1746,7 +1837,7 @@ IndexComponent.ctorParameters = () => [
 IndexComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-index',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./index.component.html */ "./node_modules/raw-loader/index.js!./src/app/landing-page1/index/index.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./index.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/landing-page1/index/index.component.html")).default,
         encapsulation: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewEncapsulation"].None
     })
 ], IndexComponent);
@@ -1869,7 +1960,7 @@ let AboutUsComponent = class AboutUsComponent {
 AboutUsComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-about-us',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./about-us.component.html */ "./node_modules/raw-loader/index.js!./src/app/landing-page2/components/about-us/about-us.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./about-us.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/landing-page2/components/about-us/about-us.component.html")).default,
     })
 ], AboutUsComponent);
 
@@ -1933,7 +2024,7 @@ let AboutUs2Component = class AboutUs2Component {
 AboutUs2Component = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-about-us2',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./about-us2.component.html */ "./node_modules/raw-loader/index.js!./src/app/landing-page2/components/about-us2/about-us2.component.html")).default
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./about-us2.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/landing-page2/components/about-us2/about-us2.component.html")).default
     })
 ], AboutUs2Component);
 
@@ -2000,7 +2091,7 @@ let BlogComponent = class BlogComponent {
 BlogComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-blog',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./blog.component.html */ "./node_modules/raw-loader/index.js!./src/app/landing-page2/components/blog/blog.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./blog.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/landing-page2/components/blog/blog.component.html")).default,
     })
 ], BlogComponent);
 
@@ -2057,7 +2148,7 @@ let OurPartnerComponent = class OurPartnerComponent {
 OurPartnerComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-our-partner',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./our-partner.component.html */ "./node_modules/raw-loader/index.js!./src/app/landing-page2/components/our-partner/our-partner.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./our-partner.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/landing-page2/components/our-partner/our-partner.component.html")).default,
     })
 ], OurPartnerComponent);
 
@@ -2113,7 +2204,7 @@ let OurTestimonialComponent = class OurTestimonialComponent {
 OurTestimonialComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-our-testimonial',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./our-testimonial.component.html */ "./node_modules/raw-loader/index.js!./src/app/landing-page2/components/our-testimonial/our-testimonial.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./our-testimonial.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/landing-page2/components/our-testimonial/our-testimonial.component.html")).default,
     })
 ], OurTestimonialComponent);
 
@@ -2143,7 +2234,7 @@ let RevolutionSlider2Component = class RevolutionSlider2Component {
 RevolutionSlider2Component = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-revolution-slider2',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./revolution-slider2.component.html */ "./node_modules/raw-loader/index.js!./src/app/landing-page2/components/revolution-slider2/revolution-slider2.component.html")).default
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./revolution-slider2.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/landing-page2/components/revolution-slider2/revolution-slider2.component.html")).default
     })
 ], RevolutionSlider2Component);
 
@@ -2255,7 +2346,7 @@ let SectionVerticalOneComponent = class SectionVerticalOneComponent {
 SectionVerticalOneComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-section-vertical-one',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./section-vertical-one.component.html */ "./node_modules/raw-loader/index.js!./src/app/landing-page2/components/section-vertical-one/section-vertical-one.component.html")).default
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./section-vertical-one.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/landing-page2/components/section-vertical-one/section-vertical-one.component.html")).default
     })
 ], SectionVerticalOneComponent);
 
@@ -2308,7 +2399,7 @@ let ServiceComponent = class ServiceComponent {
 ServiceComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-service',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./service.component.html */ "./node_modules/raw-loader/index.js!./src/app/landing-page2/components/service/service.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./service.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/landing-page2/components/service/service.component.html")).default,
     })
 ], ServiceComponent);
 
@@ -2372,7 +2463,7 @@ let TrustedCustomerComponent = class TrustedCustomerComponent {
 TrustedCustomerComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-trusted-customer',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./trusted-customer.component.html */ "./node_modules/raw-loader/index.js!./src/app/landing-page2/components/trusted-customer/trusted-customer.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./trusted-customer.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/landing-page2/components/trusted-customer/trusted-customer.component.html")).default,
     })
 ], TrustedCustomerComponent);
 
@@ -2408,7 +2499,7 @@ let VideoComponent = class VideoComponent {
 VideoComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-video',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./video.component.html */ "./node_modules/raw-loader/index.js!./src/app/landing-page2/components/video/video.component.html")).default
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./video.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/landing-page2/components/video/video.component.html")).default
     })
 ], VideoComponent);
 
@@ -2462,7 +2553,7 @@ IndexComponent.ctorParameters = () => [
 IndexComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-index',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./index.component.html */ "./node_modules/raw-loader/index.js!./src/app/landing-page2/index/index.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./index.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/landing-page2/index/index.component.html")).default,
         encapsulation: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewEncapsulation"].None
     })
 ], IndexComponent);
@@ -2567,7 +2658,7 @@ tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 AboutCardComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-about-card',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./about-card.component.html */ "./node_modules/raw-loader/index.js!./src/app/xamin/components/about-card/about-card.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./about-card.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/xamin/components/about-card/about-card.component.html")).default,
     })
 ], AboutCardComponent);
 
@@ -2603,7 +2694,7 @@ tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 AboutTwoComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-about-two',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./about-two.component.html */ "./node_modules/raw-loader/index.js!./src/app/xamin/components/about-two/about-two.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./about-two.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/xamin/components/about-two/about-two.component.html")).default,
     })
 ], AboutTwoComponent);
 
@@ -2639,7 +2730,7 @@ tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 AboutComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-about',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./about.component.html */ "./node_modules/raw-loader/index.js!./src/app/xamin/components/about/about.component.html")).default
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./about.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/xamin/components/about/about.component.html")).default
     })
 ], AboutComponent);
 
@@ -2675,7 +2766,7 @@ tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 BlogCardComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-blog-card',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./blog-card.component.html */ "./node_modules/raw-loader/index.js!./src/app/xamin/components/blog-card/blog-card.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./blog-card.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/xamin/components/blog-card/blog-card.component.html")).default,
     })
 ], BlogCardComponent);
 
@@ -2724,7 +2815,7 @@ let BlogCategoryComponent = class BlogCategoryComponent {
 BlogCategoryComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-blog-category',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./blog-category.component.html */ "./node_modules/raw-loader/index.js!./src/app/xamin/components/blog-category/blog-category.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./blog-category.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/xamin/components/blog-category/blog-category.component.html")).default,
     })
 ], BlogCategoryComponent);
 
@@ -2760,7 +2851,7 @@ tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 BlogOwlComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-blog-owl',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./blog-owl.component.html */ "./node_modules/raw-loader/index.js!./src/app/xamin/components/blog-owl/blog-owl.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./blog-owl.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/xamin/components/blog-owl/blog-owl.component.html")).default,
     })
 ], BlogOwlComponent);
 
@@ -2790,7 +2881,7 @@ let BlogPaginationComponent = class BlogPaginationComponent {
 BlogPaginationComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-blog-pagination',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./blog-pagination.component.html */ "./node_modules/raw-loader/index.js!./src/app/xamin/components/blog-pagination/blog-pagination.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./blog-pagination.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/xamin/components/blog-pagination/blog-pagination.component.html")).default,
     })
 ], BlogPaginationComponent);
 
@@ -2841,7 +2932,7 @@ let BlogRecentPostComponent = class BlogRecentPostComponent {
 BlogRecentPostComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-blog-recent-post',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./blog-recent-post.component.html */ "./node_modules/raw-loader/index.js!./src/app/xamin/components/blog-recent-post/blog-recent-post.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./blog-recent-post.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/xamin/components/blog-recent-post/blog-recent-post.component.html")).default,
     })
 ], BlogRecentPostComponent);
 
@@ -2871,7 +2962,7 @@ let BlogSearchComponent = class BlogSearchComponent {
 BlogSearchComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-blog-search',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./blog-search.component.html */ "./node_modules/raw-loader/index.js!./src/app/xamin/components/blog-search/blog-search.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./blog-search.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/xamin/components/blog-search/blog-search.component.html")).default,
     })
 ], BlogSearchComponent);
 
@@ -2925,7 +3016,7 @@ tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 BlogSliderComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-blog-slider',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./blog-slider.component.html */ "./node_modules/raw-loader/index.js!./src/app/xamin/components/blog-slider/blog-slider.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./blog-slider.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/xamin/components/blog-slider/blog-slider.component.html")).default,
     })
 ], BlogSliderComponent);
 
@@ -2958,7 +3049,7 @@ tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 CardOneComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-card-one',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./card-one.component.html */ "./node_modules/raw-loader/index.js!./src/app/xamin/components/card-one/card-one.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./card-one.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/xamin/components/card-one/card-one.component.html")).default,
     })
 ], CardOneComponent);
 
@@ -2991,7 +3082,7 @@ tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 CheckListComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-check-list',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./check-list.component.html */ "./node_modules/raw-loader/index.js!./src/app/xamin/components/check-list/check-list.component.html")).default
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./check-list.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/xamin/components/check-list/check-list.component.html")).default
     })
 ], CheckListComponent);
 
@@ -3024,7 +3115,7 @@ tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 ChooseUsComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-choose-us',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./choose-us.component.html */ "./node_modules/raw-loader/index.js!./src/app/xamin/components/choose-us/choose-us.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./choose-us.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/xamin/components/choose-us/choose-us.component.html")).default,
     })
 ], ChooseUsComponent);
 
@@ -3063,7 +3154,7 @@ tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 CounterComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-counter',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./counter.component.html */ "./node_modules/raw-loader/index.js!./src/app/xamin/components/counter/counter.component.html")).default
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./counter.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/xamin/components/counter/counter.component.html")).default
     })
 ], CounterComponent);
 
@@ -3099,7 +3190,7 @@ tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 CustomersComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-customers',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./customers.component.html */ "./node_modules/raw-loader/index.js!./src/app/xamin/components/customers/customers.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./customers.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/xamin/components/customers/customers.component.html")).default,
     })
 ], CustomersComponent);
 
@@ -3135,7 +3226,7 @@ tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 FooterStyle1Component = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-footer-style1',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./footer-style1.component.html */ "./node_modules/raw-loader/index.js!./src/app/xamin/components/footer-style1/footer-style1.component.html")).default
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./footer-style1.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/xamin/components/footer-style1/footer-style1.component.html")).default
     })
 ], FooterStyle1Component);
 
@@ -3171,7 +3262,7 @@ tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 FooterComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-footer',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./footer.component.html */ "./node_modules/raw-loader/index.js!./src/app/xamin/components/footer/footer.component.html")).default
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./footer.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/xamin/components/footer/footer.component.html")).default
     })
 ], FooterComponent);
 
@@ -3216,7 +3307,7 @@ tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 HeaderComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-header',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./header.component.html */ "./node_modules/raw-loader/index.js!./src/app/xamin/components/header/header.component.html")).default
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./header.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/xamin/components/header/header.component.html")).default
     })
 ], HeaderComponent);
 
@@ -3246,7 +3337,7 @@ let LoaderComponent = class LoaderComponent {
 LoaderComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-loader',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./loader.component.html */ "./node_modules/raw-loader/index.js!./src/app/xamin/components/loader/loader.component.html")).default
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./loader.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/xamin/components/loader/loader.component.html")).default
     })
 ], LoaderComponent);
 
@@ -3279,7 +3370,7 @@ tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 MasonryPorfolioBoxComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-masonry-porfolio-box',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./masonry-porfolio-box.component.html */ "./node_modules/raw-loader/index.js!./src/app/xamin/components/masonry-porfolio-box/masonry-porfolio-box.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./masonry-porfolio-box.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/xamin/components/masonry-porfolio-box/masonry-porfolio-box.component.html")).default,
     })
 ], MasonryPorfolioBoxComponent);
 
@@ -3318,7 +3409,7 @@ tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 NavTabsComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-nav-tabs',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./nav-tabs.component.html */ "./node_modules/raw-loader/index.js!./src/app/xamin/components/nav-tabs/nav-tabs.component.html")).default
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./nav-tabs.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/xamin/components/nav-tabs/nav-tabs.component.html")).default
     })
 ], NavTabsComponent);
 
@@ -3351,7 +3442,7 @@ tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 PortfolioBoxComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-portfolio-box',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./portfolio-box.component.html */ "./node_modules/raw-loader/index.js!./src/app/xamin/components/portfolio-box/portfolio-box.component.html")).default
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./portfolio-box.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/xamin/components/portfolio-box/portfolio-box.component.html")).default
     })
 ], PortfolioBoxComponent);
 
@@ -3384,7 +3475,7 @@ tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 PortfolioOwlComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-portfolio-owl',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./portfolio-owl.component.html */ "./node_modules/raw-loader/index.js!./src/app/xamin/components/portfolio-owl/portfolio-owl.component.html")).default
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./portfolio-owl.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/xamin/components/portfolio-owl/portfolio-owl.component.html")).default
     })
 ], PortfolioOwlComponent);
 
@@ -3420,7 +3511,7 @@ tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 ProgressBarRightPercentageComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-progress-bar-right-percentage',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./progress-bar-right-percentage.component.html */ "./node_modules/raw-loader/index.js!./src/app/xamin/components/progress-bar-right-percentage/progress-bar-right-percentage.component.html")).default
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./progress-bar-right-percentage.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/xamin/components/progress-bar-right-percentage/progress-bar-right-percentage.component.html")).default
     })
 ], ProgressBarRightPercentageComponent);
 
@@ -3502,7 +3593,7 @@ let ProjectPortfolioBoxComponent = class ProjectPortfolioBoxComponent {
 ProjectPortfolioBoxComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-project-portfolio-box',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./project-portfolio-box.component.html */ "./node_modules/raw-loader/index.js!./src/app/xamin/components/project-portfolio-box/project-portfolio-box.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./project-portfolio-box.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/xamin/components/project-portfolio-box/project-portfolio-box.component.html")).default,
     })
 ], ProjectPortfolioBoxComponent);
 
@@ -3540,7 +3631,7 @@ let ScrollTopComponent = class ScrollTopComponent {
 ScrollTopComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-scroll-top',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./scroll-top.component.html */ "./node_modules/raw-loader/index.js!./src/app/xamin/components/scroll-top/scroll-top.component.html")).default
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./scroll-top.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/xamin/components/scroll-top/scroll-top.component.html")).default
     })
 ], ScrollTopComponent);
 
@@ -3576,7 +3667,7 @@ tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 ServiceBoxComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-service-box',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./service-box.component.html */ "./node_modules/raw-loader/index.js!./src/app/xamin/components/service-box/service-box.component.html")).default
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./service-box.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/xamin/components/service-box/service-box.component.html")).default
     })
 ], ServiceBoxComponent);
 
@@ -3612,7 +3703,7 @@ tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 ServicesComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-services',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./services.component.html */ "./node_modules/raw-loader/index.js!./src/app/xamin/components/services/services.component.html")).default
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./services.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/xamin/components/services/services.component.html")).default
     })
 ], ServicesComponent);
 
@@ -3670,7 +3761,7 @@ let TeamComponent = class TeamComponent {
 TeamComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-team',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./team.component.html */ "./node_modules/raw-loader/index.js!./src/app/xamin/components/team/team.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./team.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/xamin/components/team/team.component.html")).default,
     })
 ], TeamComponent);
 
@@ -3706,7 +3797,7 @@ tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 TestimonialsComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-testimonials',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./testimonials.component.html */ "./node_modules/raw-loader/index.js!./src/app/xamin/components/testimonials/testimonials.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./testimonials.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/xamin/components/testimonials/testimonials.component.html")).default,
     })
 ], TestimonialsComponent);
 
@@ -3739,7 +3830,7 @@ tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 TitleSectionComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-title-section',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./title-section.component.html */ "./node_modules/raw-loader/index.js!./src/app/xamin/components/title-section/title-section.component.html")).default
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./title-section.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/xamin/components/title-section/title-section.component.html")).default
     })
 ], TitleSectionComponent);
 
@@ -3772,7 +3863,7 @@ tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 TopBannerComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-top-banner',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./top-banner.component.html */ "./node_modules/raw-loader/index.js!./src/app/xamin/components/top-banner/top-banner.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./top-banner.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/xamin/components/top-banner/top-banner.component.html")).default,
     })
 ], TopBannerComponent);
 
@@ -3805,7 +3896,7 @@ tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 XaminCircleComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-xamin-circle',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./xamin-circle.component.html */ "./node_modules/raw-loader/index.js!./src/app/xamin/components/xamin-circle/xamin-circle.component.html")).default
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./xamin-circle.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/xamin/components/xamin-circle/xamin-circle.component.html")).default
     })
 ], XaminCircleComponent);
 
@@ -4449,7 +4540,7 @@ tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 ServiceMenuComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-service-menu',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./service-menu.component.html */ "./node_modules/raw-loader/index.js!./src/app/xamin/service-menu/service-menu.component.html")).default
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./service-menu.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/xamin/service-menu/service-menu.component.html")).default
     })
 ], ServiceMenuComponent);
 
@@ -5044,9 +5135,10 @@ Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_2__["platformB
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/chris/Documents/DAN/src/main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! /Users/chris/Documents/DAWEB/DAWebNew/DANEW1/src/main.ts */"./src/main.ts");
 
 
 /***/ })
 
 },[[0,"runtime","vendor"]]]);
+//# sourceMappingURL=main-es2015.js.map
