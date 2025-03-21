@@ -1,35 +1,55 @@
-const fs = require('fs');
-const path = require('path');
+const fs = require("fs");
+const path = require("path");
 
 const file = path.resolve(
   __dirname,
-  'node_modules/@angular-devkit/build-angular/src/utils/process-bundle.js'
+  "node_modules/@angular-devkit/build-angular/src/utils/process-bundle.js"
 );
 
 if (!fs.existsSync(file)) {
-  console.error('❌ process-bundle.js not found');
+  console.error("❌ process-bundle.js not found");
   process.exit(1);
 }
 
-let content = fs.readFileSync(file, 'utf8');
+let content = fs.readFileSync(file, "utf8");
 
-// Only patch if `.with(` still exists
-if (content.includes('SourceMapConsumer.with')) {
-  console.log('🔧 Patching process-bundle.js to remove SourceMapConsumer.with...');
+// Check for SourceMapConsumer.with usage
+if (content.includes("SourceMapConsumer.with")) {
+  console.log("🔧 Patching process-bundle.js...");
 
-  const matchRegex = /await source_map_1\.SourceMapConsumer\.with\(first, null,.*?await source_map_1\.SourceMapConsumer\.with\(second, null,.*?newConsumer => \{/s;
+  const lines = content.split("\n");
+  const patchedLines = [];
+  let skipping = false;
 
-  const replacement = `const originalConsumer = await new source_map_1.SourceMapConsumer(first);
-const newConsumer = await new source_map_1.SourceMapConsumer(second);
-newConsumer.eachMapping(mapping => {`;
+  for (let line of lines) {
+    if (line.includes("await source_map_1.SourceMapConsumer.with(first")) {
+      patchedLines.push(
+        "    const originalConsumer = await new source_map_1.SourceMapConsumer(first);"
+      );
+      skipping = true;
+      continue;
+    }
+    if (
+      skipping &&
+      line.includes("await source_map_1.SourceMapConsumer.with(second")
+    ) {
+      patchedLines.push(
+        "    const newConsumer = await new source_map_1.SourceMapConsumer(second);"
+      );
+      patchedLines.push("    newConsumer.eachMapping(mapping => {");
+      continue;
+    }
+    if (skipping && line.includes("});")) {
+      skipping = false;
+      continue;
+    }
+    if (!skipping) {
+      patchedLines.push(line);
+    }
+  }
 
-  content = content.replace(matchRegex, replacement);
-
-  // Remove extra closing }); });
-  content = content.replace(/\n\s*\}\);\s*\}\);/, '\n});');
-
-  fs.writeFileSync(file, content, 'utf8');
-  console.log('✅ Patched process-bundle.js');
+  fs.writeFileSync(file, patchedLines.join("\n"), "utf8");
+  console.log("✅ Patch complete!");
 } else {
-  console.log('ℹ️ Already patched');
+  console.log("ℹ️ Patch already applied.");
 }
