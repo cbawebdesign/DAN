@@ -1,14 +1,16 @@
 {
   "name": "xamin-angular",
   "version": "0.0.0",
+  "engines": {
+    "node": "16.x"
+  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e",
-    "vercel-build": "node --openssl-legacy-provider node_modules/@angular/cli/bin/ng build --configuration=production"
+    "e2e": "ng e2e"
 
   },
   "private": true,
