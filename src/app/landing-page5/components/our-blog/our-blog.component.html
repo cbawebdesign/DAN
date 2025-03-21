@@ -1,0 +1,31 @@
+<section class="iq-bg-over iq-pb-70">
+    <div class="container">
+        <div class="row ">
+            <div class="col-md-12">
+                <div class="title-box wow fadeInUp text-center">
+                    <h3>Digital Alpha</h3>
+                    <h3>Announces Acquisition of WG2 by Cisco Systems</h3>
+                </div>
+            </div>
+        </div>
+        <div class="row ">
+            <div *ngFor="let list of List" class="col-md-12">
+                <div class="xamin-client wow fadeInUp text-center">
+                    <div class="client-icon">
+                        <img style=height:100px; src="{{ list.image }}" alt="fancybox">
+                    </div>
+                    <div class="client-detail">
+                        <h5>{{list.exit}}</h5>
+                        <h6 class="mb-1">{{ list.title }}</h6>
+                        <!-- <p class="mb-0">{{ list.subtitle }}</p> -->
+                       
+                        <a href="{{list.subtitle}}">{{list.info}}</a>
+                        <br>
+                        <a href="{{list.subtitle2}}">{{list.info2}}</a>
+
+                    </div>
+                </div>  
+            </div>
+        </div>
+    </div>
+</section>
