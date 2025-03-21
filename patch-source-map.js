@@ -1,32 +1,35 @@
 const fs = require('fs');
 const path = require('path');
 
-function patchFile(filePath) {
-  let content = fs.readFileSync(filePath, 'utf8');
-
-  if (content.includes('SourceMapConsumer.with')) {
-    console.log(`✅ Patching: ${filePath}`);
-    content = content.replace(
-      /SourceMapConsumer\.with\s*\(.*?\)\s*{/g,
-      `SourceMapConsumer.prototype.with = async function (_, fn) { return fn(this); }; // patched\n`
-    );
-    fs.writeFileSync(filePath, content, 'utf8');
+const patches = [
+  {
+    file: 'node_modules/@angular-devkit/build-angular/src/utils/process-bundle.js',
+    original: `await source_map_1.SourceMapConsumer.with(first, null, originalConsumer => {
+        return source_map_1.SourceMapConsumer.with(second, null, newConsumer => {`,
+    replacement: `const originalConsumer = await new source_map_1.SourceMapConsumer(first);
+        const newConsumer = await new source_map_1.SourceMapConsumer(second);`
+  },
+  {
+    file: 'node_modules/@angular-devkit/build-optimizer/src/build-optimizer/webpack-loader.js',
+    original: `source_map_1.SourceMapConsumer.with(intermediateSourceMap, null, intermediate => {
+                return source_map_1.SourceMapConsumer.with(previousSourceMap, null, previous => {`,
+    replacement: `const intermediate = new source_map_1.SourceMapConsumer(intermediateSourceMap);
+                const previous = new source_map_1.SourceMapConsumer(previousSourceMap);`
   }
-}
+];
 
-function findAndPatch(dir) {
-  const entries = fs.readdirSync(dir, { withFileTypes: true });
-
-  for (const entry of entries) {
-    const fullPath = path.join(dir, entry.name);
-    if (entry.isDirectory()) {
-      findAndPatch(fullPath);
-    } else if (entry.name === 'source-map.js') {
-      patchFile(fullPath);
+patches.forEach(({ file, original, replacement }) => {
+  const filePath = path.resolve(__dirname, file);
+  if (fs.existsSync(filePath)) {
+    let content = fs.readFileSync(filePath, 'utf8');
+    if (content.includes(original)) {
+      content = content.replace(original, replacement);
+      fs.writeFileSync(filePath, content, 'utf8');
+      console.log(`✅ Patched: ${filePath}`);
+    } else {
+      console.log(`ℹ️ No match found in: ${filePath}`);
     }
+  } else {
+    console.error(`❌ File not found: ${filePath}`);
   }
-}
-
-console.log('🔧 Searching for source-map.js...');
-findAndPatch(path.resolve(__dirname, 'node_modules'));
-console.log('✅ Patch complete.');
+});
