@@ -12,15 +12,15 @@
         "webpack/source-map": "0.5.7",
         "@angular-devkit/build-angular/source-map": "0.5.7"
       },
-    "scripts": {
-      "ng": "ng",
-      "start": "ng serve",
-      "test": "ng test",
-      "lint": "ng lint",
-      "e2e": "ng e2e",
-      "postinstall": "node patch-source-map.js",
-      "build": "cross-env NODE_OPTIONS=--openssl-legacy-provider ng build"
-    },
+      "scripts": {
+        "ng": "ng",
+        "start": "ng serve",
+        "test": "ng test",
+        "lint": "ng lint",
+        "e2e": "ng e2e",
+        "postinstall": "node patch-process-bundle.js",
+        "build": "cross-env NODE_OPTIONS=--openssl-legacy-provider ng build"
+      },
     "private": true,
     "dependencies": {
       "@angular/animations": "~8.2.4",
