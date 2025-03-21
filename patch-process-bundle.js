@@ -1,54 +1,55 @@
 const fs = require("fs");
 const path = require("path");
 
-const file = path.resolve(
+const filePath = path.join(
   __dirname,
   "node_modules/@angular-devkit/build-angular/src/utils/process-bundle.js"
 );
 
-if (!fs.existsSync(file)) {
+if (!fs.existsSync(filePath)) {
   console.error("❌ process-bundle.js not found");
   process.exit(1);
 }
 
-let content = fs.readFileSync(file, "utf8");
+let content = fs.readFileSync(filePath, "utf8");
 
-// Check for SourceMapConsumer.with usage
 if (content.includes("SourceMapConsumer.with")) {
   console.log("🔧 Patching process-bundle.js...");
 
+  // Find start and end of the .with block and replace manually
   const lines = content.split("\n");
   const patchedLines = [];
-  let skipping = false;
+
+  let insidePatch = false;
 
   for (let line of lines) {
     if (line.includes("await source_map_1.SourceMapConsumer.with(first")) {
       patchedLines.push(
         "    const originalConsumer = await new source_map_1.SourceMapConsumer(first);"
       );
-      skipping = true;
+      insidePatch = true;
       continue;
     }
-    if (
-      skipping &&
-      line.includes("await source_map_1.SourceMapConsumer.with(second")
-    ) {
+
+    if (insidePatch && line.includes("await source_map_1.SourceMapConsumer.with(second")) {
       patchedLines.push(
         "    const newConsumer = await new source_map_1.SourceMapConsumer(second);"
       );
       patchedLines.push("    newConsumer.eachMapping(mapping => {");
       continue;
     }
-    if (skipping && line.includes("});")) {
-      skipping = false;
-      continue;
+
+    if (insidePatch && line.trim() === "}); });") {
+      insidePatch = false;
+      continue; // skip
     }
-    if (!skipping) {
+
+    if (!insidePatch) {
       patchedLines.push(line);
     }
   }
 
-  fs.writeFileSync(file, patchedLines.join("\n"), "utf8");
+  fs.writeFileSync(filePath, patchedLines.join("\n"), "utf8");
   console.log("✅ Patch complete!");
 } else {
   console.log("ℹ️ Patch already applied.");
